@@ -3,935 +3,1614 @@
 <TS version="2.0" language="zh_CN" sourcelanguage="en_US">
 <defaultcodec>UTF-8</defaultcodec>
 <context>
+    <name>AggregateWidget</name>
+    <message>
+        <source>Form</source>
+        <translation type="unfinished">Form</translation>
+    </message>
+    <message>
+        <source>Final Function:</source>
+        <translation type="unfinished">最终处理函数：</translation>
+    </message>
+    <message>
+        <source>Transition Function:</source>
+        <translation type="unfinished">状态转换函数：</translation>
+    </message>
+    <message>
+        <source>Sort Operator:</source>
+        <translation type="unfinished">排序操作符：</translation>
+    </message>
+    <message>
+        <source>Initial Condition:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Funtion Inputs</source>
+        <translation type="unfinished">函数输入</translation>
+    </message>
+    <message>
+        <source>Function State</source>
+        <translation type="unfinished">函数状态</translation>
+    </message>
+    <message>
+        <source>Input Data Type</source>
+        <translation type="unfinished">输入数据类型</translation>
+    </message>
+    <message>
+        <source>State Data Type</source>
+        <translation type="unfinished">状态数据类型</translation>
+    </message>
+    <message>
+        <source>An aggregate function that accepts the types &lt;em&gt;&lt;strong&gt;typeA&lt;/strong&gt;&lt;/em&gt; and &lt;em&gt;&lt;strong&gt;typeB&lt;/strong&gt;&lt;/em&gt; as input types and which type of state is &lt;em&gt;&lt;strong&gt;state_type&lt;/strong&gt;&lt;/em&gt;, must obey the following rules: &lt;br/&gt;&lt;br/&gt; &lt;strong&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;• Final Function:&lt;/strong&gt; &lt;em&gt;void final_function(&lt;strong&gt;state_type&lt;/strong&gt;)&lt;/em&gt;&lt;br/&gt;  &lt;strong&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;• Transition Function:&lt;/strong&gt; &lt;em&gt;&lt;strong&gt;state_type&lt;/strong&gt; transition_function(&lt;strong&gt;state_type&lt;/strong&gt;, &lt;strong&gt;typeA&lt;/strong&gt;, &lt;strong&gt;typeB&lt;/strong&gt;)&lt;/em&gt;</source>
+        <translation type="unfinished">聚合函数接受类型 &lt;em&gt;&lt;strong&gt;typeA&lt;/strong&gt;&lt;/em&gt; 和 &lt;em&gt;&lt;strong&gt;typeB&lt;/strong&gt;&lt;/em&gt; 作为输入类型，并且类型状态为 &lt;em&gt;&lt;strong&gt;state_type&lt;/strong&gt;&lt;/em&gt;, 函数必须遵循如下规则：&lt;br/&gt;&lt;br/&gt; &lt;strong&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;•最终处理函数：&lt;/strong&gt; &lt;em&gt;void final_function(&lt;strong&gt;state_type&lt;/strong&gt;)&lt;/em&gt;&lt;br/&gt;  &lt;strong&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;• 过渡处理函数：&lt;/strong&gt; &lt;em&gt;&lt;strong&gt;state_type&lt;/strong&gt; transition_function(&lt;strong&gt;state_type&lt;/strong&gt;, &lt;strong&gt;typeA&lt;/strong&gt;, &lt;strong&gt;typeB&lt;/strong&gt;)&lt;/em&gt;</translation>
+    </message>
+</context>
+<context>
     <name>Aplicacao</name>
     <message>
         <source>Error</source>
-        <translation>错误</translation>
+        <translation type="obsolete">错误</translation>
     </message>
     <message>
         <source>Unknown exception caught!</source>
-        <translation>捕捉到未知异常！</translation>
+        <translation type="obsolete">捕捉到未知异常！</translation>
+    </message>
+</context>
+<context>
+    <name>AppearanceConfigWidget</name>
+    <message>
+        <source>Form</source>
+        <translation type="unfinished">Form</translation>
+    </message>
+    <message>
+        <source>Element:</source>
+        <translation type="unfinished">元素：</translation>
+    </message>
+    <message>
+        <source>Global: Font style</source>
+        <translation type="unfinished">全局：字体样式</translation>
+    </message>
+    <message>
+        <source>Global: Constraints descriptor</source>
+        <translation type="unfinished">全局：约束描述符</translation>
+    </message>
+    <message>
+        <source>Global: Object selection</source>
+        <translation type="unfinished">全局：对象选择</translation>
+    </message>
+    <message>
+        <source>Global: Position hint text</source>
+        <translation type="unfinished">全局：位置提示内容</translation>
+    </message>
+    <message>
+        <source>Global: Position hint box</source>
+        <translation type="unfinished">全局：位置提示框</translation>
+    </message>
+    <message>
+        <source>Global: Objects type</source>
+        <translation type="unfinished">全局：对象类型</translation>
+    </message>
+    <message>
+        <source>Global: Lock arc</source>
+        <translation type="unfinished">全局：锁环</translation>
+    </message>
+    <message>
+        <source>Global: Lock body</source>
+        <translation type="unfinished">全局：锁体</translation>
+    </message>
+    <message>
+        <source>Table: Schema name</source>
+        <translation type="unfinished">表：模式名称</translation>
+    </message>
+    <message>
+        <source>Table: Table name</source>
+        <translation type="unfinished">表：表名称</translation>
+    </message>
+    <message>
+        <source>Table: Columns box</source>
+        <translation type="unfinished">表：列框</translation>
+    </message>
+    <message>
+        <source>Table: Extended attributes box</source>
+        <translation type="unfinished">表：扩展属性框</translation>
+    </message>
+    <message>
+        <source>Table: Title box</source>
+        <translation type="unfinished">表：标题框</translation>
+    </message>
+    <message>
+        <source>Rule: Name</source>
+        <translation type="unfinished">规则：名称</translation>
+    </message>
+    <message>
+        <source>Rule: Descriptor</source>
+        <translation type="unfinished">规则：描述符</translation>
+    </message>
+    <message>
+        <source>Index: Name</source>
+        <translation type="unfinished">索引：名称</translation>
+    </message>
+    <message>
+        <source>Index: Descriptor</source>
+        <translation type="unfinished">索引：描述符</translation>
+    </message>
+    <message>
+        <source>Trigger: Name</source>
+        <translation type="unfinished">触发器：名称</translation>
+    </message>
+    <message>
+        <source>Trigger: Descriptor</source>
+        <translation type="unfinished">触发器：描述符</translation>
+    </message>
+    <message>
+        <source>View: Schema name</source>
+        <translation type="unfinished">视图：模式名称</translation>
+    </message>
+    <message>
+        <source>View: View name</source>
+        <translation type="unfinished">视图：视图名称</translation>
+    </message>
+    <message>
+        <source>View: References box</source>
+        <translation type="unfinished">视图：引用框</translation>
+    </message>
+    <message>
+        <source>View: Title box</source>
+        <translation type="unfinished">视图：标题框</translation>
+    </message>
+    <message>
+        <source>View: Table / columns alias</source>
+        <translation type="unfinished">视图：表/列别名</translation>
+    </message>
+    <message>
+        <source>View: Referenced column</source>
+        <translation type="unfinished">视图：引用列</translation>
+    </message>
+    <message>
+        <source>View: Referenced table</source>
+        <translation type="unfinished">视图：引用表</translation>
+    </message>
+    <message>
+        <source>View: Reference descriptor</source>
+        <translation type="unfinished">视图：引用描述符</translation>
+    </message>
+    <message>
+        <source>Textbox: Body</source>
+        <translation type="unfinished">文本框：框体</translation>
+    </message>
+    <message>
+        <source>Column: Column name</source>
+        <translation type="unfinished">列：列名称</translation>
+    </message>
+    <message>
+        <source>Column: Descriptor</source>
+        <translation type="unfinished">列：描述符</translation>
+    </message>
+    <message>
+        <source>Column: Included / Inherited by relationship</source>
+        <translation type="unfinished">列：包含在/继承自关系</translation>
+    </message>
+    <message>
+        <source>Column: Protected</source>
+        <translation type="unfinished">列：写保护</translation>
+    </message>
+    <message>
+        <source>Column (pk): Column name</source>
+        <translation type="unfinished">列(PK)：列名称</translation>
+    </message>
+    <message>
+        <source>Column (pk): Descriptor</source>
+        <translation type="unfinished">列(PK)：描述符</translation>
+    </message>
+    <message>
+        <source>Column (fk): Column name</source>
+        <translation type="unfinished">列(FK)：列名称</translation>
+    </message>
+    <message>
+        <source>Column (fk): Descriptor</source>
+        <translation type="unfinished">列(FK)：描述符</translation>
+    </message>
+    <message>
+        <source>Column (uq): Column name</source>
+        <translation type="unfinished">列(UQ)：列名称</translation>
+    </message>
+    <message>
+        <source>Column (uq): Descriptor</source>
+        <translation type="unfinished">列(UQ)：描述符</translation>
+    </message>
+    <message>
+        <source>Column (nn): Column name</source>
+        <translation type="unfinished">列(NN)：列名称</translation>
+    </message>
+    <message>
+        <source>Column (nn): Descriptor</source>
+        <translation type="unfinished">列(NN)：描述符</translation>
+    </message>
+    <message>
+        <source>Relationship: Descriptor</source>
+        <translation type="unfinished">关系：描述符</translation>
+    </message>
+    <message>
+        <source>Relationship: Label text</source>
+        <translation type="unfinished">关系：标签内容</translation>
+    </message>
+    <message>
+        <source>Relationship: Label box</source>
+        <translation type="unfinished">关系：标签框</translation>
+    </message>
+    <message>
+        <source>Relationship: Attribute text</source>
+        <translation type="unfinished">关系：属性内容</translation>
+    </message>
+    <message>
+        <source>Relationship: Attribute descriptor</source>
+        <translation type="unfinished">关系：属性描述符</translation>
+    </message>
+    <message>
+        <source>Font:</source>
+        <translation type="unfinished">字体：</translation>
+    </message>
+    <message>
+        <source> pt</source>
+        <translation type="unfinished">pt</translation>
+    </message>
+    <message>
+        <source>Bold</source>
+        <translation type="unfinished">粗体</translation>
+    </message>
+    <message>
+        <source>Italic</source>
+        <translation type="unfinished">斜体</translation>
+    </message>
+    <message>
+        <source>Colors:</source>
+        <translation type="unfinished">颜色：</translation>
+    </message>
+    <message>
+        <source>Font color / Fill color 1</source>
+        <translation type="unfinished">字体颜色/填充颜色1</translation>
+    </message>
+    <message>
+        <source>Fill color 2</source>
+        <translation type="unfinished">填充颜色2</translation>
+    </message>
+    <message>
+        <source>Border color</source>
+        <translation type="unfinished">边框颜色</translation>
+    </message>
+    <message>
+        <source>Underline</source>
+        <translation type="unfinished">下划线</translation>
+    </message>
+</context>
+<context>
+    <name>Application</name>
+    <message>
+        <source>Error</source>
+        <translation type="unfinished">错误</translation>
+    </message>
+    <message>
+        <source>Unknown exception caught!</source>
+        <translation type="unfinished">捕捉到未知异常！</translation>
     </message>
 </context>
 <context>
     <name>BancoDadosWidget</name>
     <message>
         <source>Model Author:</source>
-        <translation>模型作者：</translation>
+        <translation type="obsolete">模型作者：</translation>
     </message>
     <message>
         <source>Encoding:</source>
-        <translation>编码：</translation>
+        <translation type="obsolete">编码：</translation>
     </message>
     <message>
         <source>Connections:</source>
-        <translation>连接：</translation>
+        <translation type="obsolete">连接：</translation>
     </message>
     <message>
         <source>Default</source>
-        <translation>默认</translation>
+        <translation type="obsolete">默认</translation>
     </message>
     <message>
         <source>Form</source>
-        <translation>Form</translation>
+        <translation type="obsolete">Form</translation>
     </message>
     <message>
         <source>Template DB:</source>
-        <translation>数据库模板：</translation>
+        <translation type="obsolete">数据库模板：</translation>
     </message>
     <message>
         <source>LC_COLLATE:</source>
-        <translation>LC_COLLATE:</translation>
+        <translation type="obsolete">LC_COLLATE:</translation>
     </message>
     <message>
         <source>LC_CTYPE:</source>
-        <translation>LC_CTYPE:</translation>
+        <translation type="obsolete">LC_CTYPE:</translation>
+    </message>
+</context>
+<context>
+    <name>BaseObject</name>
+    <message>
+        <source>Column</source>
+        <translation type="unfinished">列</translation>
+    </message>
+    <message>
+        <source>Constraint</source>
+        <translation type="unfinished">约束</translation>
+    </message>
+    <message>
+        <source>Function</source>
+        <translation type="unfinished">函数</translation>
+    </message>
+    <message>
+        <source>Trigger</source>
+        <translation type="unfinished">触发器</translation>
+    </message>
+    <message>
+        <source>Index</source>
+        <translation type="unfinished">索引</translation>
+    </message>
+    <message>
+        <source>Rule</source>
+        <translation type="unfinished">规则</translation>
+    </message>
+    <message>
+        <source>Table</source>
+        <translation type="unfinished">表</translation>
+    </message>
+    <message>
+        <source>View</source>
+        <translation type="unfinished">视图</translation>
+    </message>
+    <message>
+        <source>Domain</source>
+        <translation type="unfinished">域</translation>
+    </message>
+    <message>
+        <source>Schema</source>
+        <translation type="unfinished">模式</translation>
+    </message>
+    <message>
+        <source>Aggregate</source>
+        <translation type="unfinished">聚合</translation>
+    </message>
+    <message>
+        <source>Operator</source>
+        <translation type="unfinished">操作符</translation>
+    </message>
+    <message>
+        <source>Sequence</source>
+        <translation type="unfinished">序列</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation type="unfinished">角色</translation>
+    </message>
+    <message>
+        <source>Conversion</source>
+        <translation type="unfinished">编码转换</translation>
+    </message>
+    <message>
+        <source>Cast</source>
+        <translation type="unfinished">类型转换</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation type="unfinished">语言</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation type="unfinished">类型</translation>
+    </message>
+    <message>
+        <source>Tablespace</source>
+        <translation type="unfinished">表空间</translation>
+    </message>
+    <message>
+        <source>Operator Family</source>
+        <translation type="unfinished">操作符族</translation>
+    </message>
+    <message>
+        <source>Operator Class</source>
+        <translation type="unfinished">操作符类</translation>
+    </message>
+    <message>
+        <source>Database</source>
+        <translation type="unfinished">数据库</translation>
+    </message>
+    <message>
+        <source>Table Relationship</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Textbox</source>
+        <translation type="unfinished">文本框</translation>
+    </message>
+    <message>
+        <source>Permission</source>
+        <translation type="unfinished">权限</translation>
+    </message>
+    <message>
+        <source>Parameter</source>
+        <translation type="unfinished">参数</translation>
+    </message>
+    <message>
+        <source>Basic Relationship</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>BaseObjectWidget</name>
+    <message>
+        <source>Form</source>
+        <translation type="unfinished">Form</translation>
+    </message>
+    <message>
+        <source>Name:</source>
+        <translation type="unfinished">名称：</translation>
+    </message>
+    <message>
+        <source>icone</source>
+        <translation type="unfinished">icone</translation>
+    </message>
+    <message>
+        <source>Comment:</source>
+        <translation type="unfinished">备注：</translation>
+    </message>
+    <message>
+        <source>Tablespace:</source>
+        <translation type="unfinished">表空间：</translation>
+    </message>
+    <message>
+        <source>Owner:</source>
+        <translation type="unfinished">所有者：</translation>
+    </message>
+    <message>
+        <source>Schema:</source>
+        <translation type="unfinished">模式：</translation>
+    </message>
+    <message>
+        <source>Permissions:</source>
+        <translation type="unfinished">权限：</translation>
+    </message>
+    <message>
+        <source>Edit Permissions</source>
+        <translation type="unfinished">修改权限</translation>
+    </message>
+    <message>
+        <source>This object is protected thus no change in form will be applied to it.</source>
+        <translation type="unfinished">此对象处于受保护状态，无法对它应用任何修改。</translation>
+    </message>
+    <message>
+        <source>Parent Object:</source>
+        <translation type="unfinished">父对象：</translation>
+    </message>
+    <message>
+        <source>Create / Edit: </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Value(s)</source>
+        <translation type="unfinished">值</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation type="unfinished">版本</translation>
+    </message>
+    <message>
+        <source>The field(s) or value(s) highlighted on the form is(are) for the exclusive use and/or mandatory in specific versions of PostgreSQL. Failure to complete that may cause errors in the generation of SQL code for each version shown in tool tips of the highlighted fields.</source>
+        <translation type="unfinished">窗口中高亮显示的字段或值只能用于特定版本的 PostgreSQL。在生成高亮字段工具提示中显示的各版本 SQL 代码时可能会发生错误，导致无法完成操作。</translation>
     </message>
 </context>
 <context>
     <name>CaixaMensagem</name>
     <message>
         <source>Show/hide exceptions stack.</source>
-        <translation>显示/隐藏异常堆栈。</translation>
+        <translation type="obsolete">显示/隐藏异常堆栈。</translation>
     </message>
     <message>
         <source>&amp;Yes</source>
-        <translation>是(&amp;Y)</translation>
+        <translation type="obsolete">是(&amp;Y)</translation>
     </message>
     <message>
         <source>&amp;No</source>
-        <translation>否(&amp;N)</translation>
+        <translation type="obsolete">否(&amp;N)</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>取消</translation>
+        <translation type="obsolete">取消</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation>错误</translation>
+        <translation type="obsolete">错误</translation>
     </message>
     <message>
         <source>Alert</source>
-        <translation>警告</translation>
+        <translation type="obsolete">警告</translation>
     </message>
     <message>
         <source>Information</source>
-        <translation>信息</translation>
+        <translation type="obsolete">信息</translation>
     </message>
     <message>
         <source>&amp;Cancel</source>
-        <translation>取消(&amp;C)</translation>
+        <translation type="obsolete">取消(&amp;C)</translation>
     </message>
     <message>
         <source>Dialog</source>
-        <translation>Dialog</translation>
+        <translation type="obsolete">Dialog</translation>
     </message>
     <message>
         <source>...</source>
-        <translation>......</translation>
+        <translation type="obsolete">......</translation>
     </message>
     <message>
         <source>msg</source>
-        <translation>信息</translation>
+        <translation type="obsolete">信息</translation>
     </message>
     <message>
         <source>&amp;Ok</source>
-        <translation>确定(&amp;O)</translation>
+        <translation type="obsolete">确定(&amp;O)</translation>
     </message>
     <message>
         <source>Exceptions</source>
-        <translation>异常</translation>
+        <translation type="obsolete">异常</translation>
     </message>
     <message>
         <source>Show excpetion stack in text format (useful to report errors).</source>
-        <translation>以文本形式显示异常堆栈(有助于报告错误)。</translation>
+        <translation type="obsolete">以文本形式显示异常堆栈(有助于报告错误)。</translation>
     </message>
 </context>
 <context>
     <name>CaixaTextoWidget</name>
     <message>
         <source>Bold</source>
-        <translation>粗体</translation>
+        <translation type="obsolete">粗体</translation>
     </message>
     <message>
         <source>Italic</source>
-        <translation>斜体</translation>
+        <translation type="obsolete">斜体</translation>
     </message>
     <message>
         <source>Select text color</source>
-        <translation>选择文本颜色</translation>
+        <translation type="obsolete">选择文本颜色</translation>
     </message>
     <message>
         <source>Form</source>
-        <translation>Form</translation>
+        <translation type="obsolete">Form</translation>
     </message>
     <message>
         <source>Underline</source>
-        <translation>下划线</translation>
+        <translation type="obsolete">下划线</translation>
+    </message>
+</context>
+<context>
+    <name>CastWidget</name>
+    <message>
+        <source>Form</source>
+        <translation type="unfinished">Form</translation>
+    </message>
+    <message>
+        <source>Cast Type:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Implicit</source>
+        <translation type="unfinished">隐式转换</translation>
+    </message>
+    <message>
+        <source>Assignment</source>
+        <translation type="unfinished">强制转换</translation>
+    </message>
+    <message>
+        <source>Input / Output</source>
+        <translation type="unfinished">输入 / 输出</translation>
+    </message>
+    <message>
+        <source>Conversion Function:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Source data type</source>
+        <translation type="unfinished">原始数据类型</translation>
+    </message>
+    <message>
+        <source>Target data type</source>
+        <translation type="unfinished">目标数据类型</translation>
+    </message>
+    <message>
+        <source>The function to be assigned to a cast from &lt;em&gt;&lt;strong&gt;typeA&lt;/strong&gt;&lt;/em&gt; to &lt;em&gt;&lt;strong&gt;typeB&lt;/strong&gt;&lt;/em&gt; must have the following signature: &lt;em&gt;&lt;strong&gt;typeB&lt;/strong&gt; function(&lt;strong&gt;typeA&lt;/strong&gt;, integer, boolean)&lt;/em&gt;.</source>
+        <translation type="unfinished">将&lt;em&gt;&lt;strong&gt;类型 A&lt;/strong&gt;&lt;/em&gt;转换成 &lt;em&gt;&lt;strong&gt;类型 B&lt;/strong&gt;&lt;/em&gt;的函数签名：&lt;em&gt;&lt;strong&gt;typeB&lt;/strong&gt; function(&lt;strong&gt;typeA&lt;/strong&gt;, integer, boolean)&lt;/em&gt;.</translation>
     </message>
 </context>
 <context>
     <name>ClasseOperadoresWidget</name>
     <message>
         <source>Default Class:</source>
-        <translation>默认类：</translation>
+        <translation type="obsolete">默认类：</translation>
     </message>
     <message>
         <source>Indexing:</source>
-        <translation>索引类型：</translation>
+        <translation type="obsolete">索引类型：</translation>
     </message>
     <message>
         <source>Elements</source>
-        <translation>元素</translation>
+        <translation type="obsolete">元素</translation>
     </message>
     <message>
         <source>Elemente Type:</source>
-        <translation>元素类型：</translation>
+        <translation type="obsolete">元素类型：</translation>
     </message>
     <message>
         <source>Operator</source>
-        <translation>操作符</translation>
+        <translation type="obsolete">操作符</translation>
     </message>
     <message>
         <source>Function</source>
-        <translation>函数</translation>
+        <translation type="obsolete">函数</translation>
     </message>
     <message>
         <source>Storage</source>
-        <translation>存储</translation>
+        <translation type="obsolete">存储</translation>
     </message>
     <message>
         <source>Function:</source>
-        <translation>函数：</translation>
+        <translation type="obsolete">函数：</translation>
     </message>
     <message>
         <source>Operator:</source>
-        <translation>操作符：</translation>
+        <translation type="obsolete">操作符：</translation>
     </message>
     <message>
         <source>Support/Strategy:</source>
-        <translation>支持/策略：</translation>
+        <translation type="obsolete">支持/策略：</translation>
     </message>
     <message>
         <source>Recheck</source>
-        <translation>重新检查</translation>
+        <translation type="obsolete">重新检查</translation>
     </message>
     <message>
         <source>Family:</source>
-        <translation>族：</translation>
+        <translation type="obsolete">族：</translation>
     </message>
     <message>
         <source>Storage Type</source>
-        <translation>存储类型</translation>
+        <translation type="obsolete">存储类型</translation>
     </message>
     <message>
         <source>Object</source>
-        <translation>对象</translation>
+        <translation type="obsolete">对象</translation>
     </message>
     <message>
         <source>Type</source>
-        <translation>类型</translation>
+        <translation type="obsolete">类型</translation>
     </message>
     <message>
         <source>Support/Strategy</source>
-        <translation>支持/策略</translation>
+        <translation type="obsolete">支持/策略</translation>
     </message>
     <message>
         <source>Yes</source>
-        <translation>是</translation>
+        <translation type="obsolete">是</translation>
     </message>
     <message>
         <source>No</source>
-        <translation>否</translation>
+        <translation type="obsolete">否</translation>
     </message>
     <message>
         <source>Form</source>
-        <translation>Form</translation>
+        <translation type="obsolete">Form</translation>
     </message>
 </context>
 <context>
     <name>CodigoFonteWidget</name>
     <message>
         <source>Version:</source>
-        <translation>版本：</translation>
+        <translation type="obsolete">版本：</translation>
     </message>
     <message>
         <source>Type:</source>
-        <translation>类型：</translation>
+        <translation type="obsolete">类型：</translation>
     </message>
     <message>
         <source>Source code visualization</source>
-        <translation>查看源代码</translation>
+        <translation type="obsolete">查看源代码</translation>
     </message>
     <message>
         <source>Generating source code...</source>
-        <translation>正在生成源代码......</translation>
+        <translation type="obsolete">正在生成源代码......</translation>
     </message>
     <message>
         <source>-- SQL code unavailable for this type of object --</source>
-        <translation>-- 无法生成此对象类型的 SQL 代码 --</translation>
+        <translation type="obsolete">-- 无法生成此对象类型的 SQL 代码 --</translation>
     </message>
     <message>
         <source>Form</source>
-        <translation>Form</translation>
+        <translation type="obsolete">Form</translation>
     </message>
     <message>
         <source>PostgreSQL</source>
-        <translation>PostgreSQL</translation>
+        <translation type="obsolete">PostgreSQL</translation>
     </message>
     <message>
         <source>iconecodigo</source>
-        <translation>iconecodigo</translation>
+        <translation type="obsolete">iconecodigo</translation>
     </message>
     <message>
         <source>SQL</source>
-        <translation>SQL</translation>
+        <translation type="obsolete">SQL</translation>
     </message>
     <message>
         <source>XML</source>
-        <translation>XML</translation>
+        <translation type="obsolete">XML</translation>
+    </message>
+</context>
+<context>
+    <name>ColumnWidget</name>
+    <message>
+        <source>Form</source>
+        <translation type="unfinished">Form</translation>
+    </message>
+    <message>
+        <source>Default Value:</source>
+        <translation type="unfinished">默认值：</translation>
+    </message>
+    <message>
+        <source>Not Null:</source>
+        <translation type="unfinished">非空：</translation>
     </message>
 </context>
 <context>
     <name>ColunaWidget</name>
     <message>
         <source>Default Value:</source>
-        <translation>默认值：</translation>
+        <translation type="obsolete">默认值：</translation>
     </message>
     <message>
         <source>Form</source>
-        <translation>Form</translation>
+        <translation type="obsolete">Form</translation>
     </message>
     <message>
         <source>Not Null:</source>
-        <translation>非空：</translation>
+        <translation type="obsolete">非空：</translation>
     </message>
 </context>
 <context>
     <name>ConfAparenciaWidget</name>
     <message>
         <source>Element:</source>
-        <translation>元素：</translation>
+        <translation type="obsolete">元素：</translation>
     </message>
     <message>
         <source>Global: Font style</source>
-        <translation>全局：字体样式</translation>
+        <translation type="obsolete">全局：字体样式</translation>
     </message>
     <message>
         <source>Global: Constraints descriptor</source>
-        <translation>全局：约束描述符</translation>
+        <translation type="obsolete">全局：约束描述符</translation>
     </message>
     <message>
         <source>Global: Object selection</source>
-        <translation>全局：对象选择</translation>
+        <translation type="obsolete">全局：对象选择</translation>
     </message>
     <message>
         <source>Global: Position hint text</source>
-        <translation>全局：位置提示内容</translation>
+        <translation type="obsolete">全局：位置提示内容</translation>
     </message>
     <message>
         <source>Global: Position hint box</source>
-        <translation>全局：位置提示框</translation>
+        <translation type="obsolete">全局：位置提示框</translation>
     </message>
     <message>
         <source>Global: Objects type</source>
-        <translation>全局：对象类型</translation>
+        <translation type="obsolete">全局：对象类型</translation>
     </message>
     <message>
         <source>Global: Lock arc</source>
-        <translation>全局：锁环</translation>
+        <translation type="obsolete">全局：锁环</translation>
     </message>
     <message>
         <source>Global: Lock body</source>
-        <translation>全局：锁体</translation>
+        <translation type="obsolete">全局：锁体</translation>
     </message>
     <message>
         <source>Table: Schema name</source>
-        <translation>表：模式名称</translation>
+        <translation type="obsolete">表：模式名称</translation>
     </message>
     <message>
         <source>Table: Table name</source>
-        <translation>表：表名称</translation>
+        <translation type="obsolete">表：表名称</translation>
     </message>
     <message>
         <source>Table: Columns box</source>
-        <translation>表：列框</translation>
+        <translation type="obsolete">表：列框</translation>
     </message>
     <message>
         <source>Table: Extended attributes box</source>
-        <translation>表：扩展属性框</translation>
+        <translation type="obsolete">表：扩展属性框</translation>
     </message>
     <message>
         <source>Table: Title box</source>
-        <translation>表：标题框</translation>
+        <translation type="obsolete">表：标题框</translation>
     </message>
     <message>
         <source>Index: Descriptor</source>
-        <translation>索引：描述符</translation>
+        <translation type="obsolete">索引：描述符</translation>
     </message>
     <message>
         <source>Trigger: Descriptor</source>
-        <translation>触发器：描述符</translation>
+        <translation type="obsolete">触发器：描述符</translation>
     </message>
     <message>
         <source>View: Schema name</source>
-        <translation>视图：模式名称</translation>
+        <translation type="obsolete">视图：模式名称</translation>
     </message>
     <message>
         <source>View: View name</source>
-        <translation>视图：视图名称</translation>
+        <translation type="obsolete">视图：视图名称</translation>
     </message>
     <message>
         <source>View: References box</source>
-        <translation>视图：引用框</translation>
+        <translation type="obsolete">视图：引用框</translation>
     </message>
     <message>
         <source>View: Title box</source>
-        <translation>视图：标题框</translation>
+        <translation type="obsolete">视图：标题框</translation>
     </message>
     <message>
         <source>View: Table / columns alias</source>
-        <translation>视图：表/列别名</translation>
+        <translation type="obsolete">视图：表/列别名</translation>
     </message>
     <message>
         <source>View: Referenced column</source>
-        <translation>视图：引用列</translation>
+        <translation type="obsolete">视图：引用列</translation>
     </message>
     <message>
         <source>View: Referenced table</source>
-        <translation>视图：引用表</translation>
+        <translation type="obsolete">视图：引用表</translation>
     </message>
     <message>
         <source>View: Reference descriptor</source>
-        <translation>视图：引用描述符</translation>
+        <translation type="obsolete">视图：引用描述符</translation>
     </message>
     <message>
         <source>Textbox: Body</source>
-        <translation>文本框：框体</translation>
+        <translation type="obsolete">文本框：框体</translation>
     </message>
     <message>
         <source>Column: Column name</source>
-        <translation>列：列名称</translation>
+        <translation type="obsolete">列：列名称</translation>
     </message>
     <message>
         <source>Column: Descriptor</source>
-        <translation>列：描述符</translation>
+        <translation type="obsolete">列：描述符</translation>
     </message>
     <message>
         <source>Column: Included / Inherited by relationship</source>
-        <translation>列：包含在/继承自关系</translation>
+        <translation type="obsolete">列：包含在/继承自关系</translation>
     </message>
     <message>
         <source>Column: Protected</source>
-        <translation>列：写保护</translation>
+        <translation type="obsolete">列：写保护</translation>
     </message>
     <message>
         <source>Column (pk): Column name</source>
-        <translation>列(PK)：列名称</translation>
+        <translation type="obsolete">列(PK)：列名称</translation>
     </message>
     <message>
         <source>Column (pk): Descriptor</source>
-        <translation>列(PK)：描述符</translation>
+        <translation type="obsolete">列(PK)：描述符</translation>
     </message>
     <message>
         <source>Column (fk): Column name</source>
-        <translation>列(FK)：列名称</translation>
+        <translation type="obsolete">列(FK)：列名称</translation>
     </message>
     <message>
         <source>Column (fk): Descriptor</source>
-        <translation>列(FK)：描述符</translation>
+        <translation type="obsolete">列(FK)：描述符</translation>
     </message>
     <message>
         <source>Column (uq): Column name</source>
-        <translation>列(UQ)：列名称</translation>
+        <translation type="obsolete">列(UQ)：列名称</translation>
     </message>
     <message>
         <source>Column (uq): Descriptor</source>
-        <translation>列(UQ)：描述符</translation>
+        <translation type="obsolete">列(UQ)：描述符</translation>
     </message>
     <message>
         <source>Column (nn): Column name</source>
-        <translation>列(NN)：列名称</translation>
+        <translation type="obsolete">列(NN)：列名称</translation>
     </message>
     <message>
         <source>Column (nn): Descriptor</source>
-        <translation>列(NN)：描述符</translation>
+        <translation type="obsolete">列(NN)：描述符</translation>
     </message>
     <message>
         <source>Relationship: Descriptor</source>
-        <translation>关系：描述符</translation>
+        <translation type="obsolete">关系：描述符</translation>
     </message>
     <message>
         <source>Relationship: Label text</source>
-        <translation>关系：标签内容</translation>
+        <translation type="obsolete">关系：标签内容</translation>
     </message>
     <message>
         <source>Relationship: Label box</source>
-        <translation>关系：标签框</translation>
+        <translation type="obsolete">关系：标签框</translation>
     </message>
     <message>
         <source>Relationship: Attribute text</source>
-        <translation>关系：属性内容</translation>
+        <translation type="obsolete">关系：属性内容</translation>
     </message>
     <message>
         <source>Relationship: Attribute descriptor</source>
-        <translation>关系：属性描述符</translation>
+        <translation type="obsolete">关系：属性描述符</translation>
     </message>
     <message>
         <source>Bold</source>
-        <translation>粗体</translation>
+        <translation type="obsolete">粗体</translation>
     </message>
     <message>
         <source>Italic</source>
-        <translation>斜体</translation>
+        <translation type="obsolete">斜体</translation>
     </message>
     <message>
         <source>Colors:</source>
-        <translation>颜色：</translation>
+        <translation type="obsolete">颜色：</translation>
     </message>
     <message>
         <source>Font color / Fill color 1</source>
-        <translation>字体颜色/填充颜色1</translation>
+        <translation type="obsolete">字体颜色/填充颜色1</translation>
     </message>
     <message>
         <source>Fill color 2</source>
-        <translation>填充颜色2</translation>
+        <translation type="obsolete">填充颜色2</translation>
     </message>
     <message>
         <source>Border color</source>
-        <translation>边框颜色</translation>
+        <translation type="obsolete">边框颜色</translation>
     </message>
     <message>
         <source>Underline</source>
-        <translation>下划线</translation>
+        <translation type="obsolete">下划线</translation>
     </message>
     <message>
         <source>Form</source>
-        <translation>Form</translation>
+        <translation type="obsolete">Form</translation>
     </message>
     <message>
         <source>Rule: Name</source>
-        <translation>规则：名称</translation>
+        <translation type="obsolete">规则：名称</translation>
     </message>
     <message>
         <source>Rule: Descriptor</source>
-        <translation>规则：描述符</translation>
+        <translation type="obsolete">规则：描述符</translation>
     </message>
     <message>
         <source>Index: Name</source>
-        <translation>索引：名称</translation>
+        <translation type="obsolete">索引：名称</translation>
     </message>
     <message>
         <source>Trigger: Name</source>
-        <translation>触发器：名称</translation>
+        <translation type="obsolete">触发器：名称</translation>
     </message>
     <message>
         <source>Font:</source>
-        <translation>字体：</translation>
+        <translation type="obsolete">字体：</translation>
     </message>
     <message>
         <source> pt</source>
-        <translation>pt</translation>
+        <translation type="obsolete">pt</translation>
     </message>
 </context>
 <context>
     <name>ConfConexoesWidget</name>
     <message>
         <source>Connections:</source>
-        <translation>连接：</translation>
+        <translation type="obsolete">连接：</translation>
     </message>
     <message>
         <source>Create new connection</source>
-        <translation>建立新连接</translation>
+        <translation type="obsolete">建立新连接</translation>
     </message>
     <message>
         <source>Cancel edition</source>
-        <translation>取消编辑</translation>
+        <translation type="obsolete">取消编辑</translation>
     </message>
     <message>
         <source>Edit selected connection</source>
-        <translation>编辑选中的连接</translation>
+        <translation type="obsolete">编辑选中的连接</translation>
     </message>
     <message>
         <source>Connection Alias:</source>
-        <translation>连接别名：</translation>
+        <translation type="obsolete">连接别名：</translation>
     </message>
     <message>
         <source>Connection DB:</source>
-        <translation>连接数据库：</translation>
+        <translation type="obsolete">连接数据库：</translation>
     </message>
     <message>
         <source>Host/Port:</source>
-        <translation>主机/端口：</translation>
+        <translation type="obsolete">主机/端口：</translation>
     </message>
     <message>
         <source>User:</source>
-        <translation>用户：</translation>
+        <translation type="obsolete">用户：</translation>
     </message>
     <message>
         <source>Password:</source>
-        <translation>密码：</translation>
+        <translation type="obsolete">密码：</translation>
     </message>
     <message>
         <source>Timeout:</source>
-        <translation>超时：</translation>
+        <translation type="obsolete">超时：</translation>
     </message>
     <message>
         <source>second(s)</source>
-        <translation>秒(s)</translation>
+        <translation type="obsolete">秒(s)</translation>
     </message>
     <message>
         <source>SSL Mode:</source>
-        <translation>SSL 模式：</translation>
+        <translation type="obsolete">SSL 模式：</translation>
     </message>
     <message>
         <source>Disable</source>
-        <translation>禁用</translation>
+        <translation type="obsolete">禁用</translation>
     </message>
     <message>
         <source>Allow</source>
-        <translation>允许</translation>
+        <translation type="obsolete">允许</translation>
     </message>
     <message>
         <source>Require</source>
-        <translation>必需</translation>
+        <translation type="obsolete">必需</translation>
     </message>
     <message>
         <source>AC verification</source>
-        <translation>CA认证</translation>
+        <translation type="obsolete">CA认证</translation>
     </message>
     <message>
         <source>Full verification</source>
-        <translation>双向认证</translation>
+        <translation type="obsolete">双向认证</translation>
     </message>
     <message>
         <source>Client Key:</source>
-        <translation>客户端密钥：</translation>
+        <translation type="obsolete">客户端密钥：</translation>
     </message>
     <message>
         <source>Revoked Certs.:</source>
-        <translation>已吊销证书：</translation>
+        <translation type="obsolete">已吊销证书：</translation>
     </message>
     <message>
         <source>Kerberus Server:</source>
-        <translation>Kerberus 服务器：</translation>
+        <translation type="obsolete">Kerberus 服务器：</translation>
     </message>
     <message>
         <source>Force GSSAPI</source>
-        <translation>强制 GSSAPI</translation>
+        <translation type="obsolete">强制 GSSAPI</translation>
     </message>
     <message>
         <source>Options:</source>
-        <translation>选项：</translation>
+        <translation type="obsolete">选项：</translation>
     </message>
     <message>
         <source>Add</source>
-        <translation>新建</translation>
+        <translation type="obsolete">新建</translation>
     </message>
     <message>
         <source>Update</source>
-        <translation>更新</translation>
+        <translation type="obsolete">更新</translation>
     </message>
     <message>
         <source>Test</source>
-        <translation>测试</translation>
+        <translation type="obsolete">测试</translation>
     </message>
     <message>
         <source>Form</source>
-        <translation>Form</translation>
+        <translation type="obsolete">Form</translation>
     </message>
     <message>
         <source>Delete selected connection</source>
-        <translation>删除选中的连接</translation>
+        <translation type="obsolete">删除选中的连接</translation>
     </message>
     <message>
         <source>Client Certificate:</source>
-        <translation>客户端证书：</translation>
+        <translation type="obsolete">客户端证书：</translation>
     </message>
     <message>
         <source>~/.postgresql/postgresql.crt</source>
-        <translation>~/.postgresql/postgresql.crt</translation>
+        <translation type="obsolete">~/.postgresql/postgresql.crt</translation>
     </message>
     <message>
         <source>~/.postgresql/postgresql.key</source>
-        <translation>~/.postgresql/postgresql.key</translation>
+        <translation type="obsolete">~/.postgresql/postgresql.key</translation>
     </message>
     <message>
         <source>Root Certificate:</source>
-        <translation>根证书：</translation>
+        <translation type="obsolete">根证书：</translation>
     </message>
     <message>
         <source>~/.postgresql/root.crt</source>
-        <translation>~/.postgresql/root.crt</translation>
+        <translation type="obsolete">~/.postgresql/root.crt</translation>
     </message>
     <message>
         <source>~/.postgresql/root.crl</source>
-        <translation>~/.postgresql/root.crl</translation>
+        <translation type="obsolete">~/.postgresql/root.crl</translation>
     </message>
     <message>
         <source>Success</source>
-        <translation>成功</translation>
+        <translation type="obsolete">成功</translation>
     </message>
     <message>
         <source>Connection successfuly stablished!</source>
-        <translation>成功建立连接！</translation>
+        <translation type="obsolete">成功建立连接！</translation>
     </message>
 </context>
 <context>
     <name>ConfGeralWidget</name>
     <message>
         <source>Grid size:</source>
-        <translation>网格大小：</translation>
+        <translation type="obsolete">网格大小：</translation>
     </message>
     <message>
         <source>Operation history:</source>
-        <translation>操作记录：</translation>
+        <translation type="obsolete">操作记录：</translation>
     </message>
     <message>
         <source>items</source>
-        <translation>条</translation>
+        <translation type="obsolete">条</translation>
     </message>
     <message>
         <source>Save model every:</source>
-        <translation>自动保存的时间间隔：</translation>
+        <translation type="obsolete">自动保存的时间间隔：</translation>
     </message>
     <message>
         <source>minute(s)</source>
-        <translation>分钟</translation>
+        <translation type="obsolete">分钟</translation>
     </message>
     <message>
         <source>Save widgets position</source>
-        <translation>保存部件位置</translation>
+        <translation type="obsolete">保存部件位置</translation>
     </message>
     <message>
         <source>Save current session</source>
-        <translation>保存当前会话</translation>
+        <translation type="obsolete">保存当前会话</translation>
     </message>
     <message>
         <source>Paper:</source>
-        <translation>纸型：</translation>
+        <translation type="obsolete">纸型：</translation>
     </message>
     <message>
         <source>Custom (Based on margins)</source>
-        <translation>定制 (基于边框)</translation>
+        <translation type="obsolete">定制 (基于边框)</translation>
     </message>
     <message>
         <source>Orientation:</source>
-        <translation>方向：</translation>
+        <translation type="obsolete">方向：</translation>
     </message>
     <message>
         <source>Portrait</source>
-        <translation>纵向</translation>
+        <translation type="obsolete">纵向</translation>
     </message>
     <message>
         <source>Landscape</source>
-        <translation>横向</translation>
+        <translation type="obsolete">横向</translation>
     </message>
     <message>
         <source>Margins:</source>
-        <translation>边距：</translation>
+        <translation type="obsolete">边距：</translation>
     </message>
     <message>
         <source>Milimeters</source>
-        <translation>毫米</translation>
+        <translation type="obsolete">毫米</translation>
     </message>
     <message>
         <source>Inches</source>
-        <translation>英寸</translation>
+        <translation type="obsolete">英寸</translation>
     </message>
     <message>
         <source>Centimeter</source>
-        <translation>厘米</translation>
+        <translation type="obsolete">厘米</translation>
     </message>
     <message>
         <source>Left:</source>
-        <translation>左：</translation>
+        <translation type="obsolete">左：</translation>
     </message>
     <message>
         <source>Left margin</source>
-        <translation>左边距</translation>
+        <translation type="obsolete">左边距</translation>
     </message>
     <message>
         <source>Top:</source>
-        <translation>上：</translation>
+        <translation type="obsolete">上：</translation>
     </message>
     <message>
         <source>Top margin</source>
-        <translation>上边距</translation>
+        <translation type="obsolete">上边距</translation>
     </message>
     <message>
         <source>Right:</source>
-        <translation>右：</translation>
+        <translation type="obsolete">右：</translation>
     </message>
     <message>
         <source>Right margin</source>
-        <translation>右边距</translation>
+        <translation type="obsolete">右边距</translation>
     </message>
     <message>
         <source>Form</source>
-        <translation>Form</translation>
+        <translation type="obsolete">Form</translation>
     </message>
     <message>
         <source>pixels</source>
-        <translation>像素</translation>
+        <translation type="obsolete">像素</translation>
     </message>
     <message>
         <source>A0 (841 x 1189 mm)</source>
-        <translation>A0 (841 x 1189 mm)</translation>
+        <translation type="obsolete">A0 (841 x 1189 mm)</translation>
     </message>
     <message>
         <source>A1 (594 x 841 mm)</source>
-        <translation>A1 (594 x 841 mm)</translation>
+        <translation type="obsolete">A1 (594 x 841 mm)</translation>
     </message>
     <message>
         <source>A2 (420 x 594 mm)</source>
-        <translation>A2 (420 x 594 mm)</translation>
+        <translation type="obsolete">A2 (420 x 594 mm)</translation>
     </message>
     <message>
         <source>A3 (297 x 420 mm)</source>
-        <translation>A3 (297 x 420 mm)</translation>
+        <translation type="obsolete">A3 (297 x 420 mm)</translation>
     </message>
     <message>
         <source>A4 (210 x 297 mm)</source>
-        <translation>A4 (210 x 297 mm)</translation>
+        <translation type="obsolete">A4 (210 x 297 mm)</translation>
     </message>
     <message>
         <source>A5 (148 x 210 mm)</source>
-        <translation>A5 (148 x 210 mm)</translation>
+        <translation type="obsolete">A5 (148 x 210 mm)</translation>
     </message>
     <message>
         <source>A6 (105 x 148 mm)</source>
-        <translation>A6 (105 x 148 mm)</translation>
+        <translation type="obsolete">A6 (105 x 148 mm)</translation>
     </message>
     <message>
         <source>A7 (74 x 105 mm)</source>
-        <translation>A7 (74 x 105 mm)</translation>
+        <translation type="obsolete">A7 (74 x 105 mm)</translation>
     </message>
     <message>
         <source>A8 (52 x 74 mm)</source>
-        <translation>A8 (52 x 74 mm)</translation>
+        <translation type="obsolete">A8 (52 x 74 mm)</translation>
     </message>
     <message>
         <source>A9 (37 x 52 mm)</source>
-        <translation>A9 (37 x 52 mm)</translation>
+        <translation type="obsolete">A9 (37 x 52 mm)</translation>
     </message>
     <message>
         <source>B0 (1030 x 1456 mm)</source>
-        <translation>B0 (1030 x 1456 mm)</translation>
+        <translation type="obsolete">B0 (1030 x 1456 mm)</translation>
     </message>
     <message>
         <source>B1 (728 x 1030 mm)</source>
-        <translation>B1 (728 x 1030 mm)</translation>
+        <translation type="obsolete">B1 (728 x 1030 mm)</translation>
     </message>
     <message>
         <source>B10 (32 x 45 mm)</source>
-        <translation>B10 (32 x 45 mm)</translation>
+        <translation type="obsolete">B10 (32 x 45 mm)</translation>
     </message>
     <message>
         <source>B2 (515 x 728 mm)</source>
-        <translation>B2 (515 x 728 mm)</translation>
+        <translation type="obsolete">B2 (515 x 728 mm)</translation>
     </message>
     <message>
         <source>B3 (364 x 515 mm)</source>
-        <translation>B3 (364 x 515 mm)</translation>
+        <translation type="obsolete">B3 (364 x 515 mm)</translation>
     </message>
     <message>
         <source>B4 (257 x 364 mm)</source>
-        <translation>B4 (257 x 364 mm)</translation>
+        <translation type="obsolete">B4 (257 x 364 mm)</translation>
     </message>
     <message>
         <source>B5 (182 x 257 mm)</source>
-        <translation>B5 (182 x 257 mm)</translation>
+        <translation type="obsolete">B5 (182 x 257 mm)</translation>
     </message>
     <message>
         <source>B6 (128 x 182 mm)</source>
-        <translation>B6 (128 x 182 mm)</translation>
+        <translation type="obsolete">B6 (128 x 182 mm)</translation>
     </message>
     <message>
         <source>B7 (91 x 128 mm)</source>
-        <translation>B7 (91 x 128 mm)</translation>
+        <translation type="obsolete">B7 (91 x 128 mm)</translation>
     </message>
     <message>
         <source>B8 (64 x 91 mm)</source>
-        <translation>B8 (64 x 91 mm)</translation>
+        <translation type="obsolete">B8 (64 x 91 mm)</translation>
     </message>
     <message>
         <source>B9 (45 x 64 mm)</source>
-        <translation>B9 (45 x 64 mm)</translation>
+        <translation type="obsolete">B9 (45 x 64 mm)</translation>
     </message>
     <message>
         <source>C5E (163 x 229 mm)</source>
-        <translation>C5E (163 x 229 mm)</translation>
+        <translation type="obsolete">C5E (163 x 229 mm)</translation>
     </message>
     <message>
         <source>Comm10E (105 x 241 mm)</source>
-        <translation>Comm10E (105 x 241 mm)</translation>
+        <translation type="obsolete">Comm10E (105 x 241 mm)</translation>
     </message>
     <message>
         <source>DLE (110 x 220 mm)</source>
-        <translation>DLE (110 x 220 mm)</translation>
+        <translation type="obsolete">DLE (110 x 220 mm)</translation>
     </message>
     <message>
         <source>Executive (191 x 254 mm)</source>
-        <translation>Executive (191 x 254 mm)</translation>
+        <translation type="obsolete">Executive (191 x 254 mm)</translation>
     </message>
     <message>
         <source>Folio (210 x 330 mm)</source>
-        <translation>Folio (210 x 330 mm)</translation>
+        <translation type="obsolete">Folio (210 x 330 mm)</translation>
     </message>
     <message>
         <source>Ledger (432 x 279 mm)</source>
-        <translation>Ledger (432 x 279 mm)</translation>
+        <translation type="obsolete">Ledger (432 x 279 mm)</translation>
     </message>
     <message>
         <source>Legal (216 x 356 mm)</source>
-        <translation>Legal (216 x 356 mm)</translation>
+        <translation type="obsolete">Legal (216 x 356 mm)</translation>
     </message>
     <message>
         <source>Letter (216 x 279 mm)</source>
-        <translation>Letter (216 x 279 mm)</translation>
+        <translation type="obsolete">Letter (216 x 279 mm)</translation>
     </message>
     <message>
         <source>Tabloid (279 x 432 mm)</source>
-        <translation>Tabloid (279 x 432 mm)</translation>
+        <translation type="obsolete">Tabloid (279 x 432 mm)</translation>
     </message>
     <message>
         <source>Pixels</source>
-        <translation>像素</translation>
+        <translation type="obsolete">像素</translation>
     </message>
     <message>
         <source>Bottom:</source>
-        <translation>下：</translation>
+        <translation type="obsolete">下：</translation>
     </message>
     <message>
         <source>Bottom margin</source>
-        <translation>下边距</translation>
+        <translation type="obsolete">下边距</translation>
+    </message>
+</context>
+<context>
+    <name>ConnectionsConfigWidget</name>
+    <message>
+        <source>Form</source>
+        <translation type="unfinished">Form</translation>
+    </message>
+    <message>
+        <source>Connections:</source>
+        <translation type="unfinished">连接：</translation>
+    </message>
+    <message>
+        <source>Create new connection</source>
+        <translation type="unfinished">建立新连接</translation>
+    </message>
+    <message>
+        <source>Cancel edition</source>
+        <translation type="unfinished">取消编辑</translation>
+    </message>
+    <message>
+        <source>Edit selected connection</source>
+        <translation type="unfinished">编辑选中的连接</translation>
+    </message>
+    <message>
+        <source>Delete selected connection</source>
+        <translation type="unfinished">删除选中的连接</translation>
+    </message>
+    <message>
+        <source>Connection Alias:</source>
+        <translation type="unfinished">连接别名：</translation>
+    </message>
+    <message>
+        <source>Connection DB:</source>
+        <translation type="unfinished">连接数据库：</translation>
+    </message>
+    <message>
+        <source>Host/Port:</source>
+        <translation type="unfinished">主机/端口：</translation>
+    </message>
+    <message>
+        <source>User:</source>
+        <translation type="unfinished">用户：</translation>
+    </message>
+    <message>
+        <source>Password:</source>
+        <translation type="unfinished">密码：</translation>
+    </message>
+    <message>
+        <source>Timeout:</source>
+        <translation type="unfinished">超时：</translation>
+    </message>
+    <message>
+        <source>second(s)</source>
+        <translation type="unfinished">秒(s)</translation>
+    </message>
+    <message>
+        <source>SSL Mode:</source>
+        <translation type="unfinished">SSL 模式：</translation>
+    </message>
+    <message>
+        <source>Disable</source>
+        <translation type="unfinished">禁用</translation>
+    </message>
+    <message>
+        <source>Allow</source>
+        <translation type="unfinished">允许</translation>
+    </message>
+    <message>
+        <source>Require</source>
+        <translation type="unfinished">必需</translation>
+    </message>
+    <message>
+        <source>AC verification</source>
+        <translation type="unfinished">CA认证</translation>
+    </message>
+    <message>
+        <source>Full verification</source>
+        <translation type="unfinished">双向认证</translation>
+    </message>
+    <message>
+        <source>Client Certificate:</source>
+        <translation type="unfinished">客户端证书：</translation>
+    </message>
+    <message>
+        <source>~/.postgresql/postgresql.crt</source>
+        <translation type="unfinished">~/.postgresql/postgresql.crt</translation>
+    </message>
+    <message>
+        <source>Client Key:</source>
+        <translation type="unfinished">客户端密钥：</translation>
+    </message>
+    <message>
+        <source>~/.postgresql/postgresql.key</source>
+        <translation type="unfinished">~/.postgresql/postgresql.key</translation>
+    </message>
+    <message>
+        <source>Root Certificate:</source>
+        <translation type="unfinished">根证书：</translation>
+    </message>
+    <message>
+        <source>~/.postgresql/root.crt</source>
+        <translation type="unfinished">~/.postgresql/root.crt</translation>
+    </message>
+    <message>
+        <source>Revoked Certs.:</source>
+        <translation type="unfinished">已吊销证书：</translation>
+    </message>
+    <message>
+        <source>~/.postgresql/root.crl</source>
+        <translation type="unfinished">~/.postgresql/root.crl</translation>
+    </message>
+    <message>
+        <source>Kerberus Server:</source>
+        <translation type="unfinished">Kerberus 服务器：</translation>
+    </message>
+    <message>
+        <source>Force GSSAPI</source>
+        <translation type="unfinished">强制 GSSAPI</translation>
+    </message>
+    <message>
+        <source>Options:</source>
+        <translation type="unfinished">选项：</translation>
+    </message>
+    <message>
+        <source>Add</source>
+        <translation type="unfinished">新建</translation>
+    </message>
+    <message>
+        <source>Update</source>
+        <translation type="unfinished">更新</translation>
+    </message>
+    <message>
+        <source>Test</source>
+        <translation type="unfinished">测试</translation>
+    </message>
+    <message>
+        <source>Success</source>
+        <translation type="unfinished">成功</translation>
+    </message>
+    <message>
+        <source>Connection successfuly stablished!</source>
+        <translation type="unfinished">成功建立连接！</translation>
     </message>
 </context>
 <context>
     <name>ConversaoCodificacaoWidget</name>
     <message>
         <source>Source Encoding:</source>
-        <translation>原始编码：</translation>
+        <translation type="obsolete">原始编码：</translation>
     </message>
     <message>
         <source>Target Encoding:</source>
-        <translation>目标编码：</translation>
+        <translation type="obsolete">目标编码：</translation>
     </message>
     <message>
         <source>Convertion Function:</source>
-        <translation>转换函数：</translation>
+        <translation type="obsolete">转换函数：</translation>
     </message>
     <message>
         <source>Default Conversion:</source>
-        <translation>默认转换：</translation>
+        <translation type="obsolete">默认转换：</translation>
     </message>
     <message>
         <source>The function to be assigned to an encoding conversion must have the following signature: &lt;em&gt;void function(integer, integer, cstring, internal, integer)&lt;/em&gt;.</source>
-        <translation>编码转换的函数签名：&lt;em&gt;void function(integer, integer, cstring, internal, integer)&lt;/em&gt;。</translation>
+        <translation type="obsolete">编码转换的函数签名：&lt;em&gt;void function(integer, integer, cstring, internal, integer)&lt;/em&gt;。</translation>
     </message>
     <message>
         <source>Form</source>
-        <translation>Form</translation>
+        <translation type="obsolete">Form</translation>
     </message>
 </context>
 <context>
     <name>ConversaoTipoWidget</name>
     <message>
         <source>Conversion Type:</source>
-        <translation>转换类型：</translation>
+        <translation type="obsolete">转换类型：</translation>
     </message>
     <message>
         <source>Implicit</source>
-        <translation>隐式转换</translation>
+        <translation type="obsolete">隐式转换</translation>
     </message>
     <message>
         <source>Assignment</source>
-        <translation>强制转换</translation>
+        <translation type="obsolete">强制转换</translation>
     </message>
     <message>
         <source>Input / Output</source>
-        <translation>输入 / 输出</translation>
+        <translation type="obsolete">输入 / 输出</translation>
     </message>
     <message>
         <source>Convertion Function:</source>
-        <translation>转换函数：</translation>
+        <translation type="obsolete">转换函数：</translation>
     </message>
     <message>
         <source>The function to be assigned to a cast from &lt;em&gt;&lt;strong&gt;typeA&lt;/strong&gt;&lt;/em&gt; to &lt;em&gt;&lt;strong&gt;typeB&lt;/strong&gt;&lt;/em&gt; must have the following signature: &lt;em&gt;&lt;strong&gt;typeB&lt;/strong&gt; function(&lt;strong&gt;typeA&lt;/strong&gt;, integer, boolean)&lt;/em&gt;.</source>
-        <translation>将&lt;em&gt;&lt;strong&gt;类型 A&lt;/strong&gt;&lt;/em&gt;转换成 &lt;em&gt;&lt;strong&gt;类型 B&lt;/strong&gt;&lt;/em&gt;的函数签名：&lt;em&gt;&lt;strong&gt;typeB&lt;/strong&gt; function(&lt;strong&gt;typeA&lt;/strong&gt;, integer, boolean)&lt;/em&gt;.</translation>
+        <translation type="obsolete">将&lt;em&gt;&lt;strong&gt;类型 A&lt;/strong&gt;&lt;/em&gt;转换成 &lt;em&gt;&lt;strong&gt;类型 B&lt;/strong&gt;&lt;/em&gt;的函数签名：&lt;em&gt;&lt;strong&gt;typeB&lt;/strong&gt; function(&lt;strong&gt;typeA&lt;/strong&gt;, integer, boolean)&lt;/em&gt;.</translation>
     </message>
     <message>
         <source>Form</source>
-        <translation>Form</translation>
+        <translation type="obsolete">Form</translation>
     </message>
     <message>
         <source>Source data type</source>
-        <translation>原始数据类型</translation>
+        <translation type="obsolete">原始数据类型</translation>
     </message>
     <message>
         <source>Target data type</source>
-        <translation>目标数据类型</translation>
+        <translation type="obsolete">目标数据类型</translation>
+    </message>
+</context>
+<context>
+    <name>ConversionWidget</name>
+    <message>
+        <source>Form</source>
+        <translation type="unfinished">Form</translation>
+    </message>
+    <message>
+        <source>Source Encoding:</source>
+        <translation type="unfinished">原始编码：</translation>
+    </message>
+    <message>
+        <source>Target Encoding:</source>
+        <translation type="unfinished">目标编码：</translation>
+    </message>
+    <message>
+        <source>Conversion Function:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Default Conversion:</source>
+        <translation type="unfinished">默认转换：</translation>
+    </message>
+    <message>
+        <source>The function to be assigned to an encoding conversion must have the following signature: &lt;em&gt;void function(integer, integer, cstring, internal, integer)&lt;/em&gt;.</source>
+        <translation type="unfinished">编码转换的函数签名：&lt;em&gt;void function(integer, integer, cstring, internal, integer)&lt;/em&gt;。</translation>
     </message>
 </context>
 <context>
@@ -1004,620 +1683,689 @@ Size: %2 bytes
     </message>
 </context>
 <context>
-    <name>DominioWidget</name>
+    <name>DatabaseModel</name>
     <message>
-        <source>Default Value:</source>
-        <translation>默认值：</translation>
+        <source>Loading object: %1 (%2)</source>
+        <translation type="unfinished">正在载入对象：%1 (%2)</translation>
     </message>
     <message>
-        <source>Constraint Name:</source>
-        <translation>约束名称：</translation>
+        <source>Generating %1 of the object: %2 (%3)</source>
+        <translation type="unfinished">正在生成对象的 %1：%2 (%3)</translation>
     </message>
-    <message>
-        <source>Check Expression:</source>
-        <translation>检查表达式：</translation>
-    </message>
+</context>
+<context>
+    <name>DatabaseWidget</name>
     <message>
         <source>Form</source>
-        <translation>Form</translation>
+        <translation type="unfinished">Form</translation>
+    </message>
+    <message>
+        <source>Template DB:</source>
+        <translation type="unfinished">数据库模板：</translation>
+    </message>
+    <message>
+        <source>Model Author:</source>
+        <translation type="unfinished">模型作者：</translation>
+    </message>
+    <message>
+        <source>Encoding:</source>
+        <translation type="unfinished">编码：</translation>
+    </message>
+    <message>
+        <source>LC_COLLATE:</source>
+        <translation type="unfinished">LC_COLLATE:</translation>
+    </message>
+    <message>
+        <source>Connections:</source>
+        <translation type="unfinished">连接：</translation>
+    </message>
+    <message>
+        <source>LC_CTYPE:</source>
+        <translation type="unfinished">LC_CTYPE:</translation>
+    </message>
+    <message>
+        <source>Default</source>
+        <translation type="unfinished">默认</translation>
+    </message>
+</context>
+<context>
+    <name>DomainWidget</name>
+    <message>
+        <source>Form</source>
+        <translation type="unfinished">Form</translation>
     </message>
     <message>
         <source>Not Null:</source>
-        <translation>非空：</translation>
+        <translation type="unfinished">非空：</translation>
+    </message>
+    <message>
+        <source>Default Value:</source>
+        <translation type="unfinished">默认值：</translation>
+    </message>
+    <message>
+        <source>Constraint Name:</source>
+        <translation type="unfinished">约束名称：</translation>
+    </message>
+    <message>
+        <source>Check Expression:</source>
+        <translation type="unfinished">检查表达式：</translation>
+    </message>
+</context>
+<context>
+    <name>DominioWidget</name>
+    <message>
+        <source>Default Value:</source>
+        <translation type="obsolete">默认值：</translation>
+    </message>
+    <message>
+        <source>Constraint Name:</source>
+        <translation type="obsolete">约束名称：</translation>
+    </message>
+    <message>
+        <source>Check Expression:</source>
+        <translation type="obsolete">检查表达式：</translation>
+    </message>
+    <message>
+        <source>Form</source>
+        <translation type="obsolete">Form</translation>
+    </message>
+    <message>
+        <source>Not Null:</source>
+        <translation type="obsolete">非空：</translation>
     </message>
 </context>
 <context>
     <name>EspacoTabelaWidget</name>
     <message>
         <source>Directory:</source>
-        <translation>字典：</translation>
+        <translation type="obsolete">字典：</translation>
     </message>
     <message>
         <source>Form</source>
-        <translation>Form</translation>
+        <translation type="obsolete">Form</translation>
     </message>
 </context>
 <context>
     <name>Excecao</name>
     <message>
         <source>Insufficient memory space to allocate the object!</source>
-        <translation>内存不足，无法分配对象！</translation>
+        <translation type="obsolete">内存不足，无法分配对象！</translation>
     </message>
     <message>
         <source>Assignment of a pseudo-type to the type of the column!</source>
-        <translation>列类型不能为伪类型！</translation>
+        <translation type="obsolete">列类型不能为伪类型！</translation>
     </message>
     <message>
         <source>Zero length assignment!</source>
-        <translation>长度不能为 0！</translation>
+        <translation type="obsolete">长度不能为 0！</translation>
     </message>
     <message>
         <source>Assignment of a precision greater than the length of the type!</source>
-        <translation>精度不能大于类型长度！</translation>
+        <translation type="obsolete">精度不能大于类型长度！</translation>
     </message>
     <message>
         <source>Assignment of an invalid precision to type time, timestamp or interval. The precision in this case must be equal to or less than 6!</source>
-        <translation>类型 time，timestamp 或 interval 的精度设置无效。精度必须小于等于 6！</translation>
+        <translation type="obsolete">类型 time，timestamp 或 interval 的精度设置无效。精度必须小于等于 6！</translation>
     </message>
     <message>
         <source>Assignment of a not allocated column to object &apos;%1&apos; (%2)!</source>
-        <translation>必须给对象&apos;%1&apos; (%2) 设置列！</translation>
+        <translation type="obsolete">必须给对象&apos;%1&apos; (%2) 设置列！</translation>
     </message>
     <message>
         <source>Reference to a column which index is out of the capacity of the column list!</source>
-        <translation>不能引用不在列列表中的列！</translation>
+        <translation type="obsolete">不能引用不在列列表中的列！</translation>
     </message>
     <message>
         <source>Assignment of not allocated object!</source>
-        <translation>必须设置对象！</translation>
+        <translation type="obsolete">必须设置对象！</translation>
     </message>
     <message>
         <source>Assignment of a not allocated schema to object &apos;%1&apos; (%2)!</source>
-        <translation>必须给对象 &apos;%1&apos; (%2) 设置模式！</translation>
+        <translation type="obsolete">必须给对象 &apos;%1&apos; (%2) 设置模式！</translation>
     </message>
     <message>
         <source>The object &apos;%1&apos; (%2) has inconsistent configuration (invalid SQL/XML definition)!</source>
-        <translation>对象 &apos;%1&apos; (%2) 设置冲突 (无效的 SQL/XML 定义)！</translation>
+        <translation type="obsolete">对象 &apos;%1&apos; (%2) 设置冲突 (无效的 SQL/XML 定义)！</translation>
     </message>
     <message>
         <source>The object &apos;%1&apos; (%2) already exists in the list of elements of the same type in the object &apos;%3&apos; (%4)!</source>
-        <translation>对象 &apos;%1&apos; (%2) 已经存在于对象 &apos;%3&apos; (%4) 的同类型元素列表中！</translation>
+        <translation type="obsolete">对象 &apos;%1&apos; (%2) 已经存在于对象 &apos;%3&apos; (%4) 的同类型元素列表中！</translation>
     </message>
     <message>
         <source>The object &apos;%1&apos; (%2) can&apos;t be assigned because there is already exists in the container object &apos;%3&apos;!</source>
-        <translation>对象 &apos;%1&apos; (%2) 不能被赋值，因其已存在于容器对象 &apos;%3&apos;！</translation>
+        <translation type="obsolete">对象 &apos;%1&apos; (%2) 不能被赋值，因其已存在于容器对象 &apos;%3&apos;！</translation>
     </message>
     <message>
         <source>Assignment of object of an invalid type!</source>
-        <translation>设置的对象无效！</translation>
+        <translation type="obsolete">设置的对象无效！</translation>
     </message>
     <message>
         <source>Removing an object of an invalid type!</source>
-        <translation>不能移除无效类型的对象！</translation>
+        <translation type="obsolete">不能移除无效类型的对象！</translation>
     </message>
     <message>
         <source>Obtaining an object of an invalid type!</source>
-        <translation>不能获取无效类型的对象！</translation>
+        <translation type="obsolete">不能获取无效类型的对象！</translation>
     </message>
     <message>
         <source>Assignment of empty name to table return type!</source>
-        <translation>表的返回值类型的名称不能为空！</translation>
+        <translation type="obsolete">表的返回值类型的名称不能为空！</translation>
     </message>
     <message>
         <source>The insertion of the parameter &apos;%1&apos; will not be possible because there is another parameter with same name in the function &apos;%2&apos;!</source>
-        <translation>无法插入参数 &apos;%1&apos;，因为函数 &apos;%2&apos; 中已经存在一个相同名称的参数了！</translation>
+        <translation type="obsolete">无法插入参数 &apos;%1&apos;，因为函数 &apos;%2&apos; 中已经存在一个相同名称的参数了！</translation>
     </message>
     <message>
         <source>The insertion of the table return type &apos;%1&apos; will not be possible because there is another return type with the same name in the &apos;%2&apos;!</source>
-        <translation>无法插入表返回类型 &apos;%1&apos;，因为在 &apos;%2&apos; 中已经存在一个相同名称的返回类型！</translation>
+        <translation type="obsolete">无法插入表返回类型 &apos;%1&apos;，因为在 &apos;%2&apos; 中已经存在一个相同名称的返回类型！</translation>
     </message>
     <message>
         <source>Reference to a parameter which index is out of the parameter list capacity!</source>
-        <translation>不能引用不在参数列表中的参数！</translation>
+        <translation type="obsolete">不能引用不在参数列表中的参数！</translation>
     </message>
     <message>
         <source>Reference to an event which does not belongs to trigger!</source>
-        <translation>不能引用不属于触发器的事件！</translation>
+        <translation type="obsolete">不能引用不属于触发器的事件！</translation>
     </message>
     <message>
         <source>The column &apos;%1&apos; can&apos;t be assigned to the trigger &apos;%2&apos; because does not belongs to the trigger parent table!</source>
-        <translation>列 &apos;%1&apos; 无法赋值给触发器 &apos;%2&apos;，因为它不属于触发器父表！</translation>
+        <translation type="obsolete">列 &apos;%1&apos; 无法赋值给触发器 &apos;%2&apos;，因为它不属于触发器父表！</translation>
     </message>
     <message>
         <source>Assignment of a not allocated function to object &apos;%1&apos; (%2)!</source>
-        <translation>必须给对象 &apos;%1&apos; (%2) 设置函数！</translation>
+        <translation type="obsolete">必须给对象 &apos;%1&apos; (%2) 设置函数！</translation>
     </message>
     <message>
         <source>Assignment of a function which return type is different from &apos;trigger&apos;!</source>
-        <translation>函数的返回值类型与‘触发器’的不一致！</translation>
+        <translation type="obsolete">函数的返回值类型与‘触发器’的不一致！</translation>
     </message>
     <message>
         <source>Assignment of a function which parameter count is invalid to the object &apos;%1&apos; (%2)!</source>
-        <translation>对于对象 &apos;%1&apos; (%2)，函数的参数数目不匹配！</translation>
+        <translation type="obsolete">对于对象 &apos;%1&apos; (%2)，函数的参数数目不匹配！</translation>
     </message>
     <message>
         <source>Assignment of a function which language is invalid!</source>
-        <translation>语言转换函数无效！</translation>
+        <translation type="obsolete">语言转换函数无效！</translation>
     </message>
     <message>
         <source>Assignment of not allocated table to object &apos;%1&apos; (%2)!</source>
-        <translation>必须给对象 &apos;%1&apos;(%2) 设置表！</translation>
+        <translation type="obsolete">必须给对象 &apos;%1&apos;(%2) 设置表！</translation>
     </message>
     <message>
         <source>Reference to an argument which index is out of argument list capacity!</source>
-        <translation>引用的参数超出参数列表范围！</translation>
+        <translation type="obsolete">引用的参数超出参数列表范围！</translation>
     </message>
     <message>
         <source>Insertion of a column which name is already registered to another column of the object!</source>
-        <translation>要插入的列名称已经被注册给了另一个列的对象！</translation>
+        <translation type="obsolete">要插入的列名称已经被注册给了另一个列的对象！</translation>
     </message>
     <message>
         <source>Assignment of empty name to an object!</source>
-        <translation>对象名称不能为空！</translation>
+        <translation type="obsolete">对象名称不能为空！</translation>
     </message>
     <message>
         <source>Assignment of invalid name to an object!</source>
-        <translation>对象名称无效！</translation>
+        <translation type="obsolete">对象名称无效！</translation>
     </message>
     <message>
         <source>Assignment of schema object which type is invalid!</source>
-        <translation>模式对象类型无效！</translation>
+        <translation type="obsolete">模式对象类型无效！</translation>
     </message>
     <message>
         <source>Assignment of tablespace object with invalid type!</source>
-        <translation>表空间对象包含无效类型！</translation>
+        <translation type="obsolete">表空间对象包含无效类型！</translation>
     </message>
     <message>
         <source>Assignment of tablespace to an invalid object!</source>
-        <translation>表空间对象无效！</translation>
+        <translation type="obsolete">表空间对象无效！</translation>
     </message>
     <message>
         <source>Assignment of tablespace to a constraint which type is invalid! To belong to a tablespace the constraint must be a primary key or unique!</source>
-        <translation>无效的表空间约束！表空间约束必须是主键约束或唯一约束！</translation>
+        <translation type="obsolete">无效的表空间约束！表空间约束必须是主键约束或唯一约束！</translation>
     </message>
     <message>
         <source>Assignment of owner object which type is invalid!</source>
-        <translation>所有者对象的类型无效！</translation>
+        <translation type="obsolete">所有者对象的类型无效！</translation>
     </message>
     <message>
         <source>Assignment of owner to an invalid object!</source>
-        <translation>所有者对象无效！</translation>
+        <translation type="obsolete">所有者对象无效！</translation>
     </message>
     <message>
         <source>Reference to a function with invalid type!</source>
-        <translation>引用了无效的函数类型！</translation>
+        <translation type="obsolete">引用了无效的函数类型！</translation>
     </message>
     <message>
         <source>Reference to an argument of the operator with invalid type!</source>
-        <translation>引用了无效的操作符参数类型！</translation>
+        <translation type="obsolete">引用了无效的操作符参数类型！</translation>
     </message>
     <message>
         <source>Reference to an operator with invalid type!</source>
-        <translation>引用了无效的操作符类型！</translation>
+        <translation type="obsolete">引用了无效的操作符类型！</translation>
     </message>
     <message>
         <source>Assigment of value to an invalid option type on role!</source>
-        <translation>角色选项值的类型无效！</translation>
+        <translation type="obsolete">角色选项值的类型无效！</translation>
     </message>
     <message>
         <source>Reference to an invalid role type!</source>
-        <translation>引用了无效的角色类型！</translation>
+        <translation type="obsolete">引用了无效的角色类型！</translation>
     </message>
     <message>
         <source>The insertion of the role &apos;%1&apos; is not possible because this is already being referenced by role &apos;%2&apos;!</source>
-        <translation>无法插件角色 &apos;%1&apos;，因为它已经被角色 &apos;%2&apos; 引用了！</translation>
+        <translation type="obsolete">无法插件角色 &apos;%1&apos;，因为它已经被角色 &apos;%2&apos; 引用了！</translation>
     </message>
     <message>
         <source>Reference redundance detected by having the role &apos;%1&apos; referencing the role &apos;%2&apos;!</source>
-        <translation>发现角色 &apos;%1&apos; 到角色 &apos;%2&apos; 的引用冗余！</translation>
+        <translation type="obsolete">发现角色 &apos;%1&apos; 到角色 &apos;%2&apos; 的引用冗余！</translation>
     </message>
     <message>
         <source>The role &apos;%1&apos; can not be listed as a member of itself!</source>
-        <translation>角色 &apos;%1&apos; 不能列入自身的成员中！</translation>
+        <translation type="obsolete">角色 &apos;%1&apos; 不能列入自身的成员中！</translation>
     </message>
     <message>
         <source>Reference to a paper which index is out of paper list capacity!</source>
-        <translation>纸型引用超出纸型列表范围！</translation>
+        <translation type="obsolete">纸型引用超出纸型列表范围！</translation>
     </message>
     <message>
         <source>Insertion of null command to the rule!</source>
-        <translation>不能规则插入空命令！</translation>
+        <translation type="obsolete">不能规则插入空命令！</translation>
     </message>
     <message>
         <source>Reference to a command which index is out of the command list capacity!</source>
-        <translation>引用的命令超出命令列表范围！</translation>
+        <translation type="obsolete">引用的命令超出命令列表范围！</translation>
     </message>
     <message>
         <source>Is not possible to create a self generalization/dependecy relationship! The table can not inherit or copy their own attributes!</source>
-        <translation>无法创建自身泛化的关系/自身依赖的关系！表不能继承或复制自身的属性！</translation>
+        <translation type="obsolete">无法创建自身泛化的关系/自身依赖的关系！表不能继承或复制自身的属性！</translation>
     </message>
     <message>
         <source>Assignment of an object that already belongs to another table!</source>
-        <translation>对象已属于另一个表！</translation>
+        <translation type="obsolete">对象已属于另一个表！</translation>
     </message>
     <message>
         <source>Assignment of a schema to the sequence which differs from the schema of the owner table!</source>
-        <translation>序列模式与表模式不一致！</translation>
+        <translation type="obsolete">序列模式与表模式不一致！</translation>
     </message>
     <message>
         <source>Assignment of an invalid value to one of the sequence attributes!</source>
-        <translation>序列属性的其中一个值无效！</translation>
+        <translation type="obsolete">序列属性的其中一个值无效！</translation>
     </message>
     <message>
         <source>Assignment of a minimum value to the sequence which is greater than the maximum value!</source>
-        <translation>序列的最小值大于其最大值！</translation>
+        <translation type="obsolete">序列的最小值大于其最大值！</translation>
     </message>
     <message>
         <source>Assignment of a start value to the sequence which is extrapolating the range defined by minimum and maximum values​​!</source>
-        <translation>序列的起始值不在序列的最小值与最大值的范围内！</translation>
+        <translation type="obsolete">序列的起始值不在序列的最小值与最大值的范围内！</translation>
     </message>
     <message>
         <source>Assignment of a null increment value to the sequence!</source>
-        <translation>不能给序列设置空的自增值！</translation>
+        <translation type="obsolete">不能给序列设置空的自增值！</translation>
     </message>
     <message>
         <source>Assignment of null cache value to the sequence!</source>
-        <translation>序列缓冲值不能为空！</translation>
+        <translation type="obsolete">序列缓冲值不能为空！</translation>
     </message>
     <message>
         <source>Assignment of owner table which is not in the same schema as the sequence &apos;%1&apos;!</source>
-        <translation>表与序列 &apos;%1&apos; 不在同一模式中！</translation>
+        <translation type="obsolete">表与序列 &apos;%1&apos; 不在同一模式中！</translation>
     </message>
     <message>
         <source>Assignment of owner table which does not belong to the same owner of the sequence &apos;%1&apos;!</source>
-        <translation>表与序列 &apos;%1&apos; 的所有者不同！</translation>
+        <translation type="obsolete">表与序列 &apos;%1&apos; 的所有者不同！</translation>
     </message>
     <message>
         <source>Assignment of a nonexistent owner column to the sequence &apos;%1&apos;!</source>
-        <translation>序列 &apos;%1&apos; 的列不存在！</translation>
+        <translation type="obsolete">序列 &apos;%1&apos; 的列不存在！</translation>
     </message>
     <message>
         <source>Assignment of an owner column to the sequence &apos;%1&apos; that is not related to any table!</source>
-        <translation>序列 &apos;%1&apos; 的列未关联到任何表！</translation>
+        <translation type="obsolete">序列 &apos;%1&apos; 的列未关联到任何表！</translation>
     </message>
     <message>
         <source>Reference to a label which index is out of labels list capacity!</source>
-        <translation>引用的标签不在标签列表的范围内！</translation>
+        <translation type="obsolete">引用的标签不在标签列表的范围内！</translation>
     </message>
     <message>
         <source>Allocation of object with invalid type!</source>
-        <translation>不能创建类型无效的对象！</translation>
+        <translation type="obsolete">不能创建类型无效的对象！</translation>
     </message>
     <message>
         <source>Assignment of a function with invalid return type to object &apos;%1&apos; (%2)!</source>
-        <translation>对象 &apos;%1&apos;(%2) 函数的返回类型无效！</translation>
+        <translation type="obsolete">对象 &apos;%1&apos;(%2) 函数的返回类型无效！</translation>
     </message>
     <message>
         <source>Assignment of a function with invalid parameter(s) type(s) to object &apos;%1&apos; (%2)!</source>
-        <translation>对象 &apos;%1&apos;(%2) 函数的参数类型无效！</translation>
+        <translation type="obsolete">对象 &apos;%1&apos;(%2) 函数的参数类型无效！</translation>
     </message>
     <message>
         <source>Assignment of not allocated language!</source>
-        <translation>没有指定语言！</translation>
+        <translation type="obsolete">没有指定语言！</translation>
     </message>
     <message>
         <source>Assignment of language object which type is invalid!</source>
-        <translation>语言对象的类型无效！</translation>
+        <translation type="obsolete">语言对象的类型无效！</translation>
     </message>
     <message>
         <source>Reference to data type with an index outside the capacity of data types list!</source>
-        <translation>引用的数据类型不在数据类型列表的范围内！</translation>
+        <translation type="obsolete">引用的数据类型不在数据类型列表的范围内！</translation>
     </message>
     <message>
         <source>Assignment of a null type to to object &apos;%1&apos; (%2)!</source>
-        <translation>对象 &apos;%1&apos;(%2) 类型不能为空！</translation>
+        <translation type="obsolete">对象 &apos;%1&apos;(%2) 类型不能为空！</translation>
     </message>
     <message>
         <source>Assignment of invalid type to the object!</source>
-        <translation>对象的类型无效！</translation>
+        <translation type="obsolete">对象的类型无效！</translation>
     </message>
     <message>
         <source>Assignment of an empty directory to object &apos;%1&apos; (%2)!</source>
-        <translation>对象 &apos;%1&apos;(%2) 的目录不能为空！</translation>
+        <translation type="obsolete">对象 &apos;%1&apos;(%2) 的目录不能为空！</translation>
     </message>
     <message>
         <source>Obtaining types with invalid quantity!</source>
-        <translation>正确获取的类型的数量无效！</translation>
+        <translation type="obsolete">正确获取的类型的数量无效！</translation>
     </message>
     <message>
         <source>Insertion of item which already exists in the attributes list of the type!</source>
-        <translation>插入的项目已存在于类型属性列表！ </translation>
+        <translation type="obsolete">插入的项目已存在于类型属性列表！ </translation>
     </message>
     <message>
         <source>Insertion of invalid item in the attributes list of the type!</source>
-        <translation>插入类型属性列表的项目无效！</translation>
+        <translation type="obsolete">插入类型属性列表的项目无效！</translation>
     </message>
     <message>
         <source>Insertion of item which already exists in the enumarations list of the type!</source>
-        <translation>插入的项目已存在于类型枚举列表！</translation>
+        <translation type="obsolete">插入的项目已存在于类型枚举列表！</translation>
     </message>
     <message>
         <source>Insertion of invalid item in the enumerations list of the type!</source>
-        <translation>插入类型枚举列表的项目无效！</translation>
+        <translation type="obsolete">插入类型枚举列表的项目无效！</translation>
     </message>
     <message>
         <source>Reference to an attribute which index is out of the attributes list capacity!</source>
-        <translation>引用的属性超出属性列表的范围！</translation>
+        <translation type="obsolete">引用的属性超出属性列表的范围！</translation>
     </message>
     <message>
         <source>Reference to an enumeration which index is out of the enumerations list capacity!</source>
-        <translation>引用的枚举值超出枚举值列表的范围！</translation>
+        <translation type="obsolete">引用的枚举值超出枚举值列表的范围！</translation>
     </message>
     <message>
         <source>Assignment of invalid configuration to the type!</source>
-        <translation>类型的配置无效！</translation>
+        <translation type="obsolete">类型的配置无效！</translation>
     </message>
     <message>
         <source>The data type &apos;%1&apos; can not be assigned because it already exists in the types list of the aggregate function &apos;%2&apos;!</source>
-        <translation>无法指派数据类型 &apos;%1&apos;，因其已存在于聚合函数 &apos;%2&apos; 的类型列表！</translation>
+        <translation type="obsolete">无法指派数据类型 &apos;%1&apos;，因其已存在于聚合函数 &apos;%2&apos; 的类型列表！</translation>
     </message>
     <message>
         <source>Assignment of an operator which input  type count is invalid to aggregate function!</source>
-        <translation>聚合函数的操作符输入类型的数目无效！</translation>
+        <translation type="obsolete">聚合函数的操作符输入类型的数目无效！</translation>
     </message>
     <message>
         <source>Assigment of an operator which types of arguments is invalid!</source>
-        <translation>操作符的参数类型无效！</translation>
+        <translation type="obsolete">操作符的参数类型无效！</translation>
     </message>
     <message>
         <source>Assignment of system reserved name to the object &apos;%1&apos; (%2)!</source>
-        <translation>对象 &apos;%1&apos;(%2) 使用了系统保留名称！</translation>
+        <translation type="obsolete">对象 &apos;%1&apos;(%2) 使用了系统保留名称！</translation>
     </message>
     <message>
         <source>One function with invalid configuration is been used by the object &apos;%1&apos; (%2)!</source>
-        <translation>用于对象 &apos;%1&apos;(%2) 的函数的配置无效！</translation>
+        <translation type="obsolete">用于对象 &apos;%1&apos;(%2) 的函数的配置无效！</translation>
     </message>
     <message>
         <source>Assignment of invalid id to the user!</source>
-        <translation>无效的用户ID！</translation>
+        <translation type="obsolete">无效的用户ID！</translation>
     </message>
     <message>
         <source>Assignment of an invalid strategy/support number to an operator class element!</source>
-        <translation>操作符类元素的策略/支持值无效！</translation>
+        <translation type="obsolete">操作符类元素的策略/支持值无效！</translation>
     </message>
     <message>
         <source>Insertion of element which already exists in the element list!</source>
-        <translation>插入的元素已存在于元素列表！</translation>
+        <translation type="obsolete">插入的元素已存在于元素列表！</translation>
     </message>
     <message>
         <source>Reference to an element which index is out of element list capacity!</source>
-        <translation>引用的元素不在元素列表的范围内！</translation>
+        <translation type="obsolete">引用的元素不在元素列表的范围内！</translation>
     </message>
     <message>
         <source>Reference to an object which index is out of object list capacity!</source>
-        <translation>引用的对象不在对象列表的范围内！</translation>
+        <translation type="obsolete">引用的对象不在对象列表的范围内！</translation>
     </message>
     <message>
         <source>Removal of an object not allocated!</source>
-        <translation>不能移除未分配的对象！</translation>
+        <translation type="obsolete">不能移除未分配的对象！</translation>
     </message>
     <message>
         <source>The object &apos;%1&apos; (%2) can not be removed because it is being referenced by object &apos;%3&apos; (%4)!</source>
-        <translation>无法移除对象 &apos;%1&apos;(%2)，因其被对象 &apos;%3&apos;(%4) 引用了！</translation>
+        <translation type="obsolete">无法移除对象 &apos;%1&apos;(%2)，因其被对象 &apos;%3&apos;(%4) 引用了！</translation>
     </message>
     <message>
         <source>The object &apos;%1&apos; (%2) can not be removed because it is being referenced by object &apos;%3&apos; (%4) that belongs to &apos;%5&apos; (%6)!</source>
-        <translation>无法移除对象 &apos;%1&apos;(%2)，因其已被对象 &apos;%5&apos;(%6) 中的对象 &apos;%3&apos;(%4) 引用了！</translation>
+        <translation type="obsolete">无法移除对象 &apos;%1&apos;(%2)，因其已被对象 &apos;%5&apos;(%6) 中的对象 &apos;%3&apos;(%4) 引用了！</translation>
     </message>
     <message>
         <source>Operation with object(s) which type(s) is invalid!</source>
-        <translation>操作对象的类型无效！</translation>
+        <translation type="obsolete">操作对象的类型无效！</translation>
     </message>
     <message>
         <source>Reference to object with invalid type!</source>
-        <translation>引用对象的类型无效！</translation>
+        <translation type="obsolete">引用对象的类型无效！</translation>
     </message>
     <message>
         <source>Operation with object not allocated!</source>
-        <translation>无法操作未分配的对象！</translation>
+        <translation type="obsolete">无法操作未分配的对象！</translation>
     </message>
     <message>
         <source>The creation of the relationship &apos;%1&apos; between the table &apos;%2&apos; and &apos;%3&apos; can not be done because one does not have a primary key. If the relationship is of the type n-n both tables must have primary keys!</source>
-        <translation>无法创建关系 &apos;%1&apos;，因为表 &apos;%2&apos; 或表 &apos;%3&apos; 缺少主键。如果创建的是 N-N 关系，则两个表都必须有主键！</translation>
+        <translation type="obsolete">无法创建关系 &apos;%1&apos;，因为表 &apos;%2&apos; 或表 &apos;%3&apos; 缺少主键。如果创建的是 N-N 关系，则两个表都必须有主键！</translation>
     </message>
     <message>
         <source>The relationship of the type 1-1 where both tables are mandatory participation is not implemented because it requires fusion between the tables that breaks the modeling done by the user!</source>
-        <translation>强制执行两表 1-1 关系的功能尚未实现，因为它结合模型中由用户定义的两人互相分离的表！</translation>
+        <translation type="obsolete">强制执行两表 1-1 关系的功能尚未实现，因为它结合模型中由用户定义的两人互相分离的表！</translation>
     </message>
     <message>
         <source>Assignment of an invalid expression to the object!</source>
-        <translation>对象的表达式无效！</translation>
+        <translation type="obsolete">对象的表达式无效！</translation>
     </message>
     <message>
         <source>Assignment of a primary key to a table which already has one!</source>
-        <translation>表的主键已存在！</translation>
+        <translation type="obsolete">表的主键已存在！</translation>
     </message>
     <message>
         <source>Identifier relationship can not be created for a self relationship, relationships of the type n-n, dependency or generalization!</source>
-        <translation>不能给自引用关系，Ｎ-Ｎ 类型关系，依赖关系或泛化关系创建标识符关系！</translation>
+        <translation type="obsolete">不能给自引用关系，Ｎ-Ｎ 类型关系，依赖关系或泛化关系创建标识符关系！</translation>
     </message>
     <message>
         <source>Unable to create a dependency relationship because the column &apos;%1&apos; in table &apos;%2&apos; already exists in table &apos;%3&apos;!</source>
-        <translation>无法创建依赖关系，因为表 &apos;%2&apos;中的列 &apos;%1&apos; 已经存在于表 &apos;%3&apos;！</translation>
+        <translation type="obsolete">无法创建依赖关系，因为表 &apos;%2&apos;中的列 &apos;%1&apos; 已经存在于表 &apos;%3&apos;！</translation>
     </message>
     <message>
         <source>Unable to create the generalization relationship because the column &apos;%1&apos; in table &apos;%2&apos; can not be merged with the column &apos;%3&apos; of table &apos;%4&apos; because they have incompatible types!</source>
-        <translation>无法创建泛化关系，因为表 &apos;%2&apos; 中的列 &apos;%1&apos; 不能被合并到表 &apos;%4&apos; 中的列 &apos;%3&apos;，因为他们的类型不兼容！</translation>
+        <translation type="obsolete">无法创建泛化关系，因为表 &apos;%2&apos; 中的列 &apos;%1&apos; 不能被合并到表 &apos;%4&apos; 中的列 &apos;%3&apos;，因为他们的类型不兼容！</translation>
     </message>
     <message>
         <source>An attribute can not be added to a dependence or generalization relationship!</source>
-        <translation>属性无法添加到依赖关系或者泛化关系中！</translation>
+        <translation type="obsolete">属性无法添加到依赖关系或者泛化关系中！</translation>
     </message>
     <message>
         <source>A foreign key can not be added to a relationship because is created automatically when this is connected!</source>
-        <translation>无法给关系添加外键，因为在连接时已经自动添加了！</translation>
+        <translation type="obsolete">无法给关系添加外键，因为在连接时已经自动添加了！</translation>
     </message>
     <message>
         <source>The object &apos;%1&apos; (%2) is referencing the object &apos;%3&apos; (%4) which was not found in the list of objects of the same type in the model!</source>
-        <translation>对象 &apos;%1&apos;(%2) 所引用的对象 &apos;%3&apos;(%4) 不存在于模型中同类型的对象列表！</translation>
+        <translation type="obsolete">对象 &apos;%1&apos;(%2) 所引用的对象 &apos;%3&apos;(%4) 不存在于模型中同类型的对象列表！</translation>
     </message>
     <message>
         <source>Reference to an user-defined data type that not exists in the model!</source>
-        <translation>引用的用户自定义类型不存在于模型！</translation>
+        <translation type="obsolete">引用的用户自定义类型不存在于模型！</translation>
     </message>
     <message>
         <source>Assignment of invalid maximum size to operation list!</source>
-        <translation>操作列表的最大值无效！</translation>
+        <translation type="obsolete">操作列表的最大值无效！</translation>
     </message>
     <message>
         <source>Unable to write the file %1! Make sure the directory exists, or if the user has access permissions on it!</source>
-        <translation>无法写入文件 %1！请确保该目录存在，或者检查用户是否具有访问权限！</translation>
+        <translation type="obsolete">无法写入文件 %1！请确保该目录存在，或者检查用户是否具有访问权限！</translation>
     </message>
     <message>
         <source>Unable to write the model in the file %1 due to one or more errors in the definition generation process!</source>
-        <translation>无法保存模式到文件 %1，因为在定义生成过程中出现一个或多个错误！</translation>
+        <translation type="obsolete">无法保存模式到文件 %1，因为在定义生成过程中出现一个或多个错误！</translation>
     </message>
     <message>
         <source>There is already a relationship between &apos;%1&apos; (%2) and &apos;%3&apos; (%4) in the model!</source>
-        <translation>模型中已存在 &apos;%1&apos;(%2) 和 &apos;%3&apos;(%4) 的关系！</translation>
+        <translation type="obsolete">模型中已存在 &apos;%1&apos;(%2) 和 &apos;%3&apos;(%4) 的关系！</translation>
     </message>
     <message>
         <source>The configuration of the relationship &apos;%1&apos; generates a redundancy between the relationships &apos;%2&apos;. Redundancy on identifier or generalization/dependency relationships are not accepted since they result in  incorrect column spreading making the model inconsistent!</source>
-        <translation>关系 “%1”的配置产生了一个在关系&apos;%2&apos; 中的冗余。标识符或者泛化 / 依赖关系不支持冗余，因为他们会生成错误的列从而导致模型错误！</translation>
+        <translation type="obsolete">关系 “%1”的配置产生了一个在关系&apos;%2&apos; 中的冗余。标识符或者泛化 / 依赖关系不支持冗余，因为他们会生成错误的列从而导致模型错误！</translation>
     </message>
     <message>
         <source>One or more objects were invalidated and automatically removed because they were referencing table columns which were included through relationships and which no longer exists due to disconnection of relationships or exclusion of such generated columns!</source>
-        <translation>一个或者多个对象无效，并自动删除了。因为他们引用的表列所在的关系已经不存在了，由于连接中断或者排除生成的列！</translation>
+        <translation type="obsolete">一个或者多个对象无效，并自动删除了。因为他们引用的表列所在的关系已经不存在了，由于连接中断或者排除生成的列！</translation>
     </message>
     <message>
         <source>The primary key &apos;%1&apos; can only be allocated if declared within a block of code that defines a table or relationship!</source>
-        <translation>主键 &apos;%1&apos; 只有在表或关系定义的代码块中声明之后才可以被分配！</translation>
+        <translation type="obsolete">主键 &apos;%1&apos; 只有在表或关系定义的代码块中声明之后才可以被分配！</translation>
     </message>
     <message>
         <source>Reference to an invalid privilege type!</source>
-        <translation>引用了无效的权限类型！</translation>
+        <translation type="obsolete">引用了无效的权限类型！</translation>
     </message>
     <message>
         <source>Insertion of an role which already exists in the role list of the permission!</source>
-        <translation>插入的角色已存在于权限角色列表！</translation>
+        <translation type="obsolete">插入的角色已存在于权限角色列表！</translation>
     </message>
     <message>
         <source>Assignment of privilege incompatible with the type of object referenced by permission!</source>
-        <translation>权限与被允许引用的对象的类型不一致！</translation>
+        <translation type="obsolete">权限与被允许引用的对象的类型不一致！</translation>
     </message>
     <message>
         <source>There is already a permission on object &apos;%1&apos; (%2) which has one or more equal roles from those present on permission to be assigned to the object!</source>
-        <translation>对象 &apos;%1&apos;(%2) 已经有一个权限，分配给此对象权限的角色中有一个或多个功能相当的角色！</translation>
+        <translation type="obsolete">对象 &apos;%1&apos;(%2) 已经有一个权限，分配给此对象权限的角色中有一个或多个功能相当的角色！</translation>
     </message>
     <message>
         <source>A permission is referencing the object &apos;%1&apos; (%2) which was not found in the model!</source>
-        <translation>权限所引用的对象 &apos;%1&apos;(%2) 不存在模型中！</translation>
+        <translation type="obsolete">权限所引用的对象 &apos;%1&apos;(%2) 不存在模型中！</translation>
     </message>
     <message>
         <source>The object &apos;%1&apos; (%2) can not be created by not being assigned to any schema!</source>
-        <translation>无法创建对象 &apos;%1&apos;(%2)，因为还没有给它指定模式！</translation>
+        <translation type="obsolete">无法创建对象 &apos;%1&apos;(%2)，因为还没有给它指定模式！</translation>
     </message>
     <message>
         <source>The tablespace &apos;%1&apos; can not be inserted into the model because it points to the same directory as the tablespace &apos;%2&apos;!</source>
-        <translation>表空间 &apos;%1&apos; 无法被加到模型中。因为它指向的目录和表空间 &apos;%2&apos; 的相同！</translation>
+        <translation type="obsolete">表空间 &apos;%1&apos; 无法被加到模型中。因为它指向的目录和表空间 &apos;%2&apos; 的相同！</translation>
     </message>
     <message>
         <source>It is not possible to create arrays of domains or sequences (dimension &gt;= 1)! PostgreSQL does not yet implement this feature!</source>
-        <translation>无法创建维数 &gt; = 1域或序列数组！PostgreSQL 尚未实现此功能！</translation>
+        <translation type="obsolete">无法创建维数 &gt; = 1域或序列数组！PostgreSQL 尚未实现此功能！</translation>
     </message>
     <message>
         <source>The function &apos;%1&apos; can not get a source code as a definition because its language is set to C. Use the attributes symbol and dynamic library instead!</source>
-        <translation>函数 &apos;%1&apos; 无法获取定义的源代码，因为它的语言被设成了 C 语言。请使用属性号和动态库代替！</translation>
+        <translation type="obsolete">函数 &apos;%1&apos; 无法获取定义的源代码，因为它的语言被设成了 C 语言。请使用属性号和动态库代替！</translation>
     </message>
     <message>
         <source>The function &apos;%1&apos; can have the attributes symbol and dynamic library configured only if the language is set to C. For all other cases you must specify a source code that defines it in the DBMS!</source>
-        <translation>函数 &apos;%1&apos;只有当语言被设置成 C 语言时，才需要属性符号和动态库配置。其他情况下，您必须在 DBMS 中定义它的源代码！</translation>
+        <translation type="obsolete">函数 &apos;%1&apos;只有当语言被设置成 C 语言时，才需要属性符号和动态库配置。其他情况下，您必须在 DBMS 中定义它的源代码！</translation>
     </message>
     <message>
         <source>The operator &apos;%1&apos; can not be assigned as a comutator of operator &apos;%2&apos; because it has incompatible settings!</source>
-        <translation>操作符 &apos;%1&apos; 不能被设置成操作符 &apos;%2&apos; 的转接器，因为两者的设置不兼容！</translation>
+        <translation type="obsolete">操作符 &apos;%1&apos; 不能被设置成操作符 &apos;%2&apos; 的转接器，因为两者的设置不兼容！</translation>
     </message>
     <message>
         <source>The operator &apos;%1&apos; can not be assigned as negator of operator &apos;%2&apos; because it has incompatible settings!</source>
-        <translation>操作符 &apos;%1&apos; 不能被设置成操作符 &apos;%2&apos; 的否定操作符，因为两者的设置不兼容！</translation>
+        <translation type="obsolete">操作符 &apos;%1&apos; 不能被设置成操作符 &apos;%2&apos; 的否定操作符，因为两者的设置不兼容！</translation>
     </message>
     <message>
         <source>The type &apos;%1&apos; can not self refer in the attributes &apos;element&apos; or &apos;copy type&apos; or be used as a data type of an attribute in the configuration of a composite type!</source>
-        <translation>类型 &apos;%1&apos; 不能对&apos;元素’或&apos;复制类型&apos;进行自引用，或被用作组合类型配置中属性的数据类型！</translation>
+        <translation type="obsolete">类型 &apos;%1&apos; 不能对&apos;元素’或&apos;复制类型&apos;进行自引用，或被用作组合类型配置中属性的数据类型！</translation>
     </message>
     <message>
         <source>Assignment of invalid element to type &apos;%1&apos;!</source>
-        <translation>指派给类型 &apos;%1&apos; 的元素无效！</translation>
+        <translation type="obsolete">指派给类型 &apos;%1&apos; 的元素无效！</translation>
     </message>
     <message>
         <source>Assignment of invalid alignment to type &apos;%1&apos;!</source>
-        <translation>指派了无效的对齐给类型 ‘%1&apos;！</translation>
+        <translation type="obsolete">指派了无效的对齐给类型 ‘%1&apos;！</translation>
     </message>
     <message>
         <source>Assignment of invalid name to the table generated from N-N relationship!</source>
-        <translation>分配无效名称给由 N-N 关系生成的表！</translation>
+        <translation type="obsolete">分配无效名称给由 N-N 关系生成的表！</translation>
     </message>
     <message>
         <source>The relationship &apos;%1&apos; can not make use of the special primary key. Only generalization/dependency relationships have access to this resource!</source>
-        <translation>关系 &apos;%1&apos; 无法使用特殊主键。只有泛化 / 依赖关系才能！</translation>
+        <translation type="obsolete">关系 &apos;%1&apos; 无法使用特殊主键。只有泛化 / 依赖关系才能！</translation>
     </message>
     <message>
         <source>Assignment of invalid suffix to the relationship &apos;%1&apos;!</source>
-        <translation>分配无效前缀给关系 &apos;%1&apos;！</translation>
+        <translation type="obsolete">分配无效前缀给关系 &apos;%1&apos;！</translation>
     </message>
     <message>
         <source>The object &apos;%1&apos; (%2) can not be edited or deleted because it was automatically included through a relationship! To manipulate the object is necessary to make it from the edit form of the relationship that holds it.</source>
-        <translation>无法修改或删除对象 &apos;%1&apos;(%2)，因为它已经被关系自动包含了！要修改对象请到对应的关系修改窗口中操作。</translation>
+        <translation type="obsolete">无法修改或删除对象 &apos;%1&apos;(%2)，因为它已经被关系自动包含了！要修改对象请到对应的关系修改窗口中操作。</translation>
     </message>
     <message>
         <source>The object &apos;%1&apos; (%2) can not be deleted because it is protected!</source>
-        <translation>无法删除对象 &apos;%1&apos;(%2)，因为它是被保护的！</translation>
+        <translation type="obsolete">无法删除对象 &apos;%1&apos;(%2)，因为它是被保护的！</translation>
     </message>
     <message>
         <source>The group &apos;%1&apos; has already been declared earlier!</source>
-        <translation>组 &apos;%1&apos;已经声明过了！</translation>
+        <translation type="obsolete">组 &apos;%1&apos;已经声明过了！</translation>
     </message>
     <message>
         <source>The group &apos;%1&apos; can not be built in the groups declaration block (&apos;%2&apos;)!</source>
-        <translation>组 &apos;%1&apos;无法在组声明区域 (%2) 中构建！</translation>
+        <translation type="obsolete">组 &apos;%1&apos;无法在组声明区域 (%2) 中构建！</translation>
     </message>
     <message>
         <source>The group &apos;%1&apos; was built but not declared in the groups declaration block (&apos;%2&apos;)!</source>
-        <translation>组 &apos;%1&apos;已被构建，但是不是在组声明区域 (%2) 中声明的！</translation>
+        <translation type="obsolete">组 &apos;%1&apos;已被构建，但是不是在组声明区域 (%2) 中声明的！</translation>
     </message>
     <message>
         <source>The group &apos;%1&apos; can not be built without possessing child elements!</source>
-        <translation>无法构建组 &apos;%1&apos;，因为没有子元素！</translation>
+        <translation type="obsolete">无法构建组 &apos;%1&apos;，因为没有子元素！</translation>
     </message>
     <message>
         <source>The group &apos;%1&apos; can not be built once more because this was done in previous blocks!</source>
-        <translation>无法重新构建组 &apos;%1&apos;，因为之前已经做过了！</translation>
+        <translation type="obsolete">无法重新构建组 &apos;%1&apos;，因为之前已经做过了！</translation>
     </message>
     <message>
         <source>The group &apos;%1&apos; has been declared but not built!</source>
-        <translation>组 &apos;%1&apos; 已经声明，但是没构建！</translation>
+        <translation type="obsolete">组 &apos;%1&apos; 已经声明，但是没构建！</translation>
     </message>
     <message>
         <source>Reference to a column of objects table with invalid index!</source>
-        <translation>请参考索引无效的对象表中的一列！</translation>
+        <translation type="obsolete">请参考索引无效的对象表中的一列！</translation>
     </message>
     <message>
         <source>Reference to a row of objects table with invalid index!</source>
-        <translation>请参考索引无效的对象表中的一行！</translation>
+        <translation type="obsolete">请参考索引无效的对象表中的一行！</translation>
     </message>
     <message>
         <source>The schema public and the languages plpgsql, c and sql can not be manipulated because they are reserved to PostgreSQL! They are present in the model database only as a reference!</source>
-        <translation>模式 public 和语言 plpgsql，Ｃ，SQL 都无法修改，因为它们是系统保留的！它们在模型数据库中只是一个参考！</translation>
+        <translation type="obsolete">模式 public 和语言 plpgsql，Ｃ，SQL 都无法修改，因为它们是系统保留的！它们在模型数据库中只是一个参考！</translation>
     </message>
     <message>
         <source>The new configuration function invalidates the object &apos;%1&apos; (%2)! In this case it is needed to undo the relationship between the affected object and function so that the new configuration of the latter to take effect!</source>
-        <translation>新的配置函数使对象 &apos;%1&apos;(%2) 无效！在这种情况下，需要重新配置下对象与函数的关系，然后，新的配置就会起作用了！</translation>
+        <translation type="obsolete">新的配置函数使对象 &apos;%1&apos;(%2) 无效！在这种情况下，需要重新配置下对象与函数的关系，然后，新的配置就会起作用了！</translation>
     </message>
     <message>
         <source>A vision reference must have at least one SQL application : SELECT, FROM, FROM-WHERE or After WHERE!</source>
-        <translation>一个视图引用必须至少有一个 SQL 应用：SELECT，FROM，FROM-WHERE 或者 WHERE 后！</translation>
+        <translation type="obsolete">一个视图引用必须至少有一个 SQL 应用：SELECT，FROM，FROM-WHERE 或者 WHERE 后！</translation>
     </message>
     <message>
         <source>Constraints like primary key, foreign key or unique must have at least one column related to them! For foreign keys must be selected, in addition, the referenced columns!</source>
-        <translation>主键，外键，唯一键等约束必须有至少一列来关联他们！对于外键约束引用列必须被选中！</translation>
+        <translation type="obsolete">主键，外键，唯一键等约束必须有至少一列来关联他们！对于外键约束引用列必须被选中！</translation>
     </message>
     <message>
         <source>Unable to load one or more configuration files! Please check if files exists in the configuration folder and if they are not corrupted to preventing this error to occur again on the next startup!</source>
-        <translation>无法载入一个或多少配置文件！请检查文件是否存在配置目录中或者文件错误来防止错误继续在下一次启动中发生！</translation>
+        <translation type="obsolete">无法载入一个或多少配置文件！请检查文件是否存在配置目录中或者文件错误来防止错误继续在下一次启动中发生！</translation>
     </message>
     <message>
         <source>Could not find the default settings file &apos;%1&apos;! To restore default settings check the existence of the file and try again!</source>
-        <translation>没有发现默认的配置文件 &apos;%1&apos;！重新保存默认设置到文件中！</translation>
+        <translation type="obsolete">没有发现默认的配置文件 &apos;%1&apos;！重新保存默认设置到文件中！</translation>
     </message>
     <message>
         <source>The export process failed due to an error triggered by the PostgreSQL server in an attempt to execute a SQL command. For more details about the error check the exception stack!
@@ -1625,7 +2373,7 @@ Size: %2 bytes
 ** Executed SQL command: **
 
 %1</source>
-        <translation>导出失败，PostgreSQL 服务器执行 SQL 命令时发生错误！详情请查看返回的异常信息！
+        <translation type="obsolete">导出失败，PostgreSQL 服务器执行 SQL 命令时发生错误！详情请查看返回的异常信息！
 
 ××执行的 SQL 语句：××
 
@@ -1633,120 +2381,833 @@ Size: %2 bytes
     </message>
     <message>
         <source>Could not load the plugin &apos;%1&apos; from the library &apos;%2&apos;! Message returned by plugin manager: &apos;%3&apos;</source>
-        <translation>无法从库 &apos;%2&apos; 中加载插件 &apos;%1&apos;！插件管理器的返回信息：&apos;%3&apos;</translation>
+        <translation type="obsolete">无法从库 &apos;%2&apos; 中加载插件 &apos;%1&apos;！插件管理器的返回信息：&apos;%3&apos;</translation>
     </message>
     <message>
         <source>One or more plugins were not activated due to errors during the loading process! Check the exception stack for more details.</source>
-        <translation>插件加载发生错误，一个或多个插件没有激活！详情请查看异常信息。</translation>
+        <translation type="obsolete">插件加载发生错误，一个或多个插件没有激活！详情请查看异常信息。</translation>
     </message>
     <message>
         <source>Invalid syntax in file %1, line %2, column %3!</source>
-        <translation>错误语法位于文件 %1，行 %2，列 %3 有！</translation>
+        <translation type="obsolete">错误语法位于文件 %1，行 %2，列 %3 有！</translation>
     </message>
     <message>
         <source>Invalid conditional instruction &apos;%1&apos; on file %2, line %3, column %4!</source>
-        <translation>错误的条件结构 &apos;%1&apos; 位于文件 %2，行 %3，列 %4！</translation>
+        <translation type="obsolete">错误的条件结构 &apos;%1&apos; 位于文件 %2，行 %3，列 %4！</translation>
     </message>
     <message>
         <source>Unknown attribute &apos;%1&apos; in file %2, line %3, column %4!</source>
-        <translation>未知属性 &apos;%1&apos; 位于文件 %2，行 %3，列 %4！</translation>
+        <translation type="obsolete">未知属性 &apos;%1&apos; 位于文件 %2，行 %3，列 %4！</translation>
     </message>
     <message>
         <source>Invalid metacharacter &apos;%1&apos; in file %2, line %3, column %4!</source>
-        <translation>错误的字符 &apos;%1&apos; 位于文件 %2，行 %3，列 %4！</translation>
+        <translation type="obsolete">错误的字符 &apos;%1&apos; 位于文件 %2，行 %3，列 %4！</translation>
     </message>
     <message>
         <source>Attribute &apos;%1&apos; with an undefined value in file %2, line %3, column %4!</source>
-        <translation>未赋值的属性 &apos;%1&apos; 位于文件 %2，行 %3，列 %4！</translation>
+        <translation type="obsolete">未赋值的属性 &apos;%1&apos; 位于文件 %2，行 %3，列 %4！</translation>
     </message>
     <message>
         <source>Assignment of empty XML buffer to parser!</source>
-        <translation>分配空白 XML 缓存给解析器！</translation>
+        <translation type="obsolete">分配空白 XML 缓存给解析器！</translation>
     </message>
     <message>
         <source>Could not access the file or directory %1! Make sure that it exists or if the user has access permissions on it!</source>
-        <translation>无法访问文件或目录 %1！请确保它存在，或者检查用户具有访问权限！</translation>
+        <translation type="obsolete">无法访问文件或目录 %1！请确保它存在，或者检查用户具有访问权限！</translation>
     </message>
     <message>
         <source>Assignment of empty DTD file name!</source>
-        <translation>分配一个空 DTD 文件名！</translation>
+        <translation type="obsolete">分配一个空 DTD 文件名！</translation>
     </message>
     <message>
         <source>Assignment of empty name to the DTD declaration!</source>
-        <translation>分配空白名称给 DTD 声明！</translation>
+        <translation type="obsolete">分配空白名称给 DTD 声明！</translation>
     </message>
     <message>
         <source>Error while interpreting XML buffer at line %1 column %2.
 Message generated by the parser: &apos;%3&apos;. %4</source>
-        <translation>解析 XML 缓存发生错误，错误位于行 %1 列 %2。解析器生成的消息：&apos;%3&apos;。%4</translation>
+        <translation type="obsolete">解析 XML 缓存发生错误，错误位于行 %1 列 %2。解析器生成的消息：&apos;%3&apos;。%4</translation>
     </message>
     <message>
         <source>Operation on unallocated element tree! It is necessary to load the XML parser buffer and interpret it so that the tree is generated!</source>
-        <translation>操作在未分配的元素树上！必须要先载入 XML 解析器缓存并执行解析，这样树才能生成！</translation>
+        <translation type="obsolete">操作在未分配的元素树上！必须要先载入 XML 解析器缓存并执行解析，这样树才能生成！</translation>
     </message>
     <message>
         <source>Could not load file %1. The same appears to be inconsistent or one of its dependencies (DTD files) has errors or is missing!</source>
-        <translation>无法载入文件 %1。它出现了不一致性或其中有的依赖项出现错误或已经丢失！</translation>
+        <translation type="obsolete">无法载入文件 %1。它出现了不一致性或其中有的依赖项出现错误或已经丢失！</translation>
     </message>
     <message>
         <source>Operation with unallocated tree element!</source>
-        <translation>操作在未分配的树元素上！</translation>
+        <translation type="obsolete">操作在未分配的树元素上！</translation>
     </message>
     <message>
         <source>Operation with element which does not exists in the element tree currently loaded!</source>
-        <translation>操作的元素，在当前载入的元素树中不存在！</translation>
+        <translation type="obsolete">操作的元素，在当前载入的元素树中不存在！</translation>
     </message>
     <message>
         <source>Assignment of a value to an invalid connection parameter!</source>
-        <translation>给一个无效的连接参数分配一个值！</translation>
+        <translation type="obsolete">给一个无效的连接参数分配一个值！</translation>
     </message>
     <message>
         <source>Operation on connection not established!</source>
-        <translation>未能成功连接！</translation>
+        <translation type="obsolete">未能成功连接！</translation>
     </message>
     <message>
         <source>Attempt to connect without define configuration parameters!</source>
-        <translation>尝试没有定义配置参数的连接！</translation>
+        <translation type="obsolete">尝试没有定义配置参数的连接！</translation>
     </message>
     <message>
         <source>Could not connect to the database.
 Message returned: &apos;%1&apos;</source>
-        <translation>无法连接数据库。
+        <translation type="obsolete">无法连接数据库。
 返回的信息：&apos;%1&apos;</translation>
     </message>
     <message>
         <source>Assignment of not allocated SQL command result!</source>
-        <translation>指定的 SQL 命令结果不存在！</translation>
+        <translation type="obsolete">指定的 SQL 命令结果不存在！</translation>
     </message>
     <message>
         <source>Unable to allocate the result of the SQL command because the response from the DBMS was not understood by the client!</source>
-        <translation>无法获得 SQL 命令结果，因为服务器端的反馈客户端无法识别！</translation>
+        <translation type="obsolete">无法获得 SQL 命令结果，因为服务器端的反馈客户端无法识别！</translation>
     </message>
     <message>
         <source>Unable to allocate command result for the SQL because the server has generated a fatal error!
 Message returned by the DBMS: %1</source>
-        <translation>无法获取 SQL 的命令结果，因为服务端产生了严重错误！数据库服务器返回的信息：%1</translation>
+        <translation type="obsolete">无法获取 SQL 的命令结果，因为服务端产生了严重错误！数据库服务器返回的信息：%1</translation>
     </message>
     <message>
         <source>Unable to allocate the result of the SQL command because the command passed was an empty SQL!</source>
-        <translation>无法获取 SQL 命令的结果，因为命令是一条空 SQL！</translation>
+        <translation type="obsolete">无法获取 SQL 命令的结果，因为命令是一条空 SQL！</translation>
     </message>
     <message>
         <source>Reference to a column of tuple with invalid index!</source>
-        <translation>引用的一列元组索引无效！</translation>
+        <translation type="obsolete">引用的一列元组索引无效！</translation>
     </message>
     <message>
         <source>Reference to a column of tuple with invalid name!</source>
-        <translation>引用的一列元组名字无效！</translation>
+        <translation type="obsolete">引用的一列元组名字无效！</translation>
     </message>
     <message>
         <source>Reference to a tuple with index invalid or the result is empty (no tuples)!</source>
-        <translation>引用的元组索引无效或者结果为空(没有)！</translation>
+        <translation type="obsolete">引用的元组索引无效或者结果为空(没有)！</translation>
     </message>
     <message>
         <source>Could not execute the SQL command.
  Message returned: %1</source>
-        <translation>无法执行 SQL 命令。
+        <translation type="obsolete">无法执行 SQL 命令。
+返回的信息： %1</translation>
+    </message>
+</context>
+<context>
+    <name>Exception</name>
+    <message>
+        <source>Insufficient memory space to allocate the object!</source>
+        <translation type="unfinished">内存不足，无法分配对象！</translation>
+    </message>
+    <message>
+        <source>Assignment of a pseudo-type to the type of the column!</source>
+        <translation type="unfinished">列类型不能为伪类型！</translation>
+    </message>
+    <message>
+        <source>Zero length assignment!</source>
+        <translation type="unfinished">长度不能为 0！</translation>
+    </message>
+    <message>
+        <source>Assignment of a precision greater than the length of the type!</source>
+        <translation type="unfinished">精度不能大于类型长度！</translation>
+    </message>
+    <message>
+        <source>Assignment of an invalid precision to type time, timestamp or interval. The precision in this case must be equal to or less than 6!</source>
+        <translation type="unfinished">类型 time，timestamp 或 interval 的精度设置无效。精度必须小于等于 6！</translation>
+    </message>
+    <message>
+        <source>Assignment of a not allocated column to object &apos;%1&apos; (%2)!</source>
+        <translation type="unfinished">必须给对象&apos;%1&apos; (%2) 设置列！</translation>
+    </message>
+    <message>
+        <source>Reference to a column which index is out of the capacity of the column list!</source>
+        <translation type="unfinished">不能引用不在列列表中的列！</translation>
+    </message>
+    <message>
+        <source>Assignment of not allocated object!</source>
+        <translation type="unfinished">必须设置对象！</translation>
+    </message>
+    <message>
+        <source>Assignment of a not allocated schema to object &apos;%1&apos; (%2)!</source>
+        <translation type="unfinished">必须给对象 &apos;%1&apos; (%2) 设置模式！</translation>
+    </message>
+    <message>
+        <source>The object &apos;%1&apos; (%2) has inconsistent configuration (invalid SQL/XML definition)!</source>
+        <translation type="unfinished">对象 &apos;%1&apos; (%2) 设置冲突 (无效的 SQL/XML 定义)！</translation>
+    </message>
+    <message>
+        <source>The object &apos;%1&apos; (%2) already exists in the list of elements of the same type in the object &apos;%3&apos; (%4)!</source>
+        <translation type="unfinished">对象 &apos;%1&apos; (%2) 已经存在于对象 &apos;%3&apos; (%4) 的同类型元素列表中！</translation>
+    </message>
+    <message>
+        <source>The object &apos;%1&apos; (%2) can&apos;t be assigned because there is already exists in the container object &apos;%3&apos;!</source>
+        <translation type="unfinished">对象 &apos;%1&apos; (%2) 不能被赋值，因其已存在于容器对象 &apos;%3&apos;！</translation>
+    </message>
+    <message>
+        <source>Assigning object of an invalid type!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Removing an object of an invalid type!</source>
+        <translation type="unfinished">不能移除无效类型的对象！</translation>
+    </message>
+    <message>
+        <source>Obtaining an object of an invalid type!</source>
+        <translation type="unfinished">不能获取无效类型的对象！</translation>
+    </message>
+    <message>
+        <source>Assignment of empty name to table return type!</source>
+        <translation type="unfinished">表的返回值类型的名称不能为空！</translation>
+    </message>
+    <message>
+        <source>The insertion of the parameter &apos;%1&apos; will not be possible because there is another parameter with same name in the function &apos;%2&apos;!</source>
+        <translation type="unfinished">无法插入参数 &apos;%1&apos;，因为函数 &apos;%2&apos; 中已经存在一个相同名称的参数了！</translation>
+    </message>
+    <message>
+        <source>The insertion of the table return type &apos;%1&apos; will not be possible because there is another return type with the same name in the &apos;%2&apos;!</source>
+        <translation type="unfinished">无法插入表返回类型 &apos;%1&apos;，因为在 &apos;%2&apos; 中已经存在一个相同名称的返回类型！</translation>
+    </message>
+    <message>
+        <source>Reference to a parameter which index is out of the parameter list bounds!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Reference to an event which does not belongs to trigger!</source>
+        <translation type="unfinished">不能引用不属于触发器的事件！</translation>
+    </message>
+    <message>
+        <source>The column &apos;%1&apos; can&apos;t be assigned to the trigger &apos;%2&apos; because does not belongs to the trigger&apos;s parent table!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Assignment of a not allocated function to object &apos;%1&apos; (%2)!</source>
+        <translation type="unfinished">必须给对象 &apos;%1&apos; (%2) 设置函数！</translation>
+    </message>
+    <message>
+        <source>Assignment of a function which return type is different from &apos;trigger&apos;!</source>
+        <translation type="unfinished">函数的返回值类型与‘触发器’的不一致！</translation>
+    </message>
+    <message>
+        <source>Assignment of a function which parameter count is invalid to the object &apos;%1&apos; (%2)!</source>
+        <translation type="unfinished">对于对象 &apos;%1&apos; (%2)，函数的参数数目不匹配！</translation>
+    </message>
+    <message>
+        <source>Assignment of a function which language is invalid!</source>
+        <translation type="unfinished">语言转换函数无效！</translation>
+    </message>
+    <message>
+        <source>Assignment of not allocated table to object &apos;%1&apos; (%2)!</source>
+        <translation type="unfinished">必须给对象 &apos;%1&apos;(%2) 设置表！</translation>
+    </message>
+    <message>
+        <source>Reference to an argument which index is out of argument list bounds!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Insertion of a column which name is already registered to another column of the object!</source>
+        <translation type="unfinished">要插入的列名称已经被注册给了另一个列的对象！</translation>
+    </message>
+    <message>
+        <source>Assignment of empty name to an object!</source>
+        <translation type="unfinished">对象名称不能为空！</translation>
+    </message>
+    <message>
+        <source>Assignment of invalid name to an object!</source>
+        <translation type="unfinished">对象名称无效！</translation>
+    </message>
+    <message>
+        <source>Assignment of schema object which type is invalid!</source>
+        <translation type="unfinished">模式对象类型无效！</translation>
+    </message>
+    <message>
+        <source>Assignment of tablespace object with invalid type!</source>
+        <translation type="unfinished">表空间对象包含无效类型！</translation>
+    </message>
+    <message>
+        <source>Assignment of tablespace to an invalid object!</source>
+        <translation type="unfinished">表空间对象无效！</translation>
+    </message>
+    <message>
+        <source>Assignment of tablespace to a constraint which type is invalid! To belong to a tablespace the constraint must be a primary key or unique!</source>
+        <translation type="unfinished">无效的表空间约束！表空间约束必须是主键约束或唯一约束！</translation>
+    </message>
+    <message>
+        <source>Assignment of owner object which type is invalid!</source>
+        <translation type="unfinished">所有者对象的类型无效！</translation>
+    </message>
+    <message>
+        <source>Assignment of owner to an invalid object!</source>
+        <translation type="unfinished">所有者对象无效！</translation>
+    </message>
+    <message>
+        <source>Reference to a function with invalid type!</source>
+        <translation type="unfinished">引用了无效的函数类型！</translation>
+    </message>
+    <message>
+        <source>Reference to an argument of the operator with invalid type!</source>
+        <translation type="unfinished">引用了无效的操作符参数类型！</translation>
+    </message>
+    <message>
+        <source>Reference to an operator with invalid type!</source>
+        <translation type="unfinished">引用了无效的操作符类型！</translation>
+    </message>
+    <message>
+        <source>Assignment of value to an invalid option type on role!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Reference to an invalid role type!</source>
+        <translation type="unfinished">引用了无效的角色类型！</translation>
+    </message>
+    <message>
+        <source>The insertion of the role &apos;%1&apos; is not possible because this is already being referenced by role &apos;%2&apos;!</source>
+        <translation type="unfinished">无法插件角色 &apos;%1&apos;，因为它已经被角色 &apos;%2&apos; 引用了！</translation>
+    </message>
+    <message>
+        <source>Reference redundancy detected by having the role &apos;%1&apos; referencing the role &apos;%2&apos;!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The role &apos;%1&apos; can not be listed as a member of itself!</source>
+        <translation type="unfinished">角色 &apos;%1&apos; 不能列入自身的成员中！</translation>
+    </message>
+    <message>
+        <source>Reference to a role which index is out of role list bounds!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Insertion of empty command to the rule!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Reference to a command which index is out of the command list bounds!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Is not possible to create a self generalization/copy relationship! The table can not inherit or copy their own attributes!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Assignment of an object that already belongs to another table!</source>
+        <translation type="unfinished">对象已属于另一个表！</translation>
+    </message>
+    <message>
+        <source>Assignment of a schema to the sequence which differs from the schema of the owner table!</source>
+        <translation type="unfinished">序列模式与表模式不一致！</translation>
+    </message>
+    <message>
+        <source>Assignment of an invalid value to one of the sequence attributes!</source>
+        <translation type="unfinished">序列属性的其中一个值无效！</translation>
+    </message>
+    <message>
+        <source>Assignment of a minimum value to the sequence which is greater than the maximum value!</source>
+        <translation type="unfinished">序列的最小值大于其最大值！</translation>
+    </message>
+    <message>
+        <source>Assignment of a start value to the sequence which is extrapolating the range defined by minimum and maximum values​​!</source>
+        <translation type="unfinished">序列的起始值不在序列的最小值与最大值的范围内！</translation>
+    </message>
+    <message>
+        <source>Assignment of a null increment value to the sequence!</source>
+        <translation type="unfinished">不能给序列设置空的自增值！</translation>
+    </message>
+    <message>
+        <source>Assignment of null cache value to the sequence!</source>
+        <translation type="unfinished">序列缓冲值不能为空！</translation>
+    </message>
+    <message>
+        <source>Assignment of owner table which is not in the same schema as the sequence &apos;%1&apos;!</source>
+        <translation type="unfinished">表与序列 &apos;%1&apos; 不在同一模式中！</translation>
+    </message>
+    <message>
+        <source>Assignment of owner table which does not belong to the same owner of the sequence &apos;%1&apos;!</source>
+        <translation type="unfinished">表与序列 &apos;%1&apos; 的所有者不同！</translation>
+    </message>
+    <message>
+        <source>Assignment of a nonexistent owner column to the sequence &apos;%1&apos;!</source>
+        <translation type="unfinished">序列 &apos;%1&apos; 的列不存在！</translation>
+    </message>
+    <message>
+        <source>Assignment of an owner column to the sequence &apos;%1&apos; that is not related to any table!</source>
+        <translation type="unfinished">序列 &apos;%1&apos; 的列未关联到任何表！</translation>
+    </message>
+    <message>
+        <source>Reference to a label which index is out of labels list bounds!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Allocation of object with invalid type!</source>
+        <translation type="unfinished">不能创建类型无效的对象！</translation>
+    </message>
+    <message>
+        <source>Assignment of a function with invalid return type to object &apos;%1&apos; (%2)!</source>
+        <translation type="unfinished">对象 &apos;%1&apos;(%2) 函数的返回类型无效！</translation>
+    </message>
+    <message>
+        <source>Assignment of a function with invalid parameter(s) type(s) to object &apos;%1&apos; (%2)!</source>
+        <translation type="unfinished">对象 &apos;%1&apos;(%2) 函数的参数类型无效！</translation>
+    </message>
+    <message>
+        <source>Assignment of not allocated language!</source>
+        <translation type="unfinished">没有指定语言！</translation>
+    </message>
+    <message>
+        <source>Assignment of language object which type is invalid!</source>
+        <translation type="unfinished">语言对象的类型无效！</translation>
+    </message>
+    <message>
+        <source>Reference to data type with an index outside the capacity of data types list!</source>
+        <translation type="unfinished">引用的数据类型不在数据类型列表的范围内！</translation>
+    </message>
+    <message>
+        <source>Assignment of a null type to to object &apos;%1&apos; (%2)!</source>
+        <translation type="unfinished">对象 &apos;%1&apos;(%2) 类型不能为空！</translation>
+    </message>
+    <message>
+        <source>Assignment of invalid type to the object!</source>
+        <translation type="unfinished">对象的类型无效！</translation>
+    </message>
+    <message>
+        <source>Assignment of an empty directory to object &apos;%1&apos; (%2)!</source>
+        <translation type="unfinished">对象 &apos;%1&apos;(%2) 的目录不能为空！</translation>
+    </message>
+    <message>
+        <source>Obtaining types with invalid quantity!</source>
+        <translation type="unfinished">正确获取的类型的数量无效！</translation>
+    </message>
+    <message>
+        <source>Insertion of item which already exists in the attributes list of the type!</source>
+        <translation type="unfinished">插入的项目已存在于类型属性列表！ </translation>
+    </message>
+    <message>
+        <source>Insertion of invalid item in the attributes list of the type!</source>
+        <translation type="unfinished">插入类型属性列表的项目无效！</translation>
+    </message>
+    <message>
+        <source>Insertion of item which already exists in the enumarations list of the type!</source>
+        <translation type="unfinished">插入的项目已存在于类型枚举列表！</translation>
+    </message>
+    <message>
+        <source>Insertion of invalid item in the enumerations list of the type!</source>
+        <translation type="unfinished">插入类型枚举列表的项目无效！</translation>
+    </message>
+    <message>
+        <source>Reference to an attribute which index is out of the attributes list bounds!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Reference to an enumeration which index is out of the enumerations list bounds!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Assignment of invalid configuration to the type!</source>
+        <translation type="unfinished">类型的配置无效！</translation>
+    </message>
+    <message>
+        <source>The data type &apos;%1&apos; can not be assigned because it already exists in the types list of the aggregate function &apos;%2&apos;!</source>
+        <translation type="unfinished">无法指派数据类型 &apos;%1&apos;，因其已存在于聚合函数 &apos;%2&apos; 的类型列表！</translation>
+    </message>
+    <message>
+        <source>Assignment of an operator which input type count is invalid to aggregate function!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Assignment of an operator which types of arguments is invalid!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Assignment of system reserved name to the object &apos;%1&apos; (%2)!</source>
+        <translation type="unfinished">对象 &apos;%1&apos;(%2) 使用了系统保留名称！</translation>
+    </message>
+    <message>
+        <source>One function with invalid configuration is been used by the object &apos;%1&apos; (%2)!</source>
+        <translation type="unfinished">用于对象 &apos;%1&apos;(%2) 的函数的配置无效！</translation>
+    </message>
+    <message>
+        <source>Assignment of invalid id to the user!</source>
+        <translation type="unfinished">无效的用户ID！</translation>
+    </message>
+    <message>
+        <source>Assignment of an invalid strategy/support number to an operator class element!</source>
+        <translation type="unfinished">操作符类元素的策略/支持值无效！</translation>
+    </message>
+    <message>
+        <source>Insertion of element which already exists in the element list!</source>
+        <translation type="unfinished">插入的元素已存在于元素列表！</translation>
+    </message>
+    <message>
+        <source>Reference to an element which index is out of element list bounds!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Reference to an object which index is out of object list bounds!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Removal of an object not allocated!</source>
+        <translation type="unfinished">不能移除未分配的对象！</translation>
+    </message>
+    <message>
+        <source>The object &apos;%1&apos; (%2) can not be removed because it is being referenced by object &apos;%3&apos; (%4)!</source>
+        <translation type="unfinished">无法移除对象 &apos;%1&apos;(%2)，因其被对象 &apos;%3&apos;(%4) 引用了！</translation>
+    </message>
+    <message>
+        <source>The object &apos;%1&apos; (%2) can not be removed because it is being referenced by object &apos;%3&apos; (%4) that belongs to &apos;%5&apos; (%6)!</source>
+        <translation type="unfinished">无法移除对象 &apos;%1&apos;(%2)，因其已被对象 &apos;%5&apos;(%6) 中的对象 &apos;%3&apos;(%4) 引用了！</translation>
+    </message>
+    <message>
+        <source>Operation with object(s) which type(s) is invalid!</source>
+        <translation type="unfinished">操作对象的类型无效！</translation>
+    </message>
+    <message>
+        <source>Reference to object with invalid type!</source>
+        <translation type="unfinished">引用对象的类型无效！</translation>
+    </message>
+    <message>
+        <source>Operation with object not allocated!</source>
+        <translation type="unfinished">无法操作未分配的对象！</translation>
+    </message>
+    <message>
+        <source>The creation of the relationship &apos;%1&apos; between the table &apos;%2&apos; and &apos;%3&apos; can not be done because one does not have a primary key. If the relationship is of the type n-n both tables must have primary keys!</source>
+        <translation type="unfinished">无法创建关系 &apos;%1&apos;，因为表 &apos;%2&apos; 或表 &apos;%3&apos; 缺少主键。如果创建的是 N-N 关系，则两个表都必须有主键！</translation>
+    </message>
+    <message>
+        <source>The relationship of the type 1-1 where both tables are mandatory participation is not implemented because it requires fusion between the tables that breaks the modeling done by the user!</source>
+        <translation type="unfinished">强制执行两表 1-1 关系的功能尚未实现，因为它结合模型中由用户定义的两人互相分离的表！</translation>
+    </message>
+    <message>
+        <source>Assignment of an invalid expression to the object!</source>
+        <translation type="unfinished">对象的表达式无效！</translation>
+    </message>
+    <message>
+        <source>Assignment of a primary key to a table which already has one!</source>
+        <translation type="unfinished">表的主键已存在！</translation>
+    </message>
+    <message>
+        <source>Identifier relationship can not be created for a self relationship, relationships of the type n-n, copy or generalization!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Unable to create a copy relationship because the column &apos;%1&apos; in table &apos;%2&apos; already exists in table &apos;%3&apos;!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Unable to create the generalization relationship because the column &apos;%1&apos; in table &apos;%2&apos; can not be merged with the column &apos;%3&apos; of table &apos;%4&apos; because they have incompatible types!</source>
+        <translation type="unfinished">无法创建泛化关系，因为表 &apos;%2&apos; 中的列 &apos;%1&apos; 不能被合并到表 &apos;%4&apos; 中的列 &apos;%3&apos;，因为他们的类型不兼容！</translation>
+    </message>
+    <message>
+        <source>An attribute can not be added to a copy or generalization relationship!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>A foreign key can not be added to a relationship because is created automatically when this is connected!</source>
+        <translation type="unfinished">无法给关系添加外键，因为在连接时已经自动添加了！</translation>
+    </message>
+    <message>
+        <source>The object &apos;%1&apos; (%2) is referencing the object &apos;%3&apos; (%4) which was not found in the list of objects of the same type in the model!</source>
+        <translation type="unfinished">对象 &apos;%1&apos;(%2) 所引用的对象 &apos;%3&apos;(%4) 不存在于模型中同类型的对象列表！</translation>
+    </message>
+    <message>
+        <source>Reference to an user-defined data type that not exists in the model!</source>
+        <translation type="unfinished">引用的用户自定义类型不存在于模型！</translation>
+    </message>
+    <message>
+        <source>Assignment of invalid maximum size to operation list!</source>
+        <translation type="unfinished">操作列表的最大值无效！</translation>
+    </message>
+    <message>
+        <source>Unable to write the file %1! Make sure the directory exists, or if the user has access permissions on it!</source>
+        <translation type="unfinished">无法写入文件 %1！请确保该目录存在，或者检查用户是否具有访问权限！</translation>
+    </message>
+    <message>
+        <source>Unable to write the model in the file %1 due to one or more errors in the definition generation process!</source>
+        <translation type="unfinished">无法保存模式到文件 %1，因为在定义生成过程中出现一个或多个错误！</translation>
+    </message>
+    <message>
+        <source>There is already a relationship between &apos;%1&apos; (%2) and &apos;%3&apos; (%4) in the model!</source>
+        <translation type="unfinished">模型中已存在 &apos;%1&apos;(%2) 和 &apos;%3&apos;(%4) 的关系！</translation>
+    </message>
+    <message>
+        <source>The configuration of the relationship &apos;%1&apos; generates a redundancy between the relationships &apos;%2&apos;. Redundancy on identifier or generalization/copy relationships are not accepted since they result in  incorrect column spreading making the model inconsistent!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>One or more objects were invalidated and automatically removed because they were referencing table columns which were included through relationships and which no longer exists due to disconnection of relationships or exclusion of such generated columns!</source>
+        <translation type="unfinished">一个或者多个对象无效，并自动删除了。因为他们引用的表列所在的关系已经不存在了，由于连接中断或者排除生成的列！</translation>
+    </message>
+    <message>
+        <source>The primary key &apos;%1&apos; can only be allocated if declared within a block of code that defines a table or relationship!</source>
+        <translation type="unfinished">主键 &apos;%1&apos; 只有在表或关系定义的代码块中声明之后才可以被分配！</translation>
+    </message>
+    <message>
+        <source>Reference to an invalid privilege type!</source>
+        <translation type="unfinished">引用了无效的权限类型！</translation>
+    </message>
+    <message>
+        <source>Insertion of a role which already exists in the role list of the permission!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Assignment of privilege incompatible with the type of object referenced by permission!</source>
+        <translation type="unfinished">权限与被允许引用的对象的类型不一致！</translation>
+    </message>
+    <message>
+        <source>There is already a permission on object &apos;%1&apos; (%2) which has one or more equal roles from those present on permission to be assigned to the object!</source>
+        <translation type="unfinished">对象 &apos;%1&apos;(%2) 已经有一个权限，分配给此对象权限的角色中有一个或多个功能相当的角色！</translation>
+    </message>
+    <message>
+        <source>A permission is referencing the object &apos;%1&apos; (%2) which was not found in the model!</source>
+        <translation type="unfinished">权限所引用的对象 &apos;%1&apos;(%2) 不存在模型中！</translation>
+    </message>
+    <message>
+        <source>The object &apos;%1&apos; (%2) can not be created because its not being assigned to any schema!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The tablespace &apos;%1&apos; can not be inserted into the model because it points to the same directory as the tablespace &apos;%2&apos;!</source>
+        <translation type="unfinished">表空间 &apos;%1&apos; 无法被加到模型中。因为它指向的目录和表空间 &apos;%2&apos; 的相同！</translation>
+    </message>
+    <message>
+        <source>It is not possible to create arrays of domains or sequences (dimension &gt;= 1)! PostgreSQL does not yet implement this feature!</source>
+        <translation type="unfinished">无法创建维数 &gt; = 1域或序列数组！PostgreSQL 尚未实现此功能！</translation>
+    </message>
+    <message>
+        <source>The function &apos;%1&apos; can not get a source code as a definition because its language is set to C. Use the attributes symbol and dynamic library instead!</source>
+        <translation type="unfinished">函数 &apos;%1&apos; 无法获取定义的源代码，因为它的语言被设成了 C 语言。请使用属性号和动态库代替！</translation>
+    </message>
+    <message>
+        <source>The function &apos;%1&apos; can have the attributes symbol and dynamic library configured only if the language is set to C. For all other cases you must specify a source code that defines it in the DBMS!</source>
+        <translation type="unfinished">函数 &apos;%1&apos;只有当语言被设置成 C 语言时，才需要属性符号和动态库配置。其他情况下，您必须在 DBMS 中定义它的源代码！</translation>
+    </message>
+    <message>
+        <source>The operator &apos;%1&apos; can not be assigned as a comutator of operator &apos;%2&apos; because it has incompatible settings!</source>
+        <translation type="unfinished">操作符 &apos;%1&apos; 不能被设置成操作符 &apos;%2&apos; 的转接器，因为两者的设置不兼容！</translation>
+    </message>
+    <message>
+        <source>The operator &apos;%1&apos; can not be assigned as negator of operator &apos;%2&apos; because it has incompatible settings!</source>
+        <translation type="unfinished">操作符 &apos;%1&apos; 不能被设置成操作符 &apos;%2&apos; 的否定操作符，因为两者的设置不兼容！</translation>
+    </message>
+    <message>
+        <source>The type &apos;%1&apos; can not self refer in the attributes &apos;element&apos; or &apos;copy type&apos; or be used as a data type of an attribute in the configuration of a composite type!</source>
+        <translation type="unfinished">类型 &apos;%1&apos; 不能对&apos;元素’或&apos;复制类型&apos;进行自引用，或被用作组合类型配置中属性的数据类型！</translation>
+    </message>
+    <message>
+        <source>Assignment of invalid element to type &apos;%1&apos;!</source>
+        <translation type="unfinished">指派给类型 &apos;%1&apos; 的元素无效！</translation>
+    </message>
+    <message>
+        <source>Assignment of invalid alignment to type &apos;%1&apos;!</source>
+        <translation type="unfinished">指派了无效的对齐给类型 ‘%1&apos;！</translation>
+    </message>
+    <message>
+        <source>Assignment of invalid name to the table generated from N-N relationship!</source>
+        <translation type="unfinished">分配无效名称给由 N-N 关系生成的表！</translation>
+    </message>
+    <message>
+        <source>The relationship &apos;%1&apos; can not make use of the special primary key. Only generalization/copy relationships have access to this resource!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Assignment of invalid suffix to the relationship &apos;%1&apos;!</source>
+        <translation type="unfinished">分配无效前缀给关系 &apos;%1&apos;！</translation>
+    </message>
+    <message>
+        <source>The object &apos;%1&apos; (%2) can not be edited or deleted because it was automatically included through a relationship! To manipulate the object is necessary to make it from the edit form of the relationship that holds it.</source>
+        <translation type="unfinished">无法修改或删除对象 &apos;%1&apos;(%2)，因为它已经被关系自动包含了！要修改对象请到对应的关系修改窗口中操作。</translation>
+    </message>
+    <message>
+        <source>The object &apos;%1&apos; (%2) can not be deleted because it is protected!</source>
+        <translation type="unfinished">无法删除对象 &apos;%1&apos;(%2)，因为它是被保护的！</translation>
+    </message>
+    <message>
+        <source>The group &apos;%1&apos; has already been declared earlier!</source>
+        <translation type="unfinished">组 &apos;%1&apos;已经声明过了！</translation>
+    </message>
+    <message>
+        <source>The group &apos;%1&apos; can not be built in the groups declaration block (&apos;%2&apos;)!</source>
+        <translation type="unfinished">组 &apos;%1&apos;无法在组声明区域 (%2) 中构建！</translation>
+    </message>
+    <message>
+        <source>The group &apos;%1&apos; was built but not declared in the groups declaration block (&apos;%2&apos;)!</source>
+        <translation type="unfinished">组 &apos;%1&apos;已被构建，但是不是在组声明区域 (%2) 中声明的！</translation>
+    </message>
+    <message>
+        <source>The group &apos;%1&apos; can not be built without possessing child elements!</source>
+        <translation type="unfinished">无法构建组 &apos;%1&apos;，因为没有子元素！</translation>
+    </message>
+    <message>
+        <source>The group &apos;%1&apos; can not be built once more because this was done in previous blocks!</source>
+        <translation type="unfinished">无法重新构建组 &apos;%1&apos;，因为之前已经做过了！</translation>
+    </message>
+    <message>
+        <source>The group &apos;%1&apos; has been declared but not built!</source>
+        <translation type="unfinished">组 &apos;%1&apos; 已经声明，但是没构建！</translation>
+    </message>
+    <message>
+        <source>Reference to a column of the objects table with invalid index!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Reference to a row of the objects table with invalid index!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The schema public and the languages plpgsql, c and sql can not be manipulated because they are reserved to PostgreSQL! They are present in the model database only as a reference!</source>
+        <translation type="unfinished">模式 public 和语言 plpgsql，Ｃ，SQL 都无法修改，因为它们是系统保留的！它们在模型数据库中只是一个参考！</translation>
+    </message>
+    <message>
+        <source>The new configuration function invalidates the object &apos;%1&apos; (%2)! In this case it is needed to undo the relationship between the affected object and function so that the new configuration of the latter to take effect!</source>
+        <translation type="unfinished">新的配置函数使对象 &apos;%1&apos;(%2) 无效！在这种情况下，需要重新配置下对象与函数的关系，然后，新的配置就会起作用了！</translation>
+    </message>
+    <message>
+        <source>A vision reference must have at least one SQL scope: SELECT, FROM, FROM-WHERE or After WHERE!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Constraints like primary key, foreign key or unique must have at least one column related to them! For foreign keys must be selected, in addition, the referenced columns!</source>
+        <translation type="unfinished">主键，外键，唯一键等约束必须有至少一列来关联他们！对于外键约束引用列必须被选中！</translation>
+    </message>
+    <message>
+        <source>Unable to load one or more configuration files! Please check if files exists in the configuration folder and if they are not corrupted to preventing this error to occur again on the next startup!</source>
+        <translation type="unfinished">无法载入一个或多少配置文件！请检查文件是否存在配置目录中或者文件错误来防止错误继续在下一次启动中发生！</translation>
+    </message>
+    <message>
+        <source>Could not find the default settings file &apos;%1&apos;! To restore default settings check the existence of the file and try again!</source>
+        <translation type="unfinished">没有发现默认的配置文件 &apos;%1&apos;！重新保存默认设置到文件中！</translation>
+    </message>
+    <message>
+        <source>The export process failed due to an error triggered by the PostgreSQL server in an attempt to execute a SQL command. For more details about the error check the exception stack!
+
+** Executed SQL command: **
+
+%1</source>
+        <translation type="unfinished">导出失败，PostgreSQL 服务器执行 SQL 命令时发生错误！详情请查看返回的异常信息！
+
+××执行的 SQL 语句：××
+
+%1</translation>
+    </message>
+    <message>
+        <source>Could not load the plugin &apos;%1&apos; from the library &apos;%2&apos;! Message returned by plugin manager: &apos;%3&apos;</source>
+        <translation type="unfinished">无法从库 &apos;%2&apos; 中加载插件 &apos;%1&apos;！插件管理器的返回信息：&apos;%3&apos;</translation>
+    </message>
+    <message>
+        <source>One or more plugins were not activated due to errors during the loading process! Check the exception stack for more details.</source>
+        <translation type="unfinished">插件加载发生错误，一个或多个插件没有激活！详情请查看异常信息。</translation>
+    </message>
+    <message>
+        <source>Invalid syntax in file %1, line %2, column %3!</source>
+        <translation type="unfinished">错误语法位于文件 %1，行 %2，列 %3 有！</translation>
+    </message>
+    <message>
+        <source>Invalid conditional instruction &apos;%1&apos; on file %2, line %3, column %4!</source>
+        <translation type="unfinished">错误的条件结构 &apos;%1&apos; 位于文件 %2，行 %3，列 %4！</translation>
+    </message>
+    <message>
+        <source>Unknown attribute &apos;%1&apos; in file %2, line %3, column %4!</source>
+        <translation type="unfinished">未知属性 &apos;%1&apos; 位于文件 %2，行 %3，列 %4！</translation>
+    </message>
+    <message>
+        <source>Invalid metacharacter &apos;%1&apos; in file %2, line %3, column %4!</source>
+        <translation type="unfinished">错误的字符 &apos;%1&apos; 位于文件 %2，行 %3，列 %4！</translation>
+    </message>
+    <message>
+        <source>Attribute &apos;%1&apos; with an undefined value in file %2, line %3, column %4!</source>
+        <translation type="unfinished">未赋值的属性 &apos;%1&apos; 位于文件 %2，行 %3，列 %4！</translation>
+    </message>
+    <message>
+        <source>Assignment of empty XML buffer to parser!</source>
+        <translation type="unfinished">分配空白 XML 缓存给解析器！</translation>
+    </message>
+    <message>
+        <source>Could not access the file or directory %1! Make sure that it exists or if the user has access permissions on it!</source>
+        <translation type="unfinished">无法访问文件或目录 %1！请确保它存在，或者检查用户具有访问权限！</translation>
+    </message>
+    <message>
+        <source>Assignment of empty DTD file name!</source>
+        <translation type="unfinished">分配一个空 DTD 文件名！</translation>
+    </message>
+    <message>
+        <source>Assignment of empty name to the DTD declaration!</source>
+        <translation type="unfinished">分配空白名称给 DTD 声明！</translation>
+    </message>
+    <message>
+        <source>Error while interpreting XML buffer at line %1 column %2.
+Message generated by the parser: &apos;%3&apos;. %4</source>
+        <translation type="unfinished">解析 XML 缓存发生错误，错误位于行 %1 列 %2。解析器生成的消息：&apos;%3&apos;。%4</translation>
+    </message>
+    <message>
+        <source>Operation on unallocated element tree! It is necessary to load the XML parser buffer and interpret it so that the tree is generated!</source>
+        <translation type="unfinished">操作在未分配的元素树上！必须要先载入 XML 解析器缓存并执行解析，这样树才能生成！</translation>
+    </message>
+    <message>
+        <source>Could not load file %1. The same appears to be inconsistent or one of its dependencies (DTD files) has errors or is missing!</source>
+        <translation type="unfinished">无法载入文件 %1。它出现了不一致性或其中有的依赖项出现错误或已经丢失！</translation>
+    </message>
+    <message>
+        <source>Operation with unallocated tree element!</source>
+        <translation type="unfinished">操作在未分配的树元素上！</translation>
+    </message>
+    <message>
+        <source>Operation with element which does not exists in the element tree currently loaded!</source>
+        <translation type="unfinished">操作的元素，在当前载入的元素树中不存在！</translation>
+    </message>
+    <message>
+        <source>Assignment of a value to an invalid connection parameter!</source>
+        <translation type="unfinished">给一个无效的连接参数分配一个值！</translation>
+    </message>
+    <message>
+        <source>Operation on connection not established!</source>
+        <translation type="unfinished">未能成功连接！</translation>
+    </message>
+    <message>
+        <source>Attempt to connect without define configuration parameters!</source>
+        <translation type="unfinished">尝试没有定义配置参数的连接！</translation>
+    </message>
+    <message>
+        <source>Could not connect to the database.
+Message returned: &apos;%1&apos;</source>
+        <translation type="unfinished">无法连接数据库。
+返回的信息：&apos;%1&apos;</translation>
+    </message>
+    <message>
+        <source>Assignment of not allocated SQL command result!</source>
+        <translation type="unfinished">指定的 SQL 命令结果不存在！</translation>
+    </message>
+    <message>
+        <source>Unable to allocate the result of the SQL command because the response from the DBMS was not understood by the client!</source>
+        <translation type="unfinished">无法获得 SQL 命令结果，因为服务器端的反馈客户端无法识别！</translation>
+    </message>
+    <message>
+        <source>Unable to allocate command result for the SQL because the server has generated a fatal error!
+Message returned by the DBMS: %1</source>
+        <translation type="unfinished">无法获取 SQL 的命令结果，因为服务端产生了严重错误！数据库服务器返回的信息：%1</translation>
+    </message>
+    <message>
+        <source>Unable to allocate the result of the SQL command because the command passed was an empty SQL!</source>
+        <translation type="unfinished">无法获取 SQL 命令的结果，因为命令是一条空 SQL！</translation>
+    </message>
+    <message>
+        <source>Reference to a column of tuple with invalid index!</source>
+        <translation type="unfinished">引用的一列元组索引无效！</translation>
+    </message>
+    <message>
+        <source>Reference to a column of tuple with invalid name!</source>
+        <translation type="unfinished">引用的一列元组名字无效！</translation>
+    </message>
+    <message>
+        <source>Reference to a tuple with index invalid or the result is empty (no tuples)!</source>
+        <translation type="unfinished">引用的元组索引无效或者结果为空(没有)！</translation>
+    </message>
+    <message>
+        <source>Could not execute the SQL command.
+ Message returned: %1</source>
+        <translation type="unfinished">无法执行 SQL 命令。
 返回的信息： %1</translation>
     </message>
 </context>
@@ -1754,11 +3215,11 @@ Message returned by the DBMS: %1</source>
     <name>FamiliaOperadoresWidget</name>
     <message>
         <source>Indexing:</source>
-        <translation>正在建立索引：</translation>
+        <translation type="obsolete">正在建立索引：</translation>
     </message>
     <message>
         <source>Form</source>
-        <translation>Form</translation>
+        <translation type="obsolete">Form</translation>
     </message>
 </context>
 <context>
@@ -1817,6 +3278,10 @@ Message returned by the DBMS: %1</source>
     <message>
         <source>Any modification made until now in the current section will be lost! Do you really want to restore default settings?</source>
         <translation>当前部分所做的修改将会丢失！要恢复到默认设置吗？</translation>
+    </message>
+    <message>
+        <source>Plug-ins</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1978,11 +3443,11 @@ Message returned by the DBMS: %1</source>
     </message>
     <message>
         <source>Help</source>
-        <translation>帮助</translation>
+        <translation type="obsolete">帮助</translation>
     </message>
     <message>
         <source>Show</source>
-        <translation>显示</translation>
+        <translation type="obsolete">显示</translation>
     </message>
     <message>
         <source>New</source>
@@ -2070,15 +3535,15 @@ Message returned by the DBMS: %1</source>
     </message>
     <message>
         <source>Print grid</source>
-        <translation>打印网格</translation>
+        <translation type="obsolete">打印网格</translation>
     </message>
     <message>
         <source>Print page numbers</source>
-        <translation>打印页码</translation>
+        <translation type="obsolete">打印页码</translation>
     </message>
     <message>
         <source>Model Options</source>
-        <translation>模型选项</translation>
+        <translation type="obsolete">模型选项</translation>
     </message>
     <message>
         <source>Confirmation</source>
@@ -2138,7 +3603,7 @@ Message returned by the DBMS: %1</source>
     </message>
     <message>
         <source>F2</source>
-        <translation>F2</translation>
+        <translation type="obsolete">F2</translation>
     </message>
     <message>
         <source>Ctrl+P</source>
@@ -2202,7 +3667,7 @@ Message returned by the DBMS: %1</source>
     </message>
     <message>
         <source>Tools</source>
-        <translation>工具</translation>
+        <translation type="obsolete">工具</translation>
     </message>
     <message>
         <source>View</source>
@@ -2223,6 +3688,46 @@ Message returned by the DBMS: %1</source>
     <message>
         <source>The model were modified! Do you want to save it before close?</source>
         <translation>模型已被修改！要在关闭前保存吗？</translation>
+    </message>
+    <message>
+        <source>&amp;File</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Edit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Help</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Show</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Tools</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Plugins</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Ctrl+Q</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>F1</source>
+        <translation type="unfinished">F1</translation>
+    </message>
+    <message>
+        <source>Ctrl+Shift+S</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Ctrl+W</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2283,7 +3788,7 @@ Message returned by the DBMS: %1</source>
 The pgModeler project is a CASE tool for modeling relational databases for PostgreSQL DBMS through the use of modeling techniques from entity-relationship diagrams as well merging concepts that PostgreSQL implements.
 
 Special thanks to friends of the software development team of the Legislative Assembly, Tocantins, Brazil: Michel de Almeida, Felipe Santana, Jonas Nepomuceno, Ricardo Ishibashi and Álvaro Nunes.</source>
-        <translation>版权所有 2006-2012 - Raphael Araújo e Silva &lt;rkhaotix@gmail.com&gt;
+        <translation type="obsolete">版权所有 2006-2012 - Raphael Araújo e Silva &lt;rkhaotix@gmail.com&gt;
 
 pgModeler 项目是通过使用实体-关系图并结合 PostgreSQL 实现的相关理论概念，对 PostgreSQL DBMS 关系型数据库进行建模的 CASE 工具。
 
@@ -2309,500 +3814,1043 @@ GPLv3 的完整内容放在源代码根目录的 LICENSE 文件中。完整的 G
         <source>Design, configure, deploy</source>
         <translation>设计, 配置, 部署</translation>
     </message>
+    <message>
+        <source>Copyright 2006-2013 - Raphael Araújo e Silva &lt;rkhaotix@gmail.com&gt;
+
+The pgModeler project is a CASE tool for modeling relational databases for PostgreSQL DBMS through the use of modeling techniques from entity-relationship diagrams as well merging concepts that PostgreSQL implements.
+
+Special thanks to friends of the software development team of the Legislative Assembly, Tocantins, Brazil: Michel de Almeida, Felipe Santana, Jonas Nepomuceno, Ricardo Ishibashi and Álvaro Nunes.</source>
+        <translation type="unfinished">版权所有 2006-2012 - Raphael Araújo e Silva &lt;rkhaotix@gmail.com&gt;
+
+pgModeler 项目是通过使用实体-关系图并结合 PostgreSQL 实现的相关理论概念，对 PostgreSQL DBMS 关系型数据库进行建模的 CASE 工具。
+
+特别感谢巴西托坎廷斯立法大会软件开发团队的朋友们：Michel de Almeida，Felipe Santana，Jonas Nepomuceno，Ricardo Ishibashi 和 Álvaro Nunes。 {2006-2013 ?}</translation>
+    </message>
 </context>
 <context>
     <name>FuncaoAgregacaoWidget</name>
     <message>
         <source>Final Function:</source>
-        <translation>最终处理函数：</translation>
+        <translation type="obsolete">最终处理函数：</translation>
     </message>
     <message>
         <source>Transition Function:</source>
-        <translation>状态转换函数：</translation>
+        <translation type="obsolete">状态转换函数：</translation>
     </message>
     <message>
         <source>Sort Operator:</source>
-        <translation>排序操作符：</translation>
+        <translation type="obsolete">排序操作符：</translation>
     </message>
     <message>
         <source>Final Condition:</source>
-        <translation>最终条件：</translation>
+        <translation type="obsolete">最终条件：</translation>
     </message>
     <message>
         <source>Funtion Inputs</source>
-        <translation>函数输入</translation>
+        <translation type="obsolete">函数输入</translation>
     </message>
     <message>
         <source>Function State</source>
-        <translation>函数状态</translation>
+        <translation type="obsolete">函数状态</translation>
     </message>
     <message>
         <source>Input Data Type</source>
-        <translation>输入数据类型</translation>
+        <translation type="obsolete">输入数据类型</translation>
     </message>
     <message>
         <source>State Data Type</source>
-        <translation>状态数据类型</translation>
+        <translation type="obsolete">状态数据类型</translation>
     </message>
     <message>
         <source>An aggregate function that accepts the types &lt;em&gt;&lt;strong&gt;typeA&lt;/strong&gt;&lt;/em&gt; and &lt;em&gt;&lt;strong&gt;typeB&lt;/strong&gt;&lt;/em&gt; as input types and which type of state is &lt;em&gt;&lt;strong&gt;state_type&lt;/strong&gt;&lt;/em&gt;, must obey the following rules: &lt;br/&gt;&lt;br/&gt; &lt;strong&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;• Final Function:&lt;/strong&gt; &lt;em&gt;void final_function(&lt;strong&gt;state_type&lt;/strong&gt;)&lt;/em&gt;&lt;br/&gt;  &lt;strong&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;• Transition Function:&lt;/strong&gt; &lt;em&gt;&lt;strong&gt;state_type&lt;/strong&gt; transition_function(&lt;strong&gt;state_type&lt;/strong&gt;, &lt;strong&gt;typeA&lt;/strong&gt;, &lt;strong&gt;typeB&lt;/strong&gt;)&lt;/em&gt;</source>
-        <translation>聚合函数接受类型 &lt;em&gt;&lt;strong&gt;typeA&lt;/strong&gt;&lt;/em&gt; 和 &lt;em&gt;&lt;strong&gt;typeB&lt;/strong&gt;&lt;/em&gt; 作为输入类型，并且类型状态为 &lt;em&gt;&lt;strong&gt;state_type&lt;/strong&gt;&lt;/em&gt;, 函数必须遵循如下规则：&lt;br/&gt;&lt;br/&gt; &lt;strong&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;•最终处理函数：&lt;/strong&gt; &lt;em&gt;void final_function(&lt;strong&gt;state_type&lt;/strong&gt;)&lt;/em&gt;&lt;br/&gt;  &lt;strong&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;• 过渡处理函数：&lt;/strong&gt; &lt;em&gt;&lt;strong&gt;state_type&lt;/strong&gt; transition_function(&lt;strong&gt;state_type&lt;/strong&gt;, &lt;strong&gt;typeA&lt;/strong&gt;, &lt;strong&gt;typeB&lt;/strong&gt;)&lt;/em&gt;</translation>
+        <translation type="obsolete">聚合函数接受类型 &lt;em&gt;&lt;strong&gt;typeA&lt;/strong&gt;&lt;/em&gt; 和 &lt;em&gt;&lt;strong&gt;typeB&lt;/strong&gt;&lt;/em&gt; 作为输入类型，并且类型状态为 &lt;em&gt;&lt;strong&gt;state_type&lt;/strong&gt;&lt;/em&gt;, 函数必须遵循如下规则：&lt;br/&gt;&lt;br/&gt; &lt;strong&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;•最终处理函数：&lt;/strong&gt; &lt;em&gt;void final_function(&lt;strong&gt;state_type&lt;/strong&gt;)&lt;/em&gt;&lt;br/&gt;  &lt;strong&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;• 过渡处理函数：&lt;/strong&gt; &lt;em&gt;&lt;strong&gt;state_type&lt;/strong&gt; transition_function(&lt;strong&gt;state_type&lt;/strong&gt;, &lt;strong&gt;typeA&lt;/strong&gt;, &lt;strong&gt;typeB&lt;/strong&gt;)&lt;/em&gt;</translation>
     </message>
     <message>
         <source>Form</source>
-        <translation>Form</translation>
+        <translation type="obsolete">Form</translation>
     </message>
 </context>
 <context>
     <name>FuncaoWidget</name>
     <message>
         <source>Attributes</source>
-        <translation>属性</translation>
+        <translation type="obsolete">属性</translation>
     </message>
     <message>
         <source>Langague:</source>
-        <translation>语言：</translation>
+        <translation type="obsolete">语言：</translation>
     </message>
     <message>
         <source>Function Type:</source>
-        <translation>函数类型：</translation>
+        <translation type="obsolete">函数类型：</translation>
     </message>
     <message>
         <source>Window Function:</source>
-        <translation>窗口函数：</translation>
+        <translation type="obsolete">窗口函数：</translation>
     </message>
     <message>
         <source>Execution Cost:</source>
-        <translation>执行开销：</translation>
+        <translation type="obsolete">执行开销：</translation>
     </message>
     <message>
         <source>Rows Returned:</source>
-        <translation>返回行数：</translation>
+        <translation type="obsolete">返回行数：</translation>
     </message>
     <message>
         <source>Behavior:</source>
-        <translation>行为：</translation>
+        <translation type="obsolete">行为：</translation>
     </message>
     <message>
         <source>Security:</source>
-        <translation>安全：</translation>
+        <translation type="obsolete">安全：</translation>
     </message>
     <message>
         <source>Return Method:</source>
-        <translation>返回方法：</translation>
+        <translation type="obsolete">返回方法：</translation>
     </message>
     <message>
         <source>Simple</source>
-        <translation>简单</translation>
+        <translation type="obsolete">简单</translation>
     </message>
     <message>
         <source>Set</source>
-        <translation>集</translation>
+        <translation type="obsolete">集</translation>
     </message>
     <message>
         <source>Table</source>
-        <translation>表</translation>
+        <translation type="obsolete">表</translation>
     </message>
     <message>
         <source>Parameters</source>
-        <translation>参数</translation>
+        <translation type="obsolete">参数</translation>
     </message>
     <message>
         <source>Definition</source>
-        <translation>定义</translation>
+        <translation type="obsolete">定义</translation>
     </message>
     <message>
         <source>Dynamic Library:</source>
-        <translation>动态库：</translation>
+        <translation type="obsolete">动态库：</translation>
     </message>
     <message>
         <source>Symbol:</source>
-        <translation>符号：</translation>
+        <translation type="obsolete">符号：</translation>
     </message>
     <message>
         <source>Library:</source>
-        <translation>库：</translation>
+        <translation type="obsolete">库：</translation>
     </message>
     <message>
         <source>Source code:</source>
-        <translation>源代码：</translation>
+        <translation type="obsolete">源代码：</translation>
     </message>
     <message>
         <source>Column</source>
-        <translation>列</translation>
+        <translation type="obsolete">列</translation>
     </message>
     <message>
         <source>Type</source>
-        <translation>类型</translation>
+        <translation type="obsolete">类型</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation>名称</translation>
+        <translation type="obsolete">名称</translation>
     </message>
     <message>
         <source>Default Value</source>
-        <translation>默认值</translation>
+        <translation type="obsolete">默认值</translation>
     </message>
     <message>
         <source>Form</source>
-        <translation>Form</translation>
+        <translation type="obsolete">Form</translation>
     </message>
     <message>
         <source>Return Table</source>
-        <translation>返回表</translation>
+        <translation type="obsolete">返回表</translation>
     </message>
     <message>
         <source>IN/OUT</source>
-        <translation>IN/OUT</translation>
+        <translation type="obsolete">IN/OUT</translation>
+    </message>
+</context>
+<context>
+    <name>FunctionWidget</name>
+    <message>
+        <source>Form</source>
+        <translation type="unfinished">Form</translation>
+    </message>
+    <message>
+        <source>Attributes</source>
+        <translation type="unfinished">属性</translation>
+    </message>
+    <message>
+        <source>Langague:</source>
+        <translation type="unfinished">语言：</translation>
+    </message>
+    <message>
+        <source>Function Type:</source>
+        <translation type="unfinished">函数类型：</translation>
+    </message>
+    <message>
+        <source>Window Function:</source>
+        <translation type="unfinished">窗口函数：</translation>
+    </message>
+    <message>
+        <source>Execution Cost:</source>
+        <translation type="unfinished">执行开销：</translation>
+    </message>
+    <message>
+        <source>Rows Returned:</source>
+        <translation type="unfinished">返回行数：</translation>
+    </message>
+    <message>
+        <source>Behavior:</source>
+        <translation type="unfinished">行为：</translation>
+    </message>
+    <message>
+        <source>Security:</source>
+        <translation type="unfinished">安全：</translation>
+    </message>
+    <message>
+        <source>Return Method:</source>
+        <translation type="unfinished">返回方法：</translation>
+    </message>
+    <message>
+        <source>Simple</source>
+        <translation type="unfinished">简单</translation>
+    </message>
+    <message>
+        <source>Set</source>
+        <translation type="unfinished">集</translation>
+    </message>
+    <message>
+        <source>Table</source>
+        <translation type="unfinished">表</translation>
+    </message>
+    <message>
+        <source>Return Table</source>
+        <translation type="unfinished">返回表</translation>
+    </message>
+    <message>
+        <source>Parameters</source>
+        <translation type="unfinished">参数</translation>
+    </message>
+    <message>
+        <source>Definition</source>
+        <translation type="unfinished">定义</translation>
+    </message>
+    <message>
+        <source>Dynamic Library:</source>
+        <translation type="unfinished">动态库：</translation>
+    </message>
+    <message>
+        <source>Symbol:</source>
+        <translation type="unfinished">符号：</translation>
+    </message>
+    <message>
+        <source>Library:</source>
+        <translation type="unfinished">库：</translation>
+    </message>
+    <message>
+        <source>Source code:</source>
+        <translation type="unfinished">源代码：</translation>
+    </message>
+    <message>
+        <source>Column</source>
+        <translation type="unfinished">列</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation type="unfinished">类型</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation type="unfinished">名称</translation>
+    </message>
+    <message>
+        <source>IN/OUT</source>
+        <translation type="unfinished">IN/OUT</translation>
+    </message>
+    <message>
+        <source>Default Value</source>
+        <translation type="unfinished">默认值</translation>
     </message>
 </context>
 <context>
     <name>GatilhoWidget</name>
     <message>
         <source>Triggering Mode:</source>
-        <translation>触发器模式：</translation>
+        <translation type="obsolete">触发器模式：</translation>
     </message>
     <message>
         <source>Execute per row</source>
-        <translation>逐行执行</translation>
+        <translation type="obsolete">逐行执行</translation>
     </message>
     <message>
         <source>Event:</source>
-        <translation>事件：</translation>
+        <translation type="obsolete">事件：</translation>
     </message>
     <message>
         <source>Deferrable:</source>
-        <translation>可延迟：</translation>
+        <translation type="obsolete">可延迟：</translation>
     </message>
     <message>
         <source>Deferral:</source>
-        <translation>延迟：</translation>
+        <translation type="obsolete">延迟：</translation>
     </message>
     <message>
         <source>Referenced Table:</source>
-        <translation>引用表：</translation>
+        <translation type="obsolete">引用表：</translation>
     </message>
     <message>
         <source>Conditional Expr.:</source>
-        <translation>条件表达式：</translation>
+        <translation type="obsolete">条件表达式：</translation>
     </message>
     <message>
         <source>Columns</source>
-        <translation>列</translation>
+        <translation type="obsolete">列</translation>
     </message>
     <message>
         <source>Column:</source>
-        <translation>列：</translation>
+        <translation type="obsolete">列：</translation>
     </message>
     <message>
         <source>Arguments</source>
-        <translation>参数</translation>
+        <translation type="obsolete">参数</translation>
     </message>
     <message>
         <source>Argument:</source>
-        <translation>参数：</translation>
+        <translation type="obsolete">参数：</translation>
     </message>
     <message>
         <source>Function:</source>
-        <translation>函数：</translation>
+        <translation type="obsolete">函数：</translation>
     </message>
     <message>
         <source>Column</source>
-        <translation>列</translation>
+        <translation type="obsolete">列</translation>
     </message>
     <message>
         <source>Type</source>
-        <translation>类型</translation>
+        <translation type="obsolete">类型</translation>
     </message>
     <message>
         <source>Form</source>
-        <translation>Form</translation>
+        <translation type="obsolete">Form</translation>
     </message>
     <message>
         <source>INSTEAD OF</source>
-        <translation>INSTEAD OF</translation>
+        <translation type="obsolete">INSTEAD OF</translation>
     </message>
     <message>
         <source>INSERT</source>
-        <translation>INSERT</translation>
+        <translation type="obsolete">INSERT</translation>
     </message>
     <message>
         <source>DELETE</source>
-        <translation>DELETE</translation>
+        <translation type="obsolete">DELETE</translation>
     </message>
     <message>
         <source>UPDATE</source>
-        <translation>UPDATE</translation>
+        <translation type="obsolete">UPDATE</translation>
     </message>
     <message>
         <source>TRUNCATE</source>
-        <translation>TRUNCATE</translation>
+        <translation type="obsolete">TRUNCATE</translation>
     </message>
     <message>
         <source>Constraint Trigger:</source>
-        <translation>约束触发器：</translation>
+        <translation type="obsolete">约束触发器：</translation>
+    </message>
+</context>
+<context>
+    <name>GeneralConfigWidget</name>
+    <message>
+        <source>Form</source>
+        <translation type="unfinished">Form</translation>
+    </message>
+    <message>
+        <source>Printing Options:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Save widgets position</source>
+        <translation type="unfinished">保存部件位置</translation>
+    </message>
+    <message>
+        <source>Milimeters</source>
+        <translation type="unfinished">毫米</translation>
+    </message>
+    <message>
+        <source>Pixels</source>
+        <translation type="unfinished">像素</translation>
+    </message>
+    <message>
+        <source>Inches</source>
+        <translation type="unfinished">英寸</translation>
+    </message>
+    <message>
+        <source>Centimeter</source>
+        <translation type="unfinished">厘米</translation>
+    </message>
+    <message>
+        <source>Save current session</source>
+        <translation type="unfinished">保存当前会话</translation>
+    </message>
+    <message>
+        <source>A0 (841 x 1189 mm)</source>
+        <translation type="unfinished">A0 (841 x 1189 mm)</translation>
+    </message>
+    <message>
+        <source>A1 (594 x 841 mm)</source>
+        <translation type="unfinished">A1 (594 x 841 mm)</translation>
+    </message>
+    <message>
+        <source>A2 (420 x 594 mm)</source>
+        <translation type="unfinished">A2 (420 x 594 mm)</translation>
+    </message>
+    <message>
+        <source>A3 (297 x 420 mm)</source>
+        <translation type="unfinished">A3 (297 x 420 mm)</translation>
+    </message>
+    <message>
+        <source>A4 (210 x 297 mm)</source>
+        <translation type="unfinished">A4 (210 x 297 mm)</translation>
+    </message>
+    <message>
+        <source>A5 (148 x 210 mm)</source>
+        <translation type="unfinished">A5 (148 x 210 mm)</translation>
+    </message>
+    <message>
+        <source>A6 (105 x 148 mm)</source>
+        <translation type="unfinished">A6 (105 x 148 mm)</translation>
+    </message>
+    <message>
+        <source>A7 (74 x 105 mm)</source>
+        <translation type="unfinished">A7 (74 x 105 mm)</translation>
+    </message>
+    <message>
+        <source>A8 (52 x 74 mm)</source>
+        <translation type="unfinished">A8 (52 x 74 mm)</translation>
+    </message>
+    <message>
+        <source>A9 (37 x 52 mm)</source>
+        <translation type="unfinished">A9 (37 x 52 mm)</translation>
+    </message>
+    <message>
+        <source>B0 (1030 x 1456 mm)</source>
+        <translation type="unfinished">B0 (1030 x 1456 mm)</translation>
+    </message>
+    <message>
+        <source>B1 (728 x 1030 mm)</source>
+        <translation type="unfinished">B1 (728 x 1030 mm)</translation>
+    </message>
+    <message>
+        <source>B10 (32 x 45 mm)</source>
+        <translation type="unfinished">B10 (32 x 45 mm)</translation>
+    </message>
+    <message>
+        <source>B2 (515 x 728 mm)</source>
+        <translation type="unfinished">B2 (515 x 728 mm)</translation>
+    </message>
+    <message>
+        <source>B3 (364 x 515 mm)</source>
+        <translation type="unfinished">B3 (364 x 515 mm)</translation>
+    </message>
+    <message>
+        <source>B4 (257 x 364 mm)</source>
+        <translation type="unfinished">B4 (257 x 364 mm)</translation>
+    </message>
+    <message>
+        <source>B5 (182 x 257 mm)</source>
+        <translation type="unfinished">B5 (182 x 257 mm)</translation>
+    </message>
+    <message>
+        <source>B6 (128 x 182 mm)</source>
+        <translation type="unfinished">B6 (128 x 182 mm)</translation>
+    </message>
+    <message>
+        <source>B7 (91 x 128 mm)</source>
+        <translation type="unfinished">B7 (91 x 128 mm)</translation>
+    </message>
+    <message>
+        <source>B8 (64 x 91 mm)</source>
+        <translation type="unfinished">B8 (64 x 91 mm)</translation>
+    </message>
+    <message>
+        <source>B9 (45 x 64 mm)</source>
+        <translation type="unfinished">B9 (45 x 64 mm)</translation>
+    </message>
+    <message>
+        <source>C5E (163 x 229 mm)</source>
+        <translation type="unfinished">C5E (163 x 229 mm)</translation>
+    </message>
+    <message>
+        <source>Comm10E (105 x 241 mm)</source>
+        <translation type="unfinished">Comm10E (105 x 241 mm)</translation>
+    </message>
+    <message>
+        <source>DLE (110 x 220 mm)</source>
+        <translation type="unfinished">DLE (110 x 220 mm)</translation>
+    </message>
+    <message>
+        <source>Executive (191 x 254 mm)</source>
+        <translation type="unfinished">Executive (191 x 254 mm)</translation>
+    </message>
+    <message>
+        <source>Folio (210 x 330 mm)</source>
+        <translation type="unfinished">Folio (210 x 330 mm)</translation>
+    </message>
+    <message>
+        <source>Ledger (432 x 279 mm)</source>
+        <translation type="unfinished">Ledger (432 x 279 mm)</translation>
+    </message>
+    <message>
+        <source>Legal (216 x 356 mm)</source>
+        <translation type="unfinished">Legal (216 x 356 mm)</translation>
+    </message>
+    <message>
+        <source>Letter (216 x 279 mm)</source>
+        <translation type="unfinished">Letter (216 x 279 mm)</translation>
+    </message>
+    <message>
+        <source>Tabloid (279 x 432 mm)</source>
+        <translation type="unfinished">Tabloid (279 x 432 mm)</translation>
+    </message>
+    <message>
+        <source>Custom (Based on margins)</source>
+        <translation type="unfinished">定制 (基于边框)</translation>
+    </message>
+    <message>
+        <source>Paper:</source>
+        <translation type="unfinished">纸型：</translation>
+    </message>
+    <message>
+        <source>Orientation:</source>
+        <translation type="unfinished">方向：</translation>
+    </message>
+    <message>
+        <source>Margins:</source>
+        <translation type="unfinished">边距：</translation>
+    </message>
+    <message>
+        <source>Autosave interval:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Grid size:</source>
+        <translation type="unfinished">网格大小：</translation>
+    </message>
+    <message>
+        <source>Operation history:</source>
+        <translation type="unfinished">操作记录：</translation>
+    </message>
+    <message>
+        <source>Print grid</source>
+        <translation type="unfinished">打印网格</translation>
+    </message>
+    <message>
+        <source>Left:</source>
+        <translation type="unfinished">左：</translation>
+    </message>
+    <message>
+        <source>Left margin</source>
+        <translation type="unfinished">左边距</translation>
+    </message>
+    <message>
+        <source>Top:</source>
+        <translation type="unfinished">上：</translation>
+    </message>
+    <message>
+        <source>Top margin</source>
+        <translation type="unfinished">上边距</translation>
+    </message>
+    <message>
+        <source>Right:</source>
+        <translation type="unfinished">右：</translation>
+    </message>
+    <message>
+        <source>Right margin</source>
+        <translation type="unfinished">右边距</translation>
+    </message>
+    <message>
+        <source>Bottom:</source>
+        <translation type="unfinished">下：</translation>
+    </message>
+    <message>
+        <source>Bottom margin</source>
+        <translation type="unfinished">下边距</translation>
+    </message>
+    <message>
+        <source>Landscape</source>
+        <translation type="unfinished">横向</translation>
+    </message>
+    <message>
+        <source>Portrait</source>
+        <translation type="unfinished">纵向</translation>
+    </message>
+    <message>
+        <source>Print page numbers</source>
+        <translation type="unfinished">打印页码</translation>
+    </message>
+    <message>
+        <source>minute(s)</source>
+        <translation type="unfinished">分钟</translation>
+    </message>
+    <message>
+        <source>items</source>
+        <translation type="unfinished">条</translation>
+    </message>
+    <message>
+        <source>pixels</source>
+        <translation type="unfinished">像素</translation>
+    </message>
+</context>
+<context>
+    <name>IndexWidget</name>
+    <message>
+        <source>Form</source>
+        <translation type="unfinished">Form</translation>
+    </message>
+    <message>
+        <source>Indexing:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Fill Factor:</source>
+        <translation type="unfinished">填充因子：</translation>
+    </message>
+    <message>
+        <source>Options:</source>
+        <translation type="unfinished">选项：</translation>
+    </message>
+    <message>
+        <source>Concurrent</source>
+        <translation type="unfinished">并发</translation>
+    </message>
+    <message>
+        <source>Unique</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Fast update</source>
+        <translation type="unfinished">快速更新</translation>
+    </message>
+    <message>
+        <source>Conditional Expr.:</source>
+        <translation type="unfinished">条件表达式：</translation>
+    </message>
+    <message>
+        <source>Elements</source>
+        <translation type="unfinished">元素</translation>
+    </message>
+    <message>
+        <source>Column:</source>
+        <translation type="unfinished">列：</translation>
+    </message>
+    <message>
+        <source>Expression:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Operator Class:</source>
+        <translation type="unfinished">操作符类：</translation>
+    </message>
+    <message>
+        <source>Sorting:</source>
+        <translation type="unfinished">正在排序：</translation>
+    </message>
+    <message>
+        <source>Ascending</source>
+        <translation type="unfinished">升序</translation>
+    </message>
+    <message>
+        <source>Descending</source>
+        <translation type="unfinished">降序</translation>
+    </message>
+    <message>
+        <source>Nulls first</source>
+        <translation type="unfinished">Null 值优先</translation>
+    </message>
+    <message>
+        <source>Element</source>
+        <translation type="unfinished">元素</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation type="unfinished">类型</translation>
+    </message>
+    <message>
+        <source>Operator Class</source>
+        <translation type="unfinished">操作符类</translation>
+    </message>
+    <message>
+        <source>Sorting</source>
+        <translation type="unfinished">排序</translation>
+    </message>
+    <message>
+        <source>Nulls First</source>
+        <translation type="unfinished">Null 值优先</translation>
+    </message>
+    <message>
+        <source>Expressão</source>
+        <translation type="unfinished">表达式</translation>
+    </message>
+    <message>
+        <source>Sim</source>
+        <translation type="unfinished">是</translation>
+    </message>
+    <message>
+        <source>Não</source>
+        <translation type="unfinished">否</translation>
     </message>
 </context>
 <context>
     <name>IndiceWidget</name>
     <message>
         <source>Indexing Type:</source>
-        <translation>索引类型：</translation>
+        <translation type="obsolete">索引类型：</translation>
     </message>
     <message>
         <source>Fill Factor:</source>
-        <translation>填充因子：</translation>
+        <translation type="obsolete">填充因子：</translation>
     </message>
     <message>
         <source>Options:</source>
-        <translation>选项：</translation>
+        <translation type="obsolete">选项：</translation>
     </message>
     <message>
         <source>Concurrent</source>
-        <translation>并发</translation>
+        <translation type="obsolete">并发</translation>
     </message>
     <message>
         <source>Check duplicates</source>
-        <translation>检查重复</translation>
+        <translation type="obsolete">检查重复</translation>
     </message>
     <message>
         <source>Fast update</source>
-        <translation>快速更新</translation>
+        <translation type="obsolete">快速更新</translation>
     </message>
     <message>
         <source>Conditional Expr.:</source>
-        <translation>条件表达式：</translation>
+        <translation type="obsolete">条件表达式：</translation>
     </message>
     <message>
         <source>Elements</source>
-        <translation>元素</translation>
+        <translation type="obsolete">元素</translation>
     </message>
     <message>
         <source>Column:</source>
-        <translation>列：</translation>
+        <translation type="obsolete">列：</translation>
     </message>
     <message>
         <source>Expression:</source>
-        <translation>表达式:</translation>
+        <translation type="obsolete">表达式:</translation>
     </message>
     <message>
         <source>Operator Class:</source>
-        <translation>操作符类：</translation>
+        <translation type="obsolete">操作符类：</translation>
     </message>
     <message>
         <source>Sorting:</source>
-        <translation>正在排序：</translation>
+        <translation type="obsolete">正在排序：</translation>
     </message>
     <message>
         <source>Ascending</source>
-        <translation>升序</translation>
+        <translation type="obsolete">升序</translation>
     </message>
     <message>
         <source>Descending</source>
-        <translation>降序</translation>
+        <translation type="obsolete">降序</translation>
     </message>
     <message>
         <source>Nulls first</source>
-        <translation>Null 值优先</translation>
+        <translation type="obsolete">Null 值优先</translation>
     </message>
     <message>
         <source>Type</source>
-        <translation>类型</translation>
+        <translation type="obsolete">类型</translation>
     </message>
     <message>
         <source>Operator Class</source>
-        <translation>操作符类</translation>
+        <translation type="obsolete">操作符类</translation>
     </message>
     <message>
         <source>Sorting</source>
-        <translation>排序</translation>
+        <translation type="obsolete">排序</translation>
     </message>
     <message>
         <source>Form</source>
-        <translation>Form</translation>
+        <translation type="obsolete">Form</translation>
     </message>
     <message>
         <source>Element</source>
-        <translation>元素</translation>
+        <translation type="obsolete">元素</translation>
     </message>
     <message>
         <source>Nulls First</source>
-        <translation>Null 值优先</translation>
+        <translation type="obsolete">Null 值优先</translation>
     </message>
     <message>
         <source>Expressão</source>
-        <translation>表达式</translation>
+        <translation type="obsolete">表达式</translation>
     </message>
     <message>
         <source>Sim</source>
-        <translation>是</translation>
+        <translation type="obsolete">是</translation>
     </message>
     <message>
         <source>Não</source>
-        <translation>否</translation>
+        <translation type="obsolete">否</translation>
+    </message>
+</context>
+<context>
+    <name>LanguageWidget</name>
+    <message>
+        <source>Form</source>
+        <translation type="unfinished">Form</translation>
+    </message>
+    <message>
+        <source>Trusted:</source>
+        <translation type="unfinished">可信：</translation>
+    </message>
+    <message>
+        <source>Handler Function:</source>
+        <translation type="unfinished">处理函数：</translation>
+    </message>
+    <message>
+        <source>Validator Function:</source>
+        <translation type="unfinished">验证函数：</translation>
+    </message>
+    <message>
+        <source>Inline Function:</source>
+        <translation type="unfinished">内联函数：</translation>
+    </message>
+    <message>
+        <source>The functions to be assigned to the language should have, respectively, the following signatures:&lt;br/&gt;&lt;br/&gt;  &lt;strong&gt;Handler Function:&lt;/strong&gt; &lt;em&gt;language_handler function()&lt;/em&gt;&lt;br/&gt;  &lt;strong&gt;Validator Function:&lt;/strong&gt; &lt;em&gt;void function(oid)&lt;/em&gt;&lt;br/&gt;  &lt;strong&gt;Inline Function:&lt;/strong&gt; &lt;em&gt;void function(internal)&lt;/em&gt;</source>
+        <translation type="unfinished">语言处理函数的签名分别为：&lt;br/&gt;&lt;br/&gt;  &lt;strong&gt;处理函数：&lt;/strong&gt; &lt;em&gt;language_handler function()&lt;/em&gt;&lt;br/&gt;  &lt;strong&gt;验证函数：&lt;/strong&gt; &lt;em&gt;void function(oid)&lt;/em&gt;&lt;br/&gt;  &lt;strong&gt;内联函数：&lt;/strong&gt; &lt;em&gt;void function(internal)&lt;/em&gt;</translation>
     </message>
 </context>
 <context>
     <name>LinguagemWidget</name>
     <message>
         <source>Trusted:</source>
-        <translation>可信：</translation>
+        <translation type="obsolete">可信：</translation>
     </message>
     <message>
         <source>Handler Function:</source>
-        <translation>处理函数：</translation>
+        <translation type="obsolete">处理函数：</translation>
     </message>
     <message>
         <source>Validator Function:</source>
-        <translation>验证函数：</translation>
+        <translation type="obsolete">验证函数：</translation>
     </message>
     <message>
         <source>Inline Function:</source>
-        <translation>内联函数：</translation>
+        <translation type="obsolete">内联函数：</translation>
     </message>
     <message>
         <source>The functions to be assigned to the language should have, respectively, the following signatures:&lt;br/&gt;&lt;br/&gt;  &lt;strong&gt;Handler Function:&lt;/strong&gt; &lt;em&gt;language_handler function()&lt;/em&gt;&lt;br/&gt;  &lt;strong&gt;Validator Function:&lt;/strong&gt; &lt;em&gt;void function(oid)&lt;/em&gt;&lt;br/&gt;  &lt;strong&gt;Inline Function:&lt;/strong&gt; &lt;em&gt;void function(internal)&lt;/em&gt;</source>
-        <translation>语言处理函数的签名分别为：&lt;br/&gt;&lt;br/&gt;  &lt;strong&gt;处理函数：&lt;/strong&gt; &lt;em&gt;language_handler function()&lt;/em&gt;&lt;br/&gt;  &lt;strong&gt;验证函数：&lt;/strong&gt; &lt;em&gt;void function(oid)&lt;/em&gt;&lt;br/&gt;  &lt;strong&gt;内联函数：&lt;/strong&gt; &lt;em&gt;void function(internal)&lt;/em&gt;</translation>
+        <translation type="obsolete">语言处理函数的签名分别为：&lt;br/&gt;&lt;br/&gt;  &lt;strong&gt;处理函数：&lt;/strong&gt; &lt;em&gt;language_handler function()&lt;/em&gt;&lt;br/&gt;  &lt;strong&gt;验证函数：&lt;/strong&gt; &lt;em&gt;void function(oid)&lt;/em&gt;&lt;br/&gt;  &lt;strong&gt;内联函数：&lt;/strong&gt; &lt;em&gt;void function(internal)&lt;/em&gt;</translation>
     </message>
     <message>
         <source>Form</source>
-        <translation>Form</translation>
+        <translation type="obsolete">Form</translation>
     </message>
 </context>
 <context>
     <name>ListaObjetosWidget</name>
     <message>
         <source>Dependencies</source>
-        <translation>依赖</translation>
+        <translation type="obsolete">依赖</translation>
     </message>
     <message>
         <source>Object</source>
-        <translation>对象</translation>
+        <translation type="obsolete">对象</translation>
     </message>
     <message>
         <source>Type</source>
-        <translation>类型</translation>
+        <translation type="obsolete">类型</translation>
     </message>
     <message>
         <source>Parent Object</source>
-        <translation>父对象</translation>
+        <translation type="obsolete">父对象</translation>
     </message>
     <message>
         <source>Parent Type</source>
-        <translation>父类型</translation>
+        <translation type="obsolete">父类型</translation>
     </message>
     <message>
         <source>References</source>
-        <translation>引用</translation>
+        <translation type="obsolete">引用</translation>
     </message>
     <message>
         <source>Dependeces / References of Object</source>
-        <translation>对象的依赖/引用</translation>
+        <translation type="obsolete">对象的依赖/引用</translation>
     </message>
     <message>
         <source>Form</source>
-        <translation>Form</translation>
+        <translation type="obsolete">Form</translation>
     </message>
 </context>
 <context>
     <name>ListaOperacoes</name>
     <message>
         <source>Undoing operation on object: %1 (%2)</source>
-        <translation>正在撤销对象操作： %1 (%2)</translation>
+        <translation type="obsolete">正在撤销对象操作： %1 (%2)</translation>
     </message>
     <message>
         <source>Redoing operation on object:: %1 (%2)</source>
-        <translation>正在重做对象操作： %1 (%2)</translation>
+        <translation type="obsolete">正在重做对象操作： %1 (%2)</translation>
     </message>
 </context>
 <context>
     <name>ListaOperacoesWidget</name>
     <message>
         <source>Executed Operations</source>
-        <translation>执行的操作</translation>
+        <translation type="obsolete">执行的操作</translation>
     </message>
     <message>
         <source>Operations:</source>
-        <translation>操作：</translation>
+        <translation type="obsolete">操作：</translation>
     </message>
     <message>
         <source>Position:</source>
-        <translation>位置：</translation>
+        <translation type="obsolete">位置：</translation>
     </message>
     <message>
         <source>Delete operation history</source>
-        <translation>删除操作记录</translation>
+        <translation type="obsolete">删除操作记录</translation>
     </message>
     <message>
         <source>Undo</source>
-        <translation>撤销</translation>
+        <translation type="obsolete">撤销</translation>
     </message>
     <message>
         <source>Redo</source>
-        <translation>重做</translation>
+        <translation type="obsolete">重做</translation>
     </message>
     <message>
         <source>Object: %1</source>
-        <translation>对象：%1</translation>
+        <translation type="obsolete">对象：%1</translation>
     </message>
     <message>
         <source>Name: %1</source>
-        <translation>名称：%1</translation>
+        <translation type="obsolete">名称：%1</translation>
     </message>
     <message>
         <source>removed</source>
-        <translation>删除成功</translation>
+        <translation type="obsolete">删除成功</translation>
     </message>
     <message>
         <source>modified</source>
-        <translation>修改成功</translation>
+        <translation type="obsolete">修改成功</translation>
     </message>
     <message>
         <source>moved</source>
-        <translation>移动成功</translation>
+        <translation type="obsolete">移动成功</translation>
     </message>
     <message>
         <source>Operation: %1</source>
-        <translation>操作：%1</translation>
+        <translation type="obsolete">操作：%1</translation>
     </message>
     <message>
         <source>Undoing operations...</source>
-        <translation>正在撤销操作...</translation>
+        <translation type="obsolete">正在撤销操作...</translation>
     </message>
     <message>
         <source>Redoing operations...</source>
-        <translation>正在重做操作...</translation>
+        <translation type="obsolete">正在重做操作...</translation>
     </message>
     <message>
         <source>Operation history exclusion</source>
-        <translation>不显示操作记录</translation>
+        <translation type="obsolete">不显示操作记录</translation>
     </message>
     <message>
         <source>Delete the executed operations history is an irreversible action, do you want to continue?</source>
-        <translation>删除操作记录是不可逆操作，要继续吗？</translation>
+        <translation type="obsolete">删除操作记录是不可逆操作，要继续吗？</translation>
     </message>
     <message>
         <source>1</source>
-        <translation>1</translation>
+        <translation type="obsolete">1</translation>
     </message>
     <message>
         <source>0</source>
-        <translation>0</translation>
+        <translation type="obsolete">0</translation>
     </message>
     <message>
         <source>created</source>
-        <translation>创建成功</translation>
+        <translation type="obsolete">创建成功</translation>
+    </message>
+</context>
+<context>
+    <name>MessageBox</name>
+    <message>
+        <source>Dialog</source>
+        <translation type="unfinished">Dialog</translation>
+    </message>
+    <message>
+        <source>Show excpetion stack in text format (useful to report errors).</source>
+        <translation type="unfinished">以文本形式显示异常堆栈(有助于报告错误)。</translation>
+    </message>
+    <message>
+        <source>Show/hide exceptions stack.</source>
+        <translation type="unfinished">显示/隐藏异常堆栈。</translation>
+    </message>
+    <message>
+        <source>...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>msg</source>
+        <translation type="unfinished">信息</translation>
+    </message>
+    <message>
+        <source>Exceptions</source>
+        <translation type="unfinished">异常</translation>
+    </message>
+    <message>
+        <source>&amp;Yes</source>
+        <translation type="unfinished">是(&amp;Y)</translation>
+    </message>
+    <message>
+        <source>&amp;No</source>
+        <translation type="unfinished">否(&amp;N)</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation type="unfinished">取消</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation type="unfinished">错误</translation>
+    </message>
+    <message>
+        <source>Alert</source>
+        <translation type="unfinished">警告</translation>
+    </message>
+    <message>
+        <source>Information</source>
+        <translation type="unfinished">信息</translation>
+    </message>
+    <message>
+        <source>&amp;Cancel</source>
+        <translation type="unfinished">取消(&amp;C)</translation>
+    </message>
+    <message>
+        <source>&amp;Ok</source>
+        <translation type="unfinished">确定(&amp;O)</translation>
     </message>
 </context>
 <context>
     <name>ModeloBD</name>
     <message>
         <source>Loading object: %1 (%2)</source>
-        <translation>正在载入对象：%1 (%2)</translation>
+        <translation type="obsolete">正在载入对象：%1 (%2)</translation>
     </message>
     <message>
         <source>Generating %1 of the object: %2 (%3)</source>
-        <translation>正在生成对象的 %1：%2 (%3)</translation>
+        <translation type="obsolete">正在生成对象的 %1：%2 (%3)</translation>
     </message>
 </context>
 <context>
@@ -2937,7 +4985,7 @@ GPLv3 的完整内容放在源代码根目录的 LICENSE 文件中。完整的 G
     </message>
     <message>
         <source>Dependence</source>
-        <translation>依赖</translation>
+        <translation type="obsolete">依赖</translation>
     </message>
     <message>
         <source>Convert rel. n-n</source>
@@ -2953,7 +5001,7 @@ GPLv3 的完整内容放在源代码根目录的 LICENSE 文件中。完整的 G
     </message>
     <message>
         <source>Relationship </source>
-        <translation>关系 </translation>
+        <translation type="obsolete">关系 </translation>
     </message>
     <message>
         <source>CAUTION: Remove multiple objects at once can cause irreversible invalidations to other objects in the model. Do you really want to delete ALL selected objects?</source>
@@ -2971,426 +5019,892 @@ GPLv3 的完整内容放在源代码根目录的 LICENSE 文件中。完整的 G
         <source>Generating XML code of object: %1 (%2)</source>
         <translation>正在生成对象 %1 (%2) 的 XML 代码</translation>
     </message>
+    <message>
+        <source>Quick actions</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Rename</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Quick rename the object</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Move to schema</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Move the object to another schema</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Edit permissions</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Edit object&apos;s permissions</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Change owner</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Select children</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Selects all the children graphical objects on the selected schema</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>(no objects)</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>ObjectDepsRefsWidget</name>
+    <message>
+        <source>Form</source>
+        <translation type="unfinished">Form</translation>
+    </message>
+    <message>
+        <source>Dependencies</source>
+        <translation type="unfinished">依赖</translation>
+    </message>
+    <message>
+        <source>Object</source>
+        <translation type="unfinished">对象</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation type="unfinished">类型</translation>
+    </message>
+    <message>
+        <source>Parent Object</source>
+        <translation type="unfinished">父对象</translation>
+    </message>
+    <message>
+        <source>Parent Type</source>
+        <translation type="unfinished">父类型</translation>
+    </message>
+    <message>
+        <source>References</source>
+        <translation type="unfinished">引用</translation>
+    </message>
+    <message>
+        <source>Dependences / References of Object</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>ObjetoBase</name>
     <message>
         <source>Column</source>
-        <translation>列</translation>
+        <translation type="obsolete">列</translation>
     </message>
     <message>
         <source>Constraint</source>
-        <translation>约束</translation>
+        <translation type="obsolete">约束</translation>
     </message>
     <message>
         <source>Function</source>
-        <translation>函数</translation>
+        <translation type="obsolete">函数</translation>
     </message>
     <message>
         <source>Trigger</source>
-        <translation>触发器</translation>
+        <translation type="obsolete">触发器</translation>
     </message>
     <message>
         <source>Index</source>
-        <translation>索引</translation>
+        <translation type="obsolete">索引</translation>
     </message>
     <message>
         <source>Rule</source>
-        <translation>规则</translation>
+        <translation type="obsolete">规则</translation>
     </message>
     <message>
         <source>Table</source>
-        <translation>表</translation>
+        <translation type="obsolete">表</translation>
     </message>
     <message>
         <source>View</source>
-        <translation>视图</translation>
+        <translation type="obsolete">视图</translation>
     </message>
     <message>
         <source>Domain</source>
-        <translation>域</translation>
+        <translation type="obsolete">域</translation>
     </message>
     <message>
         <source>Schema</source>
-        <translation>模式</translation>
+        <translation type="obsolete">模式</translation>
     </message>
     <message>
         <source>Aggregate</source>
-        <translation>聚合</translation>
+        <translation type="obsolete">聚合</translation>
     </message>
     <message>
         <source>Operator</source>
-        <translation>操作符</translation>
+        <translation type="obsolete">操作符</translation>
     </message>
     <message>
         <source>Sequence</source>
-        <translation>序列</translation>
+        <translation type="obsolete">序列</translation>
     </message>
     <message>
         <source>Role</source>
-        <translation>角色</translation>
+        <translation type="obsolete">角色</translation>
     </message>
     <message>
         <source>Conversion</source>
-        <translation>编码转换</translation>
+        <translation type="obsolete">编码转换</translation>
     </message>
     <message>
         <source>Cast</source>
-        <translation>类型转换</translation>
+        <translation type="obsolete">类型转换</translation>
     </message>
     <message>
         <source>Language</source>
-        <translation>语言</translation>
+        <translation type="obsolete">语言</translation>
     </message>
     <message>
         <source>Type</source>
-        <translation>类型</translation>
+        <translation type="obsolete">类型</translation>
     </message>
     <message>
         <source>Tablespace</source>
-        <translation>表空间</translation>
+        <translation type="obsolete">表空间</translation>
     </message>
     <message>
         <source>Operator Family</source>
-        <translation>操作符族</translation>
+        <translation type="obsolete">操作符族</translation>
     </message>
     <message>
         <source>Operator Class</source>
-        <translation>操作符类</translation>
+        <translation type="obsolete">操作符类</translation>
     </message>
     <message>
         <source>Database</source>
-        <translation>数据库</translation>
+        <translation type="obsolete">数据库</translation>
     </message>
     <message>
         <source>Table-Table Relationship</source>
-        <translation>表-表关系</translation>
+        <translation type="obsolete">表-表关系</translation>
     </message>
     <message>
         <source>Textbox</source>
-        <translation>文本框</translation>
+        <translation type="obsolete">文本框</translation>
     </message>
     <message>
         <source>Permission</source>
-        <translation>权限</translation>
+        <translation type="obsolete">权限</translation>
     </message>
     <message>
         <source>Parameter</source>
-        <translation>参数</translation>
+        <translation type="obsolete">参数</translation>
     </message>
     <message>
         <source>Table-View Relationship</source>
-        <translation>表-视图关系</translation>
+        <translation type="obsolete">表-视图关系</translation>
     </message>
 </context>
 <context>
     <name>ObjetoBaseWidget</name>
     <message>
         <source>Name:</source>
-        <translation>名称：</translation>
+        <translation type="obsolete">名称：</translation>
     </message>
     <message>
         <source>Comment:</source>
-        <translation>备注：</translation>
+        <translation type="obsolete">备注：</translation>
     </message>
     <message>
         <source>Tablespace:</source>
-        <translation>表空间：</translation>
+        <translation type="obsolete">表空间：</translation>
     </message>
     <message>
         <source>Owner:</source>
-        <translation>所有者：</translation>
+        <translation type="obsolete">所有者：</translation>
     </message>
     <message>
         <source>Schema:</source>
-        <translation>模式：</translation>
+        <translation type="obsolete">模式：</translation>
     </message>
     <message>
         <source>Permissions:</source>
-        <translation>权限：</translation>
+        <translation type="obsolete">权限：</translation>
     </message>
     <message>
         <source>This object is protected thus no change in form will be applied to it.</source>
-        <translation>此对象处于受保护状态，无法对它应用任何修改。</translation>
+        <translation type="obsolete">此对象处于受保护状态，无法对它应用任何修改。</translation>
     </message>
     <message>
         <source>Parent Object:</source>
-        <translation>父对象：</translation>
+        <translation type="obsolete">父对象：</translation>
     </message>
     <message>
         <source>Value(s)</source>
-        <translation>值</translation>
+        <translation type="obsolete">值</translation>
     </message>
     <message>
         <source>Version</source>
-        <translation>版本</translation>
+        <translation type="obsolete">版本</translation>
     </message>
     <message>
         <source>The field(s) or value(s) highlighted on the form is(are) for the exclusive use and/or mandatory in specific versions of PostgreSQL. Failure to complete that may cause errors in the generation of SQL code for each version shown in tool tips of the highlighted fields.</source>
-        <translation>窗口中高亮显示的字段或值只能用于特定版本的 PostgreSQL。在生成高亮字段工具提示中显示的各版本 SQL 代码时可能会发生错误，导致无法完成操作。</translation>
+        <translation type="obsolete">窗口中高亮显示的字段或值只能用于特定版本的 PostgreSQL。在生成高亮字段工具提示中显示的各版本 SQL 代码时可能会发生错误，导致无法完成操作。</translation>
     </message>
     <message>
         <source>Form</source>
-        <translation>Form</translation>
+        <translation type="obsolete">Form</translation>
     </message>
     <message>
         <source>icone</source>
-        <translation>icone</translation>
+        <translation type="obsolete">icone</translation>
     </message>
     <message>
         <source>Criate / Edit: </source>
-        <translation>创建/修改：</translation>
+        <translation type="obsolete">创建/修改：</translation>
     </message>
     <message>
         <source>Edit Permissions</source>
-        <translation>修改权限</translation>
+        <translation type="obsolete">修改权限</translation>
     </message>
 </context>
 <context>
     <name>OperadorWidget</name>
     <message>
         <source>Options:</source>
-        <translation>选项：</translation>
+        <translation type="obsolete">选项：</translation>
     </message>
     <message>
         <source>Arguments</source>
-        <translation>参数</translation>
+        <translation type="obsolete">参数</translation>
     </message>
     <message>
         <source>Functions</source>
-        <translation>函数</translation>
+        <translation type="obsolete">函数</translation>
     </message>
     <message>
         <source>Constraints:</source>
-        <translation>约束：</translation>
+        <translation type="obsolete">约束：</translation>
     </message>
     <message>
         <source>Operator:</source>
-        <translation>操作符：</translation>
+        <translation type="obsolete">操作符：</translation>
     </message>
     <message>
         <source>Operators</source>
-        <translation>操作符</translation>
+        <translation type="obsolete">操作符</translation>
     </message>
     <message>
         <source>Commutation:</source>
-        <translation>交换：</translation>
+        <translation type="obsolete">交换：</translation>
     </message>
     <message>
         <source>Negation:</source>
-        <translation>否定：</translation>
+        <translation type="obsolete">否定：</translation>
     </message>
     <message>
         <source>Sort (1):</source>
-        <translation>排序 (1)：</translation>
+        <translation type="obsolete">排序 (1)：</translation>
     </message>
     <message>
         <source>Sort (2):</source>
-        <translation>排序 (2)：</translation>
+        <translation type="obsolete">排序 (2)：</translation>
     </message>
     <message>
         <source>Less than:</source>
-        <translation>小于：</translation>
+        <translation type="obsolete">小于：</translation>
     </message>
     <message>
         <source>Greater then:</source>
-        <translation>大于：</translation>
+        <translation type="obsolete">大于：</translation>
     </message>
     <message>
         <source>Right Argument Type</source>
-        <translation>右参数类型</translation>
+        <translation type="obsolete">右参数类型</translation>
     </message>
     <message>
         <source>Left Argument Type</source>
-        <translation>左参数类型</translation>
+        <translation type="obsolete">左参数类型</translation>
     </message>
     <message>
         <source>To create a unary operator it is necessary to specify as &lt;strong&gt;&lt;em&gt;&apos;any&apos;&lt;/em&gt;&lt;/strong&gt; one of its arguments. Additionally, the function that defines the operator must have only one parameter and this, in turn, must have the same data type of the the argument of unary operator.</source>
-        <translation>在创建单目操作符时必须指定它们参数中的&lt;strong&gt;&lt;em&gt;任何&lt;/em&gt;&lt;/strong&gt;一个。另外，作为操作符的函数必须有且只有一个参数，而且这个参数的类型必须与单目操作符参数的类型相同。</translation>
+        <translation type="obsolete">在创建单目操作符时必须指定它们参数中的&lt;strong&gt;&lt;em&gt;任何&lt;/em&gt;&lt;/strong&gt;一个。另外，作为操作符的函数必须有且只有一个参数，而且这个参数的类型必须与单目操作符参数的类型相同。</translation>
     </message>
     <message>
         <source>Form</source>
-        <translation>Form</translation>
+        <translation type="obsolete">Form</translation>
     </message>
     <message>
         <source>MERGES</source>
-        <translation>融合连接 (MERGES)</translation>
+        <translation type="obsolete">融合连接 (MERGES)</translation>
     </message>
     <message>
         <source>HASHES</source>
-        <translation>哈希连接 (HASHES)</translation>
+        <translation type="obsolete">哈希连接 (HASHES)</translation>
     </message>
     <message>
         <source>Join:</source>
-        <translation>连接：</translation>
+        <translation type="obsolete">连接：</translation>
+    </message>
+</context>
+<context>
+    <name>OperationList</name>
+    <message>
+        <source>Undoing operation on object: %1 (%2)</source>
+        <translation type="unfinished">正在撤销对象操作： %1 (%2)</translation>
+    </message>
+    <message>
+        <source>Redoing operation on object:: %1 (%2)</source>
+        <translation type="unfinished">正在重做对象操作： %1 (%2)</translation>
+    </message>
+</context>
+<context>
+    <name>OperationListWidget</name>
+    <message>
+        <source>Executed Operations</source>
+        <translation type="unfinished">执行的操作</translation>
+    </message>
+    <message>
+        <source>1</source>
+        <translation type="unfinished">1</translation>
+    </message>
+    <message>
+        <source>Operations:</source>
+        <translation type="unfinished">操作：</translation>
+    </message>
+    <message>
+        <source>0</source>
+        <translation type="unfinished">0</translation>
+    </message>
+    <message>
+        <source>Position:</source>
+        <translation type="unfinished">位置：</translation>
+    </message>
+    <message>
+        <source>Delete operation history</source>
+        <translation type="unfinished">删除操作记录</translation>
+    </message>
+    <message>
+        <source>Undo</source>
+        <translation type="unfinished">撤销</translation>
+    </message>
+    <message>
+        <source>Redo</source>
+        <translation type="unfinished">重做</translation>
+    </message>
+    <message>
+        <source>Object: %1</source>
+        <translation type="unfinished">对象：%1</translation>
+    </message>
+    <message>
+        <source>Name: %1</source>
+        <translation type="unfinished">名称：%1</translation>
+    </message>
+    <message>
+        <source>created</source>
+        <translation type="unfinished">创建成功</translation>
+    </message>
+    <message>
+        <source>removed</source>
+        <translation type="unfinished">删除成功</translation>
+    </message>
+    <message>
+        <source>modified</source>
+        <translation type="unfinished">修改成功</translation>
+    </message>
+    <message>
+        <source>moved</source>
+        <translation type="unfinished">移动成功</translation>
+    </message>
+    <message>
+        <source>Operation: %1</source>
+        <translation type="unfinished">操作：%1</translation>
+    </message>
+    <message>
+        <source>Undoing operations...</source>
+        <translation type="unfinished">正在撤销操作...</translation>
+    </message>
+    <message>
+        <source>Redoing operations...</source>
+        <translation type="unfinished">正在重做操作...</translation>
+    </message>
+    <message>
+        <source>Operation history exclusion</source>
+        <translation type="unfinished">不显示操作记录</translation>
+    </message>
+    <message>
+        <source>Delete the executed operations history is an irreversible action, do you want to continue?</source>
+        <translation type="unfinished">删除操作记录是不可逆操作，要继续吗？</translation>
+    </message>
+</context>
+<context>
+    <name>OperatorClassWidget</name>
+    <message>
+        <source>Form</source>
+        <translation type="unfinished">Form</translation>
+    </message>
+    <message>
+        <source>Default Class:</source>
+        <translation type="unfinished">默认类：</translation>
+    </message>
+    <message>
+        <source>Indexing:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Elements</source>
+        <translation type="unfinished">元素</translation>
+    </message>
+    <message>
+        <source>Elemente Type:</source>
+        <translation type="unfinished">元素类型：</translation>
+    </message>
+    <message>
+        <source>Operator</source>
+        <translation type="unfinished">操作符</translation>
+    </message>
+    <message>
+        <source>Function</source>
+        <translation type="unfinished">函数</translation>
+    </message>
+    <message>
+        <source>Storage</source>
+        <translation type="unfinished">存储</translation>
+    </message>
+    <message>
+        <source>Function:</source>
+        <translation type="unfinished">函数：</translation>
+    </message>
+    <message>
+        <source>Operator:</source>
+        <translation type="unfinished">操作符：</translation>
+    </message>
+    <message>
+        <source>Support/Strategy:</source>
+        <translation type="unfinished">支持/策略：</translation>
+    </message>
+    <message>
+        <source>Recheck</source>
+        <translation type="unfinished">重新检查</translation>
+    </message>
+    <message>
+        <source>Family:</source>
+        <translation type="unfinished">族：</translation>
+    </message>
+    <message>
+        <source>Storage Type</source>
+        <translation type="unfinished">存储类型</translation>
+    </message>
+    <message>
+        <source>Object</source>
+        <translation type="unfinished">对象</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation type="unfinished">类型</translation>
+    </message>
+    <message>
+        <source>Support/Strategy</source>
+        <translation type="unfinished">支持/策略</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation type="unfinished">是</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation type="unfinished">否</translation>
+    </message>
+</context>
+<context>
+    <name>OperatorFamilyWidget</name>
+    <message>
+        <source>Form</source>
+        <translation type="unfinished">Form</translation>
+    </message>
+    <message>
+        <source>Indexing:</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>OperatorWidget</name>
+    <message>
+        <source>Form</source>
+        <translation type="unfinished">Form</translation>
+    </message>
+    <message>
+        <source>Options:</source>
+        <translation type="unfinished">选项：</translation>
+    </message>
+    <message>
+        <source>MERGES</source>
+        <translation type="unfinished">融合连接 (MERGES)</translation>
+    </message>
+    <message>
+        <source>HASHES</source>
+        <translation type="unfinished">哈希连接 (HASHES)</translation>
+    </message>
+    <message>
+        <source>Arguments</source>
+        <translation type="unfinished">参数</translation>
+    </message>
+    <message>
+        <source>Functions</source>
+        <translation type="unfinished">函数</translation>
+    </message>
+    <message>
+        <source>Join:</source>
+        <translation type="unfinished">连接：</translation>
+    </message>
+    <message>
+        <source>Constraint:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Operator:</source>
+        <translation type="unfinished">操作符：</translation>
+    </message>
+    <message>
+        <source>Operators</source>
+        <translation type="unfinished">操作符</translation>
+    </message>
+    <message>
+        <source>Commutation:</source>
+        <translation type="unfinished">交换：</translation>
+    </message>
+    <message>
+        <source>Negation:</source>
+        <translation type="unfinished">否定：</translation>
+    </message>
+    <message>
+        <source>Sort (1):</source>
+        <translation type="unfinished">排序 (1)：</translation>
+    </message>
+    <message>
+        <source>Sort (2):</source>
+        <translation type="unfinished">排序 (2)：</translation>
+    </message>
+    <message>
+        <source>Less than:</source>
+        <translation type="unfinished">小于：</translation>
+    </message>
+    <message>
+        <source>Greater then:</source>
+        <translation type="unfinished">大于：</translation>
+    </message>
+    <message>
+        <source>Right Argument Type</source>
+        <translation type="unfinished">右参数类型</translation>
+    </message>
+    <message>
+        <source>Left Argument Type</source>
+        <translation type="unfinished">左参数类型</translation>
+    </message>
+    <message>
+        <source>To create a unary operator it is necessary to specify as &lt;strong&gt;&lt;em&gt;&apos;any&apos;&lt;/em&gt;&lt;/strong&gt; one of its arguments. Additionally, the function that defines the operator must have only one parameter and this, in turn, must have the same data type of the the argument of unary operator.</source>
+        <translation type="unfinished">在创建单目操作符时必须指定它们参数中的&lt;strong&gt;&lt;em&gt;任何&lt;/em&gt;&lt;/strong&gt;一个。另外，作为操作符的函数必须有且只有一个参数，而且这个参数的类型必须与单目操作符参数的类型相同。</translation>
     </message>
 </context>
 <context>
     <name>PapelWidget</name>
     <message>
         <source>Password:</source>
-        <translation>密码：</translation>
+        <translation type="obsolete">密码：</translation>
     </message>
     <message>
         <source>Validity:</source>
-        <translation>合法性：</translation>
+        <translation type="obsolete">合法性：</translation>
     </message>
     <message>
         <source>Connections:</source>
-        <translation>连接：</translation>
+        <translation type="obsolete">连接：</translation>
     </message>
     <message>
         <source>Attributes</source>
-        <translation>属性</translation>
+        <translation type="obsolete">属性</translation>
     </message>
     <message>
         <source>Superuser</source>
-        <translation>超级用户</translation>
+        <translation type="obsolete">超级用户</translation>
     </message>
     <message>
         <source>Inherit Permissions</source>
-        <translation>继承权限</translation>
+        <translation type="obsolete">继承权限</translation>
     </message>
     <message>
         <source>Create Database</source>
-        <translation>创建数据库</translation>
+        <translation type="obsolete">创建数据库</translation>
     </message>
     <message>
         <source>Can Login</source>
-        <translation>允许登录</translation>
+        <translation type="obsolete">允许登录</translation>
     </message>
     <message>
         <source>Create Users/Groups</source>
-        <translation>创建用户/组</translation>
+        <translation type="obsolete">创建用户/组</translation>
     </message>
     <message>
         <source>Encrypted Password</source>
-        <translation>加密密码</translation>
+        <translation type="obsolete">加密密码</translation>
     </message>
     <message>
         <source>Members</source>
-        <translation>成员</translation>
+        <translation type="obsolete">成员</translation>
     </message>
     <message>
         <source>Role</source>
-        <translation>角色</translation>
+        <translation type="obsolete">角色</translation>
     </message>
     <message>
         <source>Validity</source>
-        <translation>合法性</translation>
+        <translation type="obsolete">合法性</translation>
     </message>
     <message>
         <source>Members (Admin.)</source>
-        <translation>成员(管理员)</translation>
+        <translation type="obsolete">成员(管理员)</translation>
     </message>
     <message>
         <source>Form</source>
-        <translation>Form</translation>
+        <translation type="obsolete">Form</translation>
     </message>
     <message>
         <source>SysID:</source>
-        <translation>SysID:</translation>
+        <translation type="obsolete">SysID:</translation>
     </message>
     <message>
         <source>yyyy-MMM-dd hh:mm</source>
-        <translation>yyyy-MMM-dd hh:mm</translation>
+        <translation type="obsolete">yyyy-MMM-dd hh:mm</translation>
     </message>
     <message>
         <source>Member of</source>
-        <translation>成员</translation>
+        <translation type="obsolete">成员</translation>
     </message>
     <message>
         <source>SysID</source>
-        <translation>SysID</translation>
+        <translation type="obsolete">SysID</translation>
+    </message>
+</context>
+<context>
+    <name>ParameterWidget</name>
+    <message>
+        <source>Form</source>
+        <translation type="unfinished">Form</translation>
+    </message>
+    <message>
+        <source>Default Value:</source>
+        <translation type="unfinished">默认值：</translation>
+    </message>
+    <message>
+        <source>Mode:</source>
+        <translation type="unfinished">模式：</translation>
+    </message>
+    <message>
+        <source>IN</source>
+        <translation type="unfinished">IN</translation>
+    </message>
+    <message>
+        <source>OUT</source>
+        <translation type="unfinished">OUT</translation>
     </message>
 </context>
 <context>
     <name>ParametroWidget</name>
     <message>
         <source>Default Value:</source>
-        <translation>默认值：</translation>
+        <translation type="obsolete">默认值：</translation>
     </message>
     <message>
         <source>Mode:</source>
-        <translation>模式：</translation>
+        <translation type="obsolete">模式：</translation>
     </message>
     <message>
         <source>Form</source>
-        <translation>Form</translation>
+        <translation type="obsolete">Form</translation>
     </message>
     <message>
         <source>IN</source>
-        <translation>IN</translation>
+        <translation type="obsolete">IN</translation>
     </message>
     <message>
         <source>OUT</source>
-        <translation>OUT</translation>
+        <translation type="obsolete">OUT</translation>
     </message>
 </context>
 <context>
     <name>PermissaoWidget</name>
     <message>
         <source>Roles</source>
-        <translation>角色</translation>
+        <translation type="obsolete">角色</translation>
     </message>
     <message>
         <source>Privileges</source>
-        <translation>权限</translation>
+        <translation type="obsolete">权限</translation>
     </message>
     <message>
         <source>Cancel Operation</source>
-        <translation>取消操作</translation>
+        <translation type="obsolete">取消操作</translation>
     </message>
     <message>
         <source>Update Permission</source>
-        <translation>更新权限</translation>
+        <translation type="obsolete">更新权限</translation>
     </message>
     <message>
         <source>Add Permission</source>
-        <translation>添加权限</translation>
+        <translation type="obsolete">添加权限</translation>
     </message>
     <message>
         <source>Type:</source>
-        <translation>类型：</translation>
+        <translation type="obsolete">类型：</translation>
     </message>
     <message>
         <source>Role</source>
-        <translation>角色</translation>
+        <translation type="obsolete">角色</translation>
     </message>
     <message>
         <source>Form</source>
-        <translation>Form</translation>
+        <translation type="obsolete">Form</translation>
     </message>
     <message>
         <source>ID:</source>
-        <translation>ID：</translation>
+        <translation type="obsolete">ID：</translation>
     </message>
     <message>
         <source>Permissions</source>
-        <translation>权限</translation>
+        <translation type="obsolete">权限</translation>
     </message>
     <message>
         <source>GRANT OPTION</source>
-        <translation>CRANT OPTION</translation>
+        <translation type="obsolete">CRANT OPTION</translation>
     </message>
     <message>
         <source>Id</source>
-        <translation>Id</translation>
+        <translation type="obsolete">Id</translation>
     </message>
     <message>
         <source>Privilege</source>
-        <translation>权限</translation>
+        <translation type="obsolete">权限</translation>
+    </message>
+</context>
+<context>
+    <name>PermissionWidget</name>
+    <message>
+        <source>Form</source>
+        <translation type="unfinished">Form</translation>
+    </message>
+    <message>
+        <source>Roles</source>
+        <translation type="unfinished">角色</translation>
+    </message>
+    <message>
+        <source>ID:</source>
+        <translation type="unfinished">ID：</translation>
+    </message>
+    <message>
+        <source>Permissions</source>
+        <translation type="unfinished">权限</translation>
+    </message>
+    <message>
+        <source>Add Permission</source>
+        <translation type="unfinished">添加权限</translation>
+    </message>
+    <message>
+        <source>Update Permission</source>
+        <translation type="unfinished">更新权限</translation>
+    </message>
+    <message>
+        <source>Cancel Operation</source>
+        <translation type="unfinished">取消操作</translation>
+    </message>
+    <message>
+        <source>Privileges</source>
+        <translation type="unfinished">权限</translation>
+    </message>
+    <message>
+        <source>Privilege</source>
+        <translation type="unfinished">权限</translation>
+    </message>
+    <message>
+        <source>GRANT OPTION</source>
+        <translation type="unfinished">CRANT OPTION</translation>
+    </message>
+    <message>
+        <source>Type:</source>
+        <translation type="unfinished">类型：</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation type="unfinished">角色</translation>
+    </message>
+    <message>
+        <source>Id</source>
+        <translation type="unfinished">Id</translation>
+    </message>
+</context>
+<context>
+    <name>PgModelerPlugin</name>
+    <message>
+        <source>Plugin Information</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Version: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Author: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>PluginsConfigWidget</name>
+    <message>
+        <source>Form</source>
+        <translation type="unfinished">Form</translation>
+    </message>
+    <message>
+        <source>Plug-ins root directory:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Open in file manager</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Loaded plug-ins</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Details about plugins development and installation can be found at PLUGINS.md file. &lt;strong&gt;Note:&lt;/strong&gt; plugin installation requires pgModeler to be restarted.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Plugin</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation type="unfinished">版本</translation>
+    </message>
+    <message>
+        <source>Library</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>ProgressoTarefa</name>
     <message>
         <source>Loading object: [object] (type)</source>
-        <translation>载入对象：[对象] (类型)</translation>
+        <translation type="obsolete">载入对象：[对象] (类型)</translation>
     </message>
     <message>
         <source>Executing tasks</source>
-        <translation>正在执行的任务</translation>
+        <translation type="obsolete">正在执行的任务</translation>
     </message>
 </context>
 <context>
@@ -3405,38 +5919,68 @@ GPLv3 的完整内容放在源代码根目录的 LICENSE 文件中。完整的 G
     </message>
 </context>
 <context>
+    <name>QuickRenameWidget</name>
+    <message>
+        <source>Form</source>
+        <translation type="unfinished">Form</translation>
+    </message>
+    <message>
+        <source>....</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>to:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Rename</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation type="unfinished">取消</translation>
+    </message>
+</context>
+<context>
     <name>RegraWidget</name>
     <message>
         <source>Event:</source>
-        <translation>事件：</translation>
+        <translation type="obsolete">事件：</translation>
     </message>
     <message>
         <source>Execution Type:</source>
-        <translation>执行类型：</translation>
+        <translation type="obsolete">执行类型：</translation>
     </message>
     <message>
         <source>Conditional Expr.:</source>
-        <translation>条件表达式：</translation>
+        <translation type="obsolete">条件表达式：</translation>
     </message>
     <message>
         <source>Executed Commands</source>
-        <translation>执行的命令</translation>
+        <translation type="obsolete">执行的命令</translation>
     </message>
     <message>
         <source>SQL Command:</source>
-        <translation>SQL 命令：</translation>
+        <translation type="obsolete">SQL 命令：</translation>
     </message>
     <message>
         <source>To create a rule that does not perform any action (&lt;strong&gt;DO NOTHING&lt;/strong&gt;) simply do not specify commands in the SQL commands table.</source>
-        <translation>创建一个不执行任何操作的规则（&lt;STRONG&gt;DO NOTHING&lt;/STRONG&gt;）简单点说，就是 SQL 命令表中没有的命令。</translation>
+        <translation type="obsolete">创建一个不执行任何操作的规则（&lt;STRONG&gt;DO NOTHING&lt;/STRONG&gt;）简单点说，就是 SQL 命令表中没有的命令。</translation>
     </message>
     <message>
         <source>Form</source>
-        <translation>Form</translation>
+        <translation type="obsolete">Form</translation>
     </message>
     <message>
         <source>SQL command</source>
-        <translation>SQL 命令</translation>
+        <translation type="obsolete">SQL 命令</translation>
+    </message>
+</context>
+<context>
+    <name>RelacionamentoBase</name>
+    <message>
+        <source>rel_%1_%2</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -3467,7 +6011,7 @@ GPLv3 的完整内容放在源代码根目录的 LICENSE 文件中。完整的 G
     </message>
     <message>
         <source>Dependency relationship</source>
-        <translation>依赖关系</translation>
+        <translation type="obsolete">依赖关系</translation>
     </message>
     <message>
         <source>Identifier</source>
@@ -3475,11 +6019,11 @@ GPLv3 的完整内容放在源代码根目录的 LICENSE 文件中。完整的 G
     </message>
     <message>
         <source>Source Table:</source>
-        <translation>原始表：</translation>
+        <translation type="obsolete">原始表：</translation>
     </message>
     <message>
         <source>Target Table:</source>
-        <translation>目标表：</translation>
+        <translation type="obsolete">目标表：</translation>
     </message>
     <message>
         <source>Cardinality:</source>
@@ -3487,11 +6031,11 @@ GPLv3 的完整内容放在源代码根目录的 LICENSE 文件中。完整的 G
     </message>
     <message>
         <source>Source Required</source>
-        <translation>原始对象是必须的</translation>
+        <translation type="obsolete">原始对象是必须的</translation>
     </message>
     <message>
         <source>Target Required</source>
-        <translation>目标对象是必须的</translation>
+        <translation type="obsolete">目标对象是必须的</translation>
     </message>
     <message>
         <source>Name of the table generated from many to many relationship</source>
@@ -3543,7 +6087,7 @@ GPLv3 的完整内容放在源代码根目录的 LICENSE 文件中。完整的 G
     </message>
     <message>
         <source>Use the special primary key if you want to include a primary key containing inherited / copied columns to the receiving table. This is a feature available only for generalization / dependency relationships.</source>
-        <translation>如果你想在受方表中包含一个带有继承/复制列的主键，请使用特殊主键。此特性仅适用于泛化/依赖关系。</translation>
+        <translation type="obsolete">如果你想在受方表中包含一个带有继承/复制列的主键，请使用特殊主键。此特性仅适用于泛化/依赖关系。</translation>
     </message>
     <message>
         <source>Automatic Suffix</source>
@@ -3580,6 +6124,85 @@ GPLv3 的完整内容放在源代码根目录的 LICENSE 文件中。完整的 G
     <message>
         <source>Target Suffix:</source>
         <translation>目标后缀：</translation>
+    </message>
+    <message>
+        <source>Dependency / Copy relationship</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Relationship generated via foreign key</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>fk</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Table 1:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Table 2:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>[SRC] is required</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>[DST] is required</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Advanced</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation type="unfinished">名称</translation>
+    </message>
+    <message>
+        <source>Use the special primary key if you want to include a primary key containing inherited / copied columns to the receiving table. This is a feature available only for generalization / copy relationships.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This advanced tab shows the objects (columns or table) auto created by the relationship&apos;s connection as well the foreign keys that represents the link between the participant tables.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source> is required</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Reference Table:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Receiver Table:</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Relationship</name>
+    <message>
+        <source>%1_has_one_%2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%1_has_many_%2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>many_%1_has_many_%2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%1_inherits_%2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%1_copies_%2</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -3650,6 +6273,139 @@ GPLv3 的完整内容放在源代码根目录的 LICENSE 文件中。完整的 G
     </message>
 </context>
 <context>
+    <name>RoleWidget</name>
+    <message>
+        <source>Form</source>
+        <translation type="unfinished">Form</translation>
+    </message>
+    <message>
+        <source>SysID:</source>
+        <translation type="unfinished">SysID:</translation>
+    </message>
+    <message>
+        <source>Password:</source>
+        <translation type="unfinished">密码：</translation>
+    </message>
+    <message>
+        <source>Validity:</source>
+        <translation type="unfinished">合法性：</translation>
+    </message>
+    <message>
+        <source>yyyy-MMM-dd hh:mm</source>
+        <translation type="unfinished">yyyy-MMM-dd hh:mm</translation>
+    </message>
+    <message>
+        <source>Connections:</source>
+        <translation type="unfinished">连接：</translation>
+    </message>
+    <message>
+        <source>Attributes</source>
+        <translation type="unfinished">属性</translation>
+    </message>
+    <message>
+        <source>Superuser</source>
+        <translation type="unfinished">超级用户</translation>
+    </message>
+    <message>
+        <source>Inherit Permissions</source>
+        <translation type="unfinished">继承权限</translation>
+    </message>
+    <message>
+        <source>Create Database</source>
+        <translation type="unfinished">创建数据库</translation>
+    </message>
+    <message>
+        <source>Can Login</source>
+        <translation type="unfinished">允许登录</translation>
+    </message>
+    <message>
+        <source>Create Users/Groups</source>
+        <translation type="unfinished">创建用户/组</translation>
+    </message>
+    <message>
+        <source>Encrypted Password</source>
+        <translation type="unfinished">加密密码</translation>
+    </message>
+    <message>
+        <source>Members</source>
+        <translation type="unfinished">成员</translation>
+    </message>
+    <message>
+        <source>Member of</source>
+        <translation type="unfinished">成员</translation>
+    </message>
+    <message>
+        <source>Members (Admin.)</source>
+        <translation type="unfinished">成员(管理员)</translation>
+    </message>
+    <message>
+        <source>Role</source>
+        <translation type="unfinished">角色</translation>
+    </message>
+    <message>
+        <source>SysID</source>
+        <translation type="unfinished">SysID</translation>
+    </message>
+    <message>
+        <source>Validity</source>
+        <translation type="unfinished">合法性</translation>
+    </message>
+</context>
+<context>
+    <name>RuleWidget</name>
+    <message>
+        <source>Form</source>
+        <translation type="unfinished">Form</translation>
+    </message>
+    <message>
+        <source>Event:</source>
+        <translation type="unfinished">事件：</translation>
+    </message>
+    <message>
+        <source>Execution Type:</source>
+        <translation type="unfinished">执行类型：</translation>
+    </message>
+    <message>
+        <source>Conditional Expr.:</source>
+        <translation type="unfinished">条件表达式：</translation>
+    </message>
+    <message>
+        <source>Executed Commands</source>
+        <translation type="unfinished">执行的命令</translation>
+    </message>
+    <message>
+        <source>SQL Command:</source>
+        <translation type="unfinished">SQL 命令：</translation>
+    </message>
+    <message>
+        <source>SQL command</source>
+        <translation type="unfinished">SQL 命令</translation>
+    </message>
+    <message>
+        <source>To create a rule that does not perform any action (&lt;strong&gt;DO NOTHING&lt;/strong&gt;) simply do not specify commands in the SQL commands table.</source>
+        <translation type="unfinished">创建一个不执行任何操作的规则（&lt;STRONG&gt;DO NOTHING&lt;/STRONG&gt;）简单点说，就是 SQL 命令表中没有的命令。</translation>
+    </message>
+</context>
+<context>
+    <name>SchemaWidget</name>
+    <message>
+        <source>Form</source>
+        <translation type="unfinished">Form</translation>
+    </message>
+    <message>
+        <source>Show rectangle</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Fill color:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Select fill color</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>SeletorObjetoWidget</name>
     <message>
         <source>Clear field</source>
@@ -3697,6 +6453,49 @@ GPLv3 的完整内容放在源代码根目录的 LICENSE 文件中。完整的 G
     <message>
         <source>Form</source>
         <translation>Form</translation>
+    </message>
+</context>
+<context>
+    <name>SourceCodeWidget</name>
+    <message>
+        <source>Form</source>
+        <translation type="unfinished">Form</translation>
+    </message>
+    <message>
+        <source>Version:</source>
+        <translation type="unfinished">版本：</translation>
+    </message>
+    <message>
+        <source>PostgreSQL</source>
+        <translation type="unfinished">PostgreSQL</translation>
+    </message>
+    <message>
+        <source>iconecodigo</source>
+        <translation type="unfinished">iconecodigo</translation>
+    </message>
+    <message>
+        <source>SQL</source>
+        <translation type="unfinished">SQL</translation>
+    </message>
+    <message>
+        <source>XML</source>
+        <translation type="unfinished">XML</translation>
+    </message>
+    <message>
+        <source>Type:</source>
+        <translation type="unfinished">类型：</translation>
+    </message>
+    <message>
+        <source>Source code visualization</source>
+        <translation type="unfinished">查看源代码</translation>
+    </message>
+    <message>
+        <source>Generating source code...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>-- SQL code unavailable for this type of object --</source>
+        <translation type="unfinished">-- 无法生成此对象类型的 SQL 代码 --</translation>
     </message>
 </context>
 <context>
@@ -3882,6 +6681,58 @@ GPLv3 的完整内容放在源代码根目录的 LICENSE 文件中。完整的 G
     </message>
 </context>
 <context>
+    <name>Table</name>
+    <message>
+        <source>new_table</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>TablespaceWidget</name>
+    <message>
+        <source>Form</source>
+        <translation type="unfinished">Form</translation>
+    </message>
+    <message>
+        <source>Directory:</source>
+        <translation type="unfinished">字典：</translation>
+    </message>
+</context>
+<context>
+    <name>TaskProgressWidget</name>
+    <message>
+        <source>Executing tasks</source>
+        <translation type="unfinished">正在执行的任务</translation>
+    </message>
+    <message>
+        <source>Waiting task to start...</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>TextboxWidget</name>
+    <message>
+        <source>Form</source>
+        <translation type="unfinished">Form</translation>
+    </message>
+    <message>
+        <source>Bold</source>
+        <translation type="unfinished">粗体</translation>
+    </message>
+    <message>
+        <source>Italic</source>
+        <translation type="unfinished">斜体</translation>
+    </message>
+    <message>
+        <source>Underline</source>
+        <translation type="unfinished">下划线</translation>
+    </message>
+    <message>
+        <source>Select text color</source>
+        <translation type="unfinished">选择文本颜色</translation>
+    </message>
+</context>
+<context>
     <name>TipoPgSQLWidget</name>
     <message>
         <source>Data Type</source>
@@ -3946,6 +6797,10 @@ GPLv3 的完整内容放在源代码根目录的 LICENSE 文件中。完整的 G
     <message>
         <source>M</source>
         <translation>M</translation>
+    </message>
+    <message>
+        <source>SRID:</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -4081,6 +6936,93 @@ GPLv3 的完整内容放在源代码根目录的 LICENSE 文件中。完整的 G
     <message>
         <source>The functions to be assigned to a type should be written in C language and possess, respectively, the following signatures:&lt;br/&gt;  &lt;table&gt;   &lt;tr&gt;    &lt;td&gt;&lt;strong&gt;INPUT:&lt;/strong&gt; &lt;em&gt;any function(cstring, oid, integer)&lt;/em&gt;&lt;/td&gt;    &lt;td&gt;&lt;strong&gt;OUTPUT:&lt;/strong&gt; &lt;em&gt;cstring function(any)&lt;/em&gt;&lt;/td&gt;   &lt;/tr&gt;   &lt;tr&gt;    &lt;td&gt;&lt;strong&gt;SEND:&lt;/strong&gt; &lt;em&gt;byta function(any)&lt;/em&gt;&lt;/td&gt;    &lt;td&gt;&lt;strong&gt;RECV:&lt;/strong&gt; &lt;em&gt;any function(internal, oid, integer)&lt;/em&gt;&lt;/td&gt;   &lt;/tr&gt;   &lt;tr&gt;    &lt;td&gt;&lt;strong&gt;TPMOD_IN:&lt;/strong&gt; &lt;em&gt;integer function(cstring[])&lt;/em&gt;&lt;/td&gt;    &lt;td&gt;&lt;strong&gt;TPMOD_OUT:&lt;/strong&gt; &lt;em&gt;cstring function(integer)&lt;/em&gt;&lt;/td&gt;   &lt;/tr&gt;   &lt;tr&gt;    &lt;td&gt;&lt;strong&gt;ANALYZE:&lt;/strong&gt; &lt;em&gt;boolean function(internal)&lt;/em&gt;&lt;/td&gt;    &lt;tr&gt;  &lt;/table&gt;</source>
         <translation>用于类型定义的函数要用 C 语言编写，并且符合下列的函数签名：&lt;br/&gt;  &lt;table&gt;   &lt;tr&gt;    &lt;td&gt;&lt;strong&gt;INPUT：&lt;/strong&gt; &lt;em&gt;any function(cstring, oid, integer)&lt;/em&gt;&lt;/td&gt;    &lt;td&gt;&lt;strong&gt;OUTPUT：&lt;/strong&gt; &lt;em&gt;cstring function(any)&lt;/em&gt;&lt;/td&gt;   &lt;/tr&gt;   &lt;tr&gt;    &lt;td&gt;&lt;strong&gt;SEND：&lt;/strong&gt; &lt;em&gt;byta function(any)&lt;/em&gt;&lt;/td&gt;    &lt;td&gt;&lt;strong&gt;RECV：&lt;/strong&gt; &lt;em&gt;any function(internal, oid, integer)&lt;/em&gt;&lt;/td&gt;   &lt;/tr&gt;   &lt;tr&gt;    &lt;td&gt;&lt;strong&gt;TPMOD_IN：&lt;/strong&gt; &lt;em&gt;integer function(cstring[])&lt;/em&gt;&lt;/td&gt;    &lt;td&gt;&lt;strong&gt;TPMOD_OUT：&lt;/strong&gt; &lt;em&gt;cstring function(integer)&lt;/em&gt;&lt;/td&gt;   &lt;/tr&gt;   &lt;tr&gt;    &lt;td&gt;&lt;strong&gt;ANALYZE：&lt;/strong&gt; &lt;em&gt;boolean function(internal)&lt;/em&gt;&lt;/td&gt;    &lt;tr&gt;  &lt;/table&gt;</translation>
+    </message>
+</context>
+<context>
+    <name>TriggerWidget</name>
+    <message>
+        <source>Form</source>
+        <translation type="unfinished">Form</translation>
+    </message>
+    <message>
+        <source>Firing Mode:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>INSTEAD OF</source>
+        <translation type="unfinished">INSTEAD OF</translation>
+    </message>
+    <message>
+        <source>Execute per row</source>
+        <translation type="unfinished">逐行执行</translation>
+    </message>
+    <message>
+        <source>Event:</source>
+        <translation type="unfinished">事件：</translation>
+    </message>
+    <message>
+        <source>INSERT</source>
+        <translation type="unfinished">INSERT</translation>
+    </message>
+    <message>
+        <source>DELETE</source>
+        <translation type="unfinished">DELETE</translation>
+    </message>
+    <message>
+        <source>UPDATE</source>
+        <translation type="unfinished">UPDATE</translation>
+    </message>
+    <message>
+        <source>TRUNCATE</source>
+        <translation type="unfinished">TRUNCATE</translation>
+    </message>
+    <message>
+        <source>Deferrable:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Deferral:</source>
+        <translation type="unfinished">延迟：</translation>
+    </message>
+    <message>
+        <source>Referenced Table:</source>
+        <translation type="unfinished">引用表：</translation>
+    </message>
+    <message>
+        <source>Conditional Expr.:</source>
+        <translation type="unfinished">条件表达式：</translation>
+    </message>
+    <message>
+        <source>Columns</source>
+        <translation type="unfinished">列</translation>
+    </message>
+    <message>
+        <source>Column:</source>
+        <translation type="unfinished">列：</translation>
+    </message>
+    <message>
+        <source>Arguments</source>
+        <translation type="unfinished">参数</translation>
+    </message>
+    <message>
+        <source>Argument:</source>
+        <translation type="unfinished">参数：</translation>
+    </message>
+    <message>
+        <source>Function:</source>
+        <translation type="unfinished">函数：</translation>
+    </message>
+    <message>
+        <source>Constraint Trigger:</source>
+        <translation type="unfinished">约束触发器：</translation>
+    </message>
+    <message>
+        <source>Column</source>
+        <translation type="unfinished">列</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation type="unfinished">类型</translation>
     </message>
 </context>
 <context>

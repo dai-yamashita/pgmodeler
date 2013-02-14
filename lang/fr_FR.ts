@@ -935,7 +935,7 @@ Taille: %2 bytes
 <context>
     <name>DatabaseModel</name>
     <message>
-        <location filename="../libpgmodeler/src/databasemodel.cpp" line="+2575"/>
+        <location filename="../libpgmodeler/src/databasemodel.cpp" line="+2577"/>
         <source>Loading object: %1 (%2)</source>
         <translation>Chargement de l&apos;objet: %1 (%2)</translation>
     </message>
@@ -1262,13 +1262,12 @@ Taille: %2 bytes
         <translation>La valeur minimale de la séquence est supérieure à la valeur maximale!</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Assignment of a start value to the sequence which is extrapolating the range defined by minimum and maximum valuesââ!</source>
         <translatorcomment>À contrôler.</translatorcomment>
-        <translation type="unfinished">Affectation de la valeur de départ de la séquence en dehors des limites de cette dernière (min et max)!</translation>
+        <translation type="obsolete">Affectation de la valeur de départ de la séquence en dehors des limites de cette dernière (min et max)!</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="+2"/>
         <source>Assignment of a null increment value to the sequence!</source>
         <translation>La valeur de l&apos;incrément de la séquence est nulle!</translation>
     </message>
@@ -1435,7 +1434,12 @@ Taille: %2 bytes
         <translation>Référence une commande dont l&apos;index est hors des limites de la liste de ces dernières!</translation>
     </message>
     <message>
-        <location line="+13"/>
+        <location line="+6"/>
+        <source>Assignment of a start value to the sequence which is extrapolating the range defined by minimum and maximum values​​!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
         <source>Reference to a label which index is out of labels list bounds!</source>
         <translation>Référence un label dont l&apos;index est hors des limites de la liste de ces derniers!</translation>
     </message>
@@ -3298,40 +3302,40 @@ The complete text of GPLv3 is at LICENSE file on source code root directory. Als
     </message>
     <message>
         <location line="+38"/>
-        <location line="+2500"/>
+        <location line="+2549"/>
         <source>Source code</source>
         <translation>Code source</translation>
     </message>
     <message>
-        <location line="-2498"/>
+        <location line="-2547"/>
         <source>Show object source code</source>
         <translation>Afficher le code source de l&apos;objet</translation>
     </message>
     <message>
         <location line="+2"/>
-        <location line="+2489"/>
+        <location line="+2538"/>
         <source>Properties</source>
         <translation>Propriétés</translation>
     </message>
     <message>
-        <location line="-2487"/>
+        <location line="-2536"/>
         <source>Edit the object properties</source>
         <translation>Editer les propriétés de l&apos;objet</translation>
     </message>
     <message>
         <location line="+2"/>
-        <location line="+2514"/>
+        <location line="+2563"/>
         <source>Protect</source>
         <translation>Vérrouiller</translation>
     </message>
     <message>
-        <location line="-2513"/>
-        <location line="+2508"/>
+        <location line="-2562"/>
+        <location line="+2557"/>
         <source>Unprotect</source>
         <translation>Déverrouiller</translation>
     </message>
     <message>
-        <location line="-2507"/>
+        <location line="-2556"/>
         <source>Pretects the object(s) against modifications</source>
         <translation>Empêcher l(es)&apos;objet(s) d&apos;être modifiés</translation>
     </message>
@@ -3342,12 +3346,12 @@ The complete text of GPLv3 is at LICENSE file on source code root directory. Als
     </message>
     <message>
         <location line="+2"/>
-        <location line="+2516"/>
+        <location line="+2565"/>
         <source>Delete</source>
         <translation>Supprimer</translation>
     </message>
     <message>
-        <location line="-2514"/>
+        <location line="-2563"/>
         <source>Delete the selected object(s)</source>
         <translation>Supprimer les objets sélectionnés</translation>
     </message>
@@ -3471,13 +3475,13 @@ The complete text of GPLv3 is at LICENSE file on source code root directory. Als
     <message>
         <location line="-396"/>
         <location line="+947"/>
-        <location line="+407"/>
+        <location line="+408"/>
         <location line="+6"/>
         <source>Confirmation</source>
         <translation>Confirmation</translation>
     </message>
     <message>
-        <location line="-412"/>
+        <location line="-413"/>
         <source>Also copy all dependencies of selected objects? This minimizes the breakdown of references when copied objects are pasted into another model.</source>
         <translation>Copier également les dépendences des objets sélectionnés? Ceci minimise la perte des références lorsque les objets copiés sont collés dans un autre modèle.</translation>
     </message>
@@ -3492,22 +3496,22 @@ The complete text of GPLv3 is at LICENSE file on source code root directory. Als
         <translation>Tous les objets n&apos;ont pas été collés dans le modèle à cause d&apos;erreurs retournés durant le processus! Se référer à la pile d&apos;erreurs pour plus de détails</translation>
     </message>
     <message>
-        <location line="+72"/>
+        <location line="+73"/>
         <source>Do you really want to delete the selected object?</source>
         <translation>Souhaitez vous réellement supprimer l&apos;objet sélectionné?</translation>
     </message>
     <message>
-        <location line="+241"/>
+        <location line="+287"/>
         <source>(no objects)</source>
         <translation>(aucun objet)</translation>
     </message>
     <message>
-        <location line="+334"/>
+        <location line="+336"/>
         <source>Constraints</source>
         <translation>Contraintes</translation>
     </message>
     <message>
-        <location line="-1935"/>
+        <location line="-1984"/>
         <source>Convert a relationship is an irreversible operation and causes the deletion of all operation history! Do you want to continue?</source>
         <translation>Convertir une relation est une opération irréversible qui cause la suppression de tout l&apos;historique des opérations? Souhaitez vous continuer?</translation>
     </message>
@@ -3527,12 +3531,12 @@ The complete text of GPLv3 is at LICENSE file on source code root directory. Als
         <translation></translation>
     </message>
     <message>
-        <location line="+1926"/>
+        <location line="+1927"/>
         <source>CAUTION: Remove multiple objects at once can cause irreversible invalidations to other objects in the model. Do you really want to delete ALL selected objects?</source>
         <translation>ATTENTION: Supprimer plusieur objets en une seule fois provoque des invalidation irréversible sur les autres objets du modèle. Souhaitez vous réllement supprimer TOUS les objets sélectionnés?</translation>
     </message>
     <message>
-        <location line="-281"/>
+        <location line="-282"/>
         <source>Validating object: %1 (%2)</source>
         <translation>Validaiont de l&apos;objet: %1 (%2)</translation>
     </message>
@@ -4079,12 +4083,12 @@ The complete text of GPLv3 is at LICENSE file on source code root directory. Als
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../libpgmodeler/src/databasemodel.cpp" line="-5329"/>
+        <location filename="../libpgmodeler/src/databasemodel.cpp" line="-5331"/>
         <source>new_database</source>
         <translation>nouvelle_base</translation>
     </message>
     <message>
-        <location line="+2589"/>
+        <location line="+2591"/>
         <location line="+44"/>
         <location line="+291"/>
         <location line="+26"/>
@@ -4258,7 +4262,7 @@ The complete text of GPLv3 is at LICENSE file on source code root directory. Als
         <translation>Editer les attributs d&apos;une relation existante est autorisée, cependant celà doit être fait avec attention car les références de colonnes peuvent être cassées et causer l&apos;invalidation des objets tels que les déclencheurs, les index, les contraintes et les séquences.</translation>
     </message>
     <message>
-        <location line="+196"/>
+        <location line="+195"/>
         <location line="+1"/>
         <source> is required</source>
         <translation> est requis</translation>
@@ -4361,7 +4365,7 @@ The complete text of GPLv3 is at LICENSE file on source code root directory. Als
         <translation>Avancé</translation>
     </message>
     <message>
-        <location filename="../libpgmodeler_ui/src/relacionamentowidget.cpp" line="-212"/>
+        <location filename="../libpgmodeler_ui/src/relacionamentowidget.cpp" line="-211"/>
         <source>Name</source>
         <translation>Nom</translation>
     </message>
